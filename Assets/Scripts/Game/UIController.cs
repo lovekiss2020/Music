@@ -17,6 +17,7 @@ public class UIController : MonoBehaviour
     public GameObject textPrefab;
     public Camera mainCamera;
 
+    public GameObject onClickEffectprefab;
     
 
     private int score=0;
@@ -35,6 +36,7 @@ public class UIController : MonoBehaviour
     void Update()
     {
         textTime.text=getTimeStr(musicEvent.player.time);
+
     }
 
     //获取格式化时间
@@ -72,9 +74,18 @@ public class UIController : MonoBehaviour
     }
 
 
+    //监听点击事件
     public void Trigger(){
         musicEvent.clickEvent?.Invoke();
+        //创建点击特效
+        Vector2 vector3;
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(transform.parent.GetComponent<RectTransform>(), Input.mousePosition, mainCamera, out vector3);
+        GameObject game=Instantiate(onClickEffectprefab,vector3,Quaternion.identity,transform.parent);
+        game.transform.GetComponent<RectTransform>().anchoredPosition=new Vector3(vector3.x,vector3.y);
+
     }
+
+    //监听鼠标按下并获取鼠标位置
     //分数数字
     public void CreatText(int score){
         Vector3 vector3=mainCamera.WorldToScreenPoint(musicEvent.block.transform.position);
