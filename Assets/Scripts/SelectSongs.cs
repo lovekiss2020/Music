@@ -65,7 +65,7 @@ public class SelectSongs : MonoBehaviour
         }
         else
         {
-            vector3 = new Vector3(-240, -72, 0);
+            vector3 = new Vector3(-300, -72, 0);
             offect = new Vector3(-20, 0, 0);
             textMeshPro.text = ">>";
             Animation(">>", ">>>");
