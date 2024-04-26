@@ -24,6 +24,8 @@ public class MusicEvent : MonoBehaviour
     public GameObject cavas;
 
     public GameObject beatPrefab;
+
+    public GameObject perfectEffectPrefab;
     //保存歌曲的音符信息
     private List<Onset> chromaFeatures=new List<Onset>();
 
@@ -216,6 +218,8 @@ public class MusicEvent : MonoBehaviour
         float len=0.2f;
         if(clickTime-onset.timestamp<0.1f){
             //TODO 完美特效
+            GameObject game=Instantiate(perfectEffectPrefab,block.transform.position,Quaternion.identity);
+            game.GetComponent<PerfectEffect>().Init(block.GetComponent<SpriteRenderer>().color);
             uIController.CreatText("完美");
         }
         float score=len/(clickTime-onset.timestamp)*100;

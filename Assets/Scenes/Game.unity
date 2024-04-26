@@ -1260,6 +1260,7 @@ MonoBehaviour:
   uIController: {fileID: 989917595}
   cavas: {fileID: 27045808}
   beatPrefab: {fileID: 4495578451310497798, guid: 8f74c15b1ed8aed40b8a144809da02a9, type: 3}
+  perfectEffectPrefab: {fileID: 3968757134054177225, guid: 8ff639b501186c44382211b0747f3f06, type: 3}
 --- !u!114 &748309429
 MonoBehaviour:
   m_ObjectHideFlags: 0
