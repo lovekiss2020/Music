@@ -19,11 +19,18 @@ public class UIController : MonoBehaviour
 
     public GameObject onClickEffectprefab;
     
+    public LineRenderer hp;
 
     private int score=0;
 
     // Start is called before the first frame update
 
+
+    public void changeHp(float hp){
+
+        this.hp.SetPosition(0,new Vector3(hp,0,0));
+        this.hp.SetPosition(1,new Vector3(-hp,0,0));
+    }
     void Awake(){
         unityAction+=UpdateScore;
     }

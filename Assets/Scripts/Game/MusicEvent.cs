@@ -38,6 +38,11 @@ public class MusicEvent : MonoBehaviour
     private GameObject line;
     private GameObject point;
     private bool init=false;
+    //判断该点位是否点击true 表示已经点击
+    private bool isOnclick=true;
+    //玩家数据
+    private float hp=400;
+
     void Awake(){
         creatPlayer();
         //注册事件
@@ -81,7 +86,7 @@ public class MusicEvent : MonoBehaviour
     private void OnTriggerOnset(RhythmPlayer player,Queue<Onset> onsetQueue){
         if(onsetQueue.Count==0)return;
         Onset onset= onsetQueue.Peek();
-        if(player.time>onset.timestamp){
+        if(player.time>onset.timestamp-0.1f){
             //TODO检验是否有屏幕输入
             ScreenClick(onset);
 
@@ -137,6 +142,8 @@ public class MusicEvent : MonoBehaviour
         vector3.z=0f;
         return new Vector3(block.transform.position.x+vector3.x,block.transform.position.y+vector3.y,vector3.z);
     }
+
+
     //设置序列
     private void SetSequence(GameObject block,Vector3 position,float curTime ,float nextTime){
         DOTween.Kill(block);
@@ -155,7 +162,25 @@ public class MusicEvent : MonoBehaviour
         line.GetComponent<LineRenderer>().material.SetColor("_Color",color);
         UpdateLine(block.transform.position,line);
 
+        //判断上一个序列是否点击，未点击扣血
+        if(isOnclick==false){
+            //扣血
+            changeHp(-3);
+        }else{
+            isOnclick=false;
+        }
 
+
+    }
+
+    private void changeHp(float hp){
+        this.hp+=4*hp;
+        if(this.hp>400) this.hp=400;
+        if(this.hp<0){
+            this.hp=0;
+            //TODO 游戏结束
+        } 
+        uIController.changeHp(this.hp);
     }
 
     //更新连线
@@ -211,20 +236,32 @@ public class MusicEvent : MonoBehaviour
     /// <param name="clickTime">点击屏幕时间</param>
     /// <param name="onset">音乐节点出现时间戳</param>
     private int getScore(float clickTime,Onset onset){
+        float hp=0;
         if(clickTime-onset.timestamp>0.2f){
             //超时游戏失败或者没有分数
             return 0;
         }
         float len=0.2f;
         if(clickTime-onset.timestamp<0.1f){
-            //TODO 完美特效
+            //完美特效
             GameObject game=Instantiate(perfectEffectPrefab,block.transform.position,Quaternion.identity);
             game.GetComponent<PerfectEffect>().Init(block.GetComponent<SpriteRenderer>().color);
             uIController.CreatText("完美");
+            //加血
+            hp+=1.5f*len/(clickTime-onset.timestamp+0.1f);
+            changeHp(hp);
+            isOnclick=true;
+        }else if(clickTime-onset.timestamp<0.2f&&clickTime-onset.timestamp>0.1f){
+            //普通分数
+            //血量不变
+            isOnclick=true;
         }
-        float score=len/(clickTime-onset.timestamp)*100;
+        Debug.Log("血量变化："+hp);
+        //TODO 改变血量
+
+        float score=len/(clickTime-onset.timestamp+0.1f)*100;
         uIController.CreatText((int)score);
-        //TODO 显示分数,分数越高数字越大。
+        //显示分数,分数越高数字越大。
         return (int)score;
 
     }
