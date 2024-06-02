@@ -21,11 +21,12 @@ MonoBehaviour:
   - {fileID: 5897886265953266890, guid: 29a96891cc359c9488d8b9b92653913a, type: 3}
   hotUpdateAssemblies: []
   preserveHotUpdateAssemblies: []
-  hotUpdateDllCompileOutputRootDir: Assets/HybridCLRData/HotUpdateDlls
+  hotUpdateDllCompileOutputRootDir: HybridCLRData/HotUpdateDlls
   externalHotUpdateAssembliyDirs: []
-  strippedAOTDllOutputRootDir: Assets/HybridCLRData/AssembliesPostIl2CppStrip
-  patchAOTAssemblies: []
-  outputLinkFile: Assets/HybridCLRGenerate/link.xml
-  outputAOTGenericReferenceFile: Assets/HybridCLRGenerate/AOTGenericReferences.cs
+  strippedAOTDllOutputRootDir: HybridCLRData/AssembliesPostIl2CppStrip
+  patchAOTAssemblies:
+  - D:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll
+  outputLinkFile: HybridCLRGenerate/link.xml
+  outputAOTGenericReferenceFile: HybridCLRGenerate/AOTGenericReferences.cs
   maxGenericReferenceIteration: 10
   maxMethodBridgeGenericIteration: 10

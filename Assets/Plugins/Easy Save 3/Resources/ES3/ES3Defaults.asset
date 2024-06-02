@@ -31,12 +31,13 @@ MonoBehaviour:
     serializationDepthLimit: 64
     assemblyNames:
     - Assembly-CSharp
-    - Assembly-CSharp-firstpass
     - DOTween.Modules
     - DOTweenPro.Scripts
+    - EasySave3
     - GameScrip
     - HybridCLR.Runtime
     - MainUiScrip
+    - RhythmEditor
     - RhythmTool
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
