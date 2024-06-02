@@ -1,8 +1,8 @@
 {
-    "name": "EasySave",
+    "name": "RhythmEditor",
     "rootNamespace": "",
     "references": [
-        "GUID:21b0c8d1703a94250bfac916590cea4f"
+        "GUID:a54195ef06f5cb244987b7ab49ca7878"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

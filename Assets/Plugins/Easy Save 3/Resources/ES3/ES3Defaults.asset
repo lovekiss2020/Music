@@ -34,7 +34,10 @@ MonoBehaviour:
     - Assembly-CSharp-firstpass
     - DOTween.Modules
     - DOTweenPro.Scripts
+    - GameScrip
     - HybridCLR.Runtime
+    - MainUiScrip
+    - RhythmTool
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1
