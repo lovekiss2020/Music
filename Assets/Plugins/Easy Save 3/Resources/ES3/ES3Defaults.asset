@@ -37,7 +37,6 @@ MonoBehaviour:
     - GameScrip
     - HybridCLR.Runtime
     - MainUiScrip
-    - RhythmEditor
     - RhythmTool
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
