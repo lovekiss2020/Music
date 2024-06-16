@@ -43,10 +43,8 @@ public class MusicEvent : MonoBehaviour
     //玩家数据
     private float hp=400;
 
-    void Awake(){
+    void Start(){
         creatPlayer();
-        //注册事件
-        analyzer.Initialized+=OnInitialized;
         player.Reset+=OnReset;
         eventProvider.Register<Beat>(OnBeat);
         eventProvider.Register<Onset>(OnOnset);
@@ -64,11 +62,13 @@ public class MusicEvent : MonoBehaviour
     //处理beat的触发事件
     public void OnBeat(Beat beat){
        beatQueue.Enqueue(beat);
+       
     }
     //处理onset的触发事件
     public void OnOnset(Onset onset){
        
-        //入队保存
+        //入队保存入队
+        Debug.Log("====>入队");
         onsetQueue.Enqueue(onset);
         if(init==false){
             Vector3 vector3=RandomPosition(block,onsetQueue.Peek().timestamp-player.time);
@@ -85,11 +85,14 @@ public class MusicEvent : MonoBehaviour
     //关联队列
     private void OnTriggerOnset(RhythmPlayer player,Queue<Onset> onsetQueue){
         if(onsetQueue.Count==0)return;
+        //取队列元素
         Onset onset= onsetQueue.Peek();
-        if(player.time>onset.timestamp-0.1f){
+        if(player.time>onset.timestamp){
             //TODO检验是否有屏幕输入
-            ScreenClick(onset);
 
+            //TODO 有问题可能出现大量的节点，使用一个变量保存是不现实的。优化
+            ScreenClick(onset);
+            //出队
             onsetQueue.Dequeue();
             //TODO设置下一个序列。 
             if(onsetQueue.Count>0){
@@ -120,17 +123,6 @@ public class MusicEvent : MonoBehaviour
 
     }
 
-    //歌曲被解析时触发的事件
-    private void OnInitialized(RhythmData rhythmData){
-        player.Play();
-       
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
     //随机一个点位
     private Vector3 RandomPosition(GameObject block,float curtime){
         Vector3 vector3=Vector3.one;
@@ -242,7 +234,7 @@ public class MusicEvent : MonoBehaviour
             return 0;
         }
         float len=0.2f;
-        if(clickTime-onset.timestamp<0.1f){
+        if(clickTime-onset.timestamp<0.2f){
             //完美特效
             GameObject game=Instantiate(perfectEffectPrefab,block.transform.position,Quaternion.identity);
             game.GetComponent<PerfectEffect>().Init(block.GetComponent<SpriteRenderer>().color);

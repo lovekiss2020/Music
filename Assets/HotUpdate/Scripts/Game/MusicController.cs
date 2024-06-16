@@ -7,16 +7,20 @@ public class MusicController : MonoBehaviour
 {
     public RhythmAnalyzer analyzer;
     public RhythmPlayer player;
-    public List<AudioClip> songs;
+    public List<RhythmData> songs;
 
 
     void Awake(){
+        LoadMusic(ES3.Load<int>("songID"));
+        
+        analyzer.Initialized+=OnInitialized;
+        analyzer.IsDone +=OnDone;
     }
     // Start is called before the first frame update
     void Start()
     {
 
-        LoadMusic(ES3.Load<int>("songID"));
+        
     }
 
     // Update is called once per frame
@@ -24,16 +28,31 @@ public class MusicController : MonoBehaviour
     {
         
     }
+//歌曲被解析时触发的事件
+    private void OnInitialized(RhythmData rhythmData){
+
+        //
+       
+    }
+    //资源加载结束时触发的
+    private void OnDone(RhythmData rhythmData){
+        Debug.Log("==============>资源加载结束");
+        //player.Play();
+
+    }
+
+
+    
     //加载音乐资源并解析
     public void LoadMusic(int index){
-        AudioClip audioClip = songs[index];
-        //解析歌曲
-        RhythmData rhythmData = analyzer.Analyze(audioClip, 6);
-        //设置player的RhythmData
-        player.rhythmData = rhythmData;
+        player.rhythmData = songs[index];
+        //Invoke("PlayMusic",5);
+        player.Play();
     }
+
     //
     public void PlayMusic(){
+        
         player.Play();
     }
     //

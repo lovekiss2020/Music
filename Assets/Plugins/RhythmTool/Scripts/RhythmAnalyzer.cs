@@ -17,7 +17,9 @@ namespace RhythmTool
         /// Occurs when an initial part of the song has been analyzed.
         /// </summary>
         public event Action<RhythmData> Initialized;
+        public event Action<RhythmData> IsDone;
 
+        private bool IsDoneIsTrigger=false;
         /// <summary>
         /// The RhythmData object for the song that is being analyzed.
         /// </summary>
@@ -218,6 +220,13 @@ namespace RhythmTool
 
                 if (Initialized != null)
                     Initialized(rhythmData);
+            }
+            //加载完成调用一次
+            if(isDone){
+                if(!IsDoneIsTrigger){
+                    IsDone?.Invoke(rhythmData);
+                    IsDoneIsTrigger=true;
+                }
             }
         }
 

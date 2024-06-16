@@ -1455,8 +1455,9 @@ MonoBehaviour:
   analyzer: {fileID: 638539898}
   player: {fileID: 748309424}
   songs:
-  - {fileID: 8300000, guid: 4610d39b607d7404b9e2d6e094114965, type: 3}
-  - {fileID: 8300000, guid: 569e361a629e4714e9bb7e4f5eb848b1, type: 3}
+  - {fileID: 11400000, guid: eba8bd3b40b54b34fb0ad5debdc3a347, type: 2}
+  - {fileID: 11400000, guid: e5eee24fe5e029f4aaf14cb0efccf62a, type: 2}
+  - {fileID: 11400000, guid: 1336715a0721df245acc8cb8a0c04dea, type: 2}
 --- !u!114 &748309428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1493,7 +1494,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748309423}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67e22d63cdcfcfe44b44adf1391fff3e, type: 3}
   m_Name: 

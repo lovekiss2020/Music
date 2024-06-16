@@ -69,4 +69,9 @@ public class BackGroundEffect : MonoBehaviour
         sequence.Append(gameText.transform.DOLocalMove(gameText.transform.localPosition+new Vector3(0,-hight+random.Next(20,100),0),4f).SetEase(Ease.Linear))
         .Join(gameText.transform.DOLocalRotate(new Vector3(0,0,random.Next(-300,300)),4).SetEase(Ease.Linear)).SetLoops(-1).SetId(gameText);
     }
+
+
+    private void OnDestroy() {
+        DOTween.Kill(gameObject);
+    }
 }

@@ -550,6 +550,18 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 488997656}
+    - target: {fileID: 7558975795009653264, guid: c0a92a7480cbe644f9d6dda028803264, type: 3}
+      propertyPath: m_Options.m_Options.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558975795009653264, guid: c0a92a7480cbe644f9d6dda028803264, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[0].m_Text
+      value: Be Chillin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558975795009653264, guid: c0a92a7480cbe644f9d6dda028803264, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: Okawari - Luv Letter
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
