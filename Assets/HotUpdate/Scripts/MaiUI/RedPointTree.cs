@@ -73,9 +73,16 @@ public class RedPointTree : MonoBehaviour
 
     private void Awake()
     {
+        RefreshTree();
+    }
+
+
+    //刷新节点
+    public void RefreshTree()
+    {
         redOpenAction += changePoint;
         redParent = GetParentRedPointTree(transform);
-        redChilds=getRedChilds();
+        redChilds = getRedChilds();
     }
 
     private List<RedPointTree> getRedChilds()
@@ -92,11 +99,15 @@ public class RedPointTree : MonoBehaviour
     }
 
 
-    private RedPointTree GetParentRedPointTree(Transform trans){
-        if(trans.parent==null) return null;
-        if(trans.parent.GetComponent<RedPointTree>() == null){
+    private RedPointTree GetParentRedPointTree(Transform trans)
+    {
+        if (trans.parent == null) return null;
+        if (trans.parent.GetComponent<RedPointTree>() == null)
+        {
             return GetParentRedPointTree(trans.parent);
-        }else{
+        }
+        else
+        {
             return trans.parent.GetComponent<RedPointTree>();
         }
     }
