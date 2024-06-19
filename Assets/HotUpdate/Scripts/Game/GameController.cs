@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour
 
     public GraphicRaycaster graphicRaycaster;
     public MusicController musicController;
-        public Button wait;
+    public Button wait;
     public Button con;
     public Button exit;
 
