@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+namespace GameScrip{
 public class GameController : MonoBehaviour
 {
     
@@ -46,4 +46,5 @@ public class GameController : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainUI");
     }
+}
 }

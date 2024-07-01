@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
-
+namespace MainUiScrip{
 public class TextController : MonoBehaviour
 {
 
@@ -24,4 +24,5 @@ public class TextController : MonoBehaviour
     private void OnDestroy() {
         DOTween.Kill(gameObject);
     }
+}
 }

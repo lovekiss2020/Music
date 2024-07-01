@@ -4,7 +4,7 @@ using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-
+namespace MainUiScrip{
 public class ScortController : MonoBehaviour
 {
     public Button button;
@@ -75,4 +75,5 @@ public class ScortController : MonoBehaviour
     {
         button.onClick.RemoveAllListeners();
     }
+}
 }

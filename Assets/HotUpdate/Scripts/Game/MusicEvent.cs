@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using DG.Tweening;
 using UnityEngine.Events;
+namespace GameScrip{
 public class MusicEvent : MonoBehaviour
 {
     public RhythmAnalyzer analyzer;
@@ -264,4 +265,5 @@ public class MusicEvent : MonoBehaviour
        MainCamera.transform.position=Vector3.Lerp(MainCamera.transform.position,vector3,0.2f);
     }
 
+}
 }

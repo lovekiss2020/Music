@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
-
+namespace MainUiScrip{
 public class SelectPlayer : MonoBehaviour
 {
     private int offset = 218;
@@ -112,4 +112,5 @@ public class SelectPlayer : MonoBehaviour
             }
         }
     }
+}
 }

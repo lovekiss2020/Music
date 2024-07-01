@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+namespace GameScrip{
 public class OnClickEffect : MonoBehaviour
 {
     public List<Image> sprites;
@@ -29,4 +29,5 @@ public class OnClickEffect : MonoBehaviour
     public void over(){
         Destroy(gameObject.transform.parent.gameObject);
     }
+}
 }

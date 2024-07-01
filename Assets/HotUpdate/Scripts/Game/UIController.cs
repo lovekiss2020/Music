@@ -5,7 +5,7 @@ using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
-
+namespace GameScrip{
 public class UIController : MonoBehaviour
 {
     public TextMeshProUGUI textTime;
@@ -118,4 +118,5 @@ public class UIController : MonoBehaviour
             Destroy(text);
         }).SetId(gameObject);
     }
+}
 }

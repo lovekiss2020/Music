@@ -1,5 +1,5 @@
 using UnityEngine;
-
+namespace MainUiScrip{
 public class MP3Parser : MonoBehaviour
 {
     public  AudioClip[]  Audiolist;
@@ -17,4 +17,5 @@ public class MP3Parser : MonoBehaviour
         // // 将AudioClip保存为WAV格式
         // SavWav.Save(savePath, audioClip);
     }
+}
 }

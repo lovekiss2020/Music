@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using RhythmTool;
 using UnityEngine;
-
+namespace GameScrip{
 public class MusicController : MonoBehaviour
 {
     public RhythmAnalyzer analyzer;
@@ -65,4 +65,5 @@ public class MusicController : MonoBehaviour
     }
 
     
+}
 }

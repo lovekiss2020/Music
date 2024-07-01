@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 
+namespace GameScrip{
 public class PerfectEffect : MonoBehaviour
 {
     public List<GameObject> effects;
@@ -44,4 +45,5 @@ public class PerfectEffect : MonoBehaviour
             Destroy(gameObject);
         });
     }
+}
 }

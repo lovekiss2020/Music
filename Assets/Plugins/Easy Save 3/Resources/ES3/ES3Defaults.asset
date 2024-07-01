@@ -34,9 +34,7 @@ MonoBehaviour:
     - DOTween.Modules
     - DOTweenPro.Scripts
     - EasySave3
-    - GameScrip
     - HybridCLR.Runtime
-    - MainUiScrip
     - RhythmTool
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0

@@ -1,0 +1,14060 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+
+template <typename T1>
+struct InvokerActionInvoker1;
+template <typename T1>
+struct InvokerActionInvoker1<T1*>
+{
+	static inline void Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1* p1)
+	{
+		void* params[1] = { p1 };
+		method->invoker_method(methodPtr, method, obj, params, params[0]);
+	}
+};
+template <typename T1>
+struct ConstrainedActionInvoker1
+{
+	static inline void Invoke (RuntimeClass* type, const RuntimeMethod* constrainedMethod, void* boxBuffer, void* obj, T1 p1)
+	{
+		void* params[1] = { &p1 };
+		il2cpp_codegen_runtime_constrained_call(type, constrainedMethod, boxBuffer, obj, params, params[0]);
+	}
+};
+template <typename R>
+struct ConstrainedFuncInvoker0
+{
+	static inline R Invoke (RuntimeClass* type, const RuntimeMethod* constrainedMethod, void* boxBuffer, void* obj)
+	{
+		R ret;
+		il2cpp_codegen_runtime_constrained_call(type, constrainedMethod, boxBuffer, obj, NULL, &ret);
+		return ret;
+	}
+};
+template <typename R, typename T1>
+struct ConstrainedFuncInvoker1
+{
+	static inline R Invoke (RuntimeClass* type, const RuntimeMethod* constrainedMethod, void* boxBuffer, void* obj, T1 p1)
+	{
+		R ret;
+		void* params[1] = { &p1 };
+		il2cpp_codegen_runtime_constrained_call(type, constrainedMethod, boxBuffer, obj, params, &ret);
+		return ret;
+	}
+};
+template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5>
+struct ConstrainedFuncInvoker5;
+template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5>
+struct ConstrainedFuncInvoker5<R, T1, T2*, T3*, T4, T5>
+{
+	static inline R Invoke (RuntimeClass* type, const RuntimeMethod* constrainedMethod, void* boxBuffer, void* obj, T1 p1, T2* p2, T3* p3, T4 p4, T5 p5)
+	{
+		R ret;
+		void* params[5] = { &p1, p2, p3, &p4, &p5 };
+		il2cpp_codegen_runtime_constrained_call(type, constrainedMethod, boxBuffer, obj, params, &ret);
+		return ret;
+	}
+};
+
+struct UnsafeList_1_t01F63DF0FAEC1F049C346A8DE04B0510B7C79084;
+struct Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31;
+struct CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A;
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C;
+struct Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A;
+struct String_t;
+struct Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD;
+
+IL2CPP_EXTERN_C RuntimeClass* ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var;
+struct Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct DistanceQueries_t4DEE1C73C0FE2BB1FCB02FCCF1C9FBB6EB9FD0AA  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+};
+struct ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75 
+{
+	Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* ___m_Mesh;
+	uint32_t ___m_NumColliderKeyBits;
+};
+struct ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F 
+{
+	Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* ___m_Mesh;
+	uint32_t ___m_NumColliderKeyBits;
+};
+struct ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618 
+{
+	Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* ___m_Mesh;
+	uint32_t ___m_NumColliderKeyBits;
+};
+struct ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879 
+{
+	Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* ___m_Mesh;
+	uint32_t ___m_NumColliderKeyBits;
+};
+struct NativeList_1_t7B5673D7D43011DD8BF892715CCF73BC89700283 
+{
+	UnsafeList_1_t01F63DF0FAEC1F049C346A8DE04B0510B7C79084* ___m_ListData;
+};
+struct BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB 
+{
+	int32_t ___Offset;
+	int32_t ___Length;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 
+{
+	Node_t8BECE0845920D1B28CC0CB3D37A8E1F510CA83CD* ___m_Nodes;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A* ___m_NodeFilters;
+};
+struct ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 
+{
+	uint32_t ___U3CValueU3Ek__BackingField;
+};
+struct CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A 
+{
+	uint32_t ___BelongsTo;
+	uint32_t ___CollidesWith;
+	int32_t ___GroupIndex;
+};
+struct Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD 
+{
+	int32_t ___Index;
+	int32_t ___Version;
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 
+{
+	uint8_t ___Flags;
+	uint8_t ___FrictionCombinePolicy;
+	uint8_t ___RestitutionCombinePolicy;
+	uint8_t ___CustomTags;
+	float ___Friction;
+	float ___Restitution;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B 
+{
+	uint32_t ___m_value;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 
+{
+	bool ___x;
+	bool ___y;
+	bool ___z;
+	bool ___w;
+};
+struct float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct float4_t89D9A294E7A79BD81BFBDD18654508532958555E 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A 
+{
+	int32_t ___x;
+	int32_t ___y;
+};
+struct int4_tBA77D4945786DE82C3A487B33955EA1004996052 
+{
+	int32_t ___x;
+	int32_t ___y;
+	int32_t ___z;
+	int32_t ___w;
+};
+struct CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E__padding[1];
+	};
+};
+struct MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F__padding[1];
+	};
+};
+struct TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E__padding[1];
+	};
+};
+struct IntFloatUnion_t549256A9DD754252DD18383D9CE7EA55EBBD6D96 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___intValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___intValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			float ___floatValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			float ___floatValue_forAlignmentOnly;
+		};
+	};
+};
+struct U3CFacePlanesU3Ee__FixedBuffer_tBF9F10886166ADF4F93DC6C6799ABE01233693D0 
+{
+	union
+	{
+		struct
+		{
+			uint8_t ___FixedElementField;
+		};
+		uint8_t U3CFacePlanesU3Ee__FixedBuffer_tBF9F10886166ADF4F93DC6C6799ABE01233693D0__padding[32];
+	};
+};
+struct U3CFaceVertexIndicesU3Ee__FixedBuffer_t3FF966622EB3CE1D4174C29B3F7C20C9BBB7872F 
+{
+	union
+	{
+		struct
+		{
+			uint8_t ___FixedElementField;
+		};
+		uint8_t U3CFaceVertexIndicesU3Ee__FixedBuffer_t3FF966622EB3CE1D4174C29B3F7C20C9BBB7872F__padding[8];
+	};
+};
+struct U3CFacesU3Ee__FixedBuffer_t023B00F3D3069591659891DE5C53F01576B04D44 
+{
+	union
+	{
+		struct
+		{
+			uint8_t ___FixedElementField;
+		};
+		uint8_t U3CFacesU3Ee__FixedBuffer_t023B00F3D3069591659891DE5C53F01576B04D44__padding[8];
+	};
+};
+struct U3CVerticesU3Ee__FixedBuffer_tEE785B23A797E99A14DD83BAE2F9D7039F616D0D 
+{
+	union
+	{
+		struct
+		{
+			uint8_t ___FixedElementField;
+		};
+		uint8_t U3CVerticesU3Ee__FixedBuffer_tEE785B23A797E99A14DD83BAE2F9D7039F616D0D__padding[48];
+	};
+};
+struct U3Cm_StackU3Ee__FixedBuffer_t5CC655AA4A87842A792DA2441113EA308EE5A37A 
+{
+	union
+	{
+		struct
+		{
+			int32_t ___FixedElementField;
+		};
+		uint8_t U3Cm_StackU3Ee__FixedBuffer_t5CC655AA4A87842A792DA2441113EA308EE5A37A__padding[768];
+	};
+};
+struct AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+	NativeList_1_t7B5673D7D43011DD8BF892715CCF73BC89700283 ___AllHits;
+};
+struct FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7 
+{
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___m_TargetColliderKey;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___m_TargetMaterial;
+	void* ___m_CollectorPtr;
+};
+struct FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5 
+{
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___m_TargetColliderKey;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___m_TargetMaterial;
+	void* ___m_CollectorPtr;
+};
+struct FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164 
+{
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___m_TargetColliderKey;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___m_TargetMaterial;
+	void* ___m_CollectorPtr;
+};
+struct FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A 
+{
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___m_TargetColliderKey;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___m_TargetMaterial;
+	void* ___m_CollectorPtr;
+};
+struct FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD 
+{
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___m_TargetColliderKey;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___m_TargetMaterial;
+	void* ___m_CollectorPtr;
+};
+struct FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26 
+{
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___m_TargetColliderKey;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___m_TargetMaterial;
+	void* ___m_CollectorPtr;
+};
+struct FlippedColliderDistanceQueryCollector_1_tE28C02CE1D303DB4E460B260FA0CE48459965CD0 
+{
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___m_TargetColliderKey;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___m_TargetMaterial;
+	void* ___m_CollectorPtr;
+};
+struct Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Min;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Max;
+};
+struct ColliderHeader_t02773740D4FD32942FC0FFA46DC6EA5032DDE3FC 
+{
+	uint8_t ___Type;
+	uint8_t ___CollisionType;
+	uint8_t ___Version;
+	uint8_t ___Magic;
+	uint32_t ___ForceUniqueBlobID;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
+};
+struct ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B 
+{
+	uint8_t ___Type;
+	uint8_t ___CollisionType;
+	uint8_t ___Version;
+	uint8_t ___Magic;
+	uint32_t ___ForceUniqueBlobID;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Filter;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___Material;
+};
+struct ConvexHull_tFCD7D4D7C8E9693133F18F2FBBA20162BD16B476 
+{
+	float ___ConvexRadius;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___VerticesBlob;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___FacePlanesBlob;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___FacesBlob;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___FaceVertexIndicesBlob;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___FaceLinksBlob;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___VertexEdgesBlob;
+};
+struct DistanceHit_t24623CA3232004563796E8AA41E409369C35643E 
+{
+	float ___U3CFractionU3Ek__BackingField;
+	int32_t ___U3CRigidBodyIndexU3Ek__BackingField;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___U3CColliderKeyU3Ek__BackingField;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___U3CMaterialU3Ek__BackingField;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___U3CEntityU3Ek__BackingField;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CPositionU3Ek__BackingField;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CSurfaceNormalU3Ek__BackingField;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___QueryColliderKey;
+};
+struct FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 
+{
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___Lx;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___Hx;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___Ly;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___Hy;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___Lz;
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___Hz;
+};
+struct Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A 
+{
+	float ___m_BoundingRadius;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___m_BvhNodesBlob;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___m_SectionsBlob;
+};
+struct float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c0;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c1;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c2;
+};
+struct quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 
+{
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value;
+};
+struct Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___PositionOnAinA;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___NormalInA;
+	float ___Distance;
+};
+struct ConvexHullData_tD57B3A37BF82A3090ACF7AFB5F872A6FC3293D0C 
+{
+	union
+	{
+		struct
+		{
+			U3CFacePlanesU3Ee__FixedBuffer_tBF9F10886166ADF4F93DC6C6799ABE01233693D0 ___FacePlanes;
+			U3CVerticesU3Ee__FixedBuffer_tEE785B23A797E99A14DD83BAE2F9D7039F616D0D ___Vertices;
+			U3CFacesU3Ee__FixedBuffer_t023B00F3D3069591659891DE5C53F01576B04D44 ___Faces;
+			U3CFaceVertexIndicesU3Ee__FixedBuffer_t3FF966622EB3CE1D4174C29B3F7C20C9BBB7872F ___FaceVertexIndices;
+		};
+		uint8_t ConvexHullData_tD57B3A37BF82A3090ACF7AFB5F872A6FC3293D0C__padding[96];
+	};
+};
+struct ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0 
+{
+	float ___U3CMaxFractionU3Ek__BackingField;
+	int32_t ___U3CNumHitsU3Ek__BackingField;
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___m_ClosestHit;
+};
+struct Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31 
+{
+	ColliderHeader_t02773740D4FD32942FC0FFA46DC6EA5032DDE3FC ___m_Header;
+};
+struct MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236 
+{
+	ColliderHeader_t02773740D4FD32942FC0FFA46DC6EA5032DDE3FC ___m_Header;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 ___m_Aabb;
+	int32_t ___m_MemorySize;
+	Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A ___Mesh;
+	uint32_t ___U3CNumColliderKeyBitsU3Ek__BackingField;
+};
+struct PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B ___m_Header;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B ___m_Header_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___ConvexHull_OffsetPadding[32];
+			ConvexHull_tFCD7D4D7C8E9693133F18F2FBBA20162BD16B476 ___ConvexHull;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___ConvexHull_OffsetPadding_forAlignmentOnly[32];
+			ConvexHull_tFCD7D4D7C8E9693133F18F2FBBA20162BD16B476 ___ConvexHull_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ConvexHullData_OffsetPadding[96];
+			ConvexHullData_tD57B3A37BF82A3090ACF7AFB5F872A6FC3293D0C ___m_ConvexHullData;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ConvexHullData_OffsetPadding_forAlignmentOnly[96];
+			ConvexHullData_tD57B3A37BF82A3090ACF7AFB5F872A6FC3293D0C ___m_ConvexHullData_forAlignmentOnly;
+		};
+	};
+};
+struct RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD 
+{
+	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___rot;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___pos;
+};
+struct Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA 
+{
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 ___U3CAabbU3Ek__BackingField;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___U3CSizeU3Ek__BackingField;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CScaleU3Ek__BackingField;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___U3CInverseScaleU3Ek__BackingField;
+	uint32_t ___U3CNumXBitsU3Ek__BackingField;
+	uint32_t ___U3CNumColliderKeyBitsU3Ek__BackingField;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___m_HeightsBlob;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___m_LevelsBlob;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___m_NodesBlob;
+};
+struct MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC 
+{
+	float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___Rotation;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___Translation;
+};
+struct QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 
+{
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* ___m_Terrain;
+	U3Cm_StackU3Ee__FixedBuffer_t5CC655AA4A87842A792DA2441113EA308EE5A37A ___m_Stack;
+	int32_t* ___m_Top;
+	int32_t ___m_LevelIndex;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___m_Index;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___m_ChildIndex;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 ___U3CBoundsU3Ek__BackingField;
+};
+struct MassDistribution_t76D94E40AF5F40BD4627B9F83162CFE777EAFDA3 
+{
+	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___Transform;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___InertiaTensor;
+};
+struct TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B 
+{
+	ColliderHeader_t02773740D4FD32942FC0FFA46DC6EA5032DDE3FC ___m_Header;
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___Material;
+	int32_t ___U3CMemorySizeU3Ek__BackingField;
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA ___Terrain;
+};
+struct ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB 
+{
+	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___TargetFromQuery;
+};
+struct ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D 
+{
+	MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___Transform;
+	float ___m_Scale;
+};
+struct MassProperties_t803C4E72B745E58D94806C64AF18066DCA195E04 
+{
+	MassDistribution_t76D94E40AF5F40BD4627B9F83162CFE777EAFDA3 ___MassDistribution;
+	float ___Volume;
+	float ___AngularExpansionFactor;
+};
+struct QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 
+{
+	int32_t ___RigidBodyIndex;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___ColliderKey;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Entity;
+	uint32_t ___NumColliderKeyBits;
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D ___WorldFromLocalTransform;
+	bool ___IsInitialized;
+	float ___InvTargetScale;
+	bool ___IsFlipped;
+};
+struct QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_pinvoke
+{
+	int32_t ___RigidBodyIndex;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___ColliderKey;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Entity;
+	uint32_t ___NumColliderKeyBits;
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D ___WorldFromLocalTransform;
+	int32_t ___IsInitialized;
+	float ___InvTargetScale;
+	int32_t ___IsFlipped;
+};
+struct QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_com
+{
+	int32_t ___RigidBodyIndex;
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___ColliderKey;
+	Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___Entity;
+	uint32_t ___NumColliderKeyBits;
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D ___WorldFromLocalTransform;
+	int32_t ___IsInitialized;
+	float ___InvTargetScale;
+	int32_t ___IsFlipped;
+};
+struct ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 
+{
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___Collider;
+	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___Transform;
+	float ___Scale;
+	float ___MaxDistance;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 ___QueryContext;
+};
+struct ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363_marshaled_pinvoke
+{
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___Collider;
+	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___Transform;
+	float ___Scale;
+	float ___MaxDistance;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_pinvoke ___QueryContext;
+};
+struct ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363_marshaled_com
+{
+	Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___Collider;
+	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___Transform;
+	float ___Scale;
+	float ___MaxDistance;
+	QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5_marshaled_com ___QueryContext;
+};
+struct CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028 
+{
+	ColliderHeader_t02773740D4FD32942FC0FFA46DC6EA5032DDE3FC ___m_Header;
+	float ___m_BoundingRadius;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___m_ChildrenBlob;
+	BlobArray_tCA8B24F0639FE6C3002EEB2DE1788208B6C246EB ___m_BvhNodesBlob;
+	int32_t ___U3CMemorySizeU3Ek__BackingField;
+	MassProperties_t803C4E72B745E58D94806C64AF18066DCA195E04 ___U3CMassPropertiesU3Ek__BackingField;
+	uint32_t ___U3CTotalNumColliderKeyBitsU3Ek__BackingField;
+};
+struct ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257 
+{
+	ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B ___m_Header;
+	ConvexHull_tFCD7D4D7C8E9693133F18F2FBBA20162BD16B476 ___ConvexHull;
+	int32_t ___U3CMemorySizeU3Ek__BackingField;
+	MassProperties_t803C4E72B745E58D94806C64AF18066DCA195E04 ___U3CMassPropertiesU3Ek__BackingField;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_StaticFields
+{
+	ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___Empty;
+};
+struct CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_StaticFields
+{
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Default;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___Zero;
+};
+struct Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54_StaticFields
+{
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___Default;
+};
+struct float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_StaticFields
+{
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___zero;
+};
+struct float4_t89D9A294E7A79BD81BFBDD18654508532958555E_StaticFields
+{
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___zero;
+};
+struct int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_StaticFields
+{
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___zero;
+};
+struct int4_tBA77D4945786DE82C3A487B33955EA1004996052_StaticFields
+{
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___zero;
+};
+struct Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853_StaticFields
+{
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 ___Empty;
+};
+struct float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79_StaticFields
+{
+	float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___identity;
+	float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___zero;
+};
+struct quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_StaticFields
+{
+	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___identity;
+};
+struct RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD_StaticFields
+{
+	RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___identity;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderMeshLeafProcessor_1__ctor_mC41D6EF08541BB166BA14100AFB704CC46A92D09_gshared (ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75* __this, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_meshCollider, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m4095A98401CBA69E23E671341373C801C11990A8_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m1C510066387AB90DE6F18884A76CDCF17AD47153_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m8AF47D030A79F4D18C839455765E3D3F9523DE81_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m73837485DFEDBC4D179DEFC21673929ACC6C3FDF_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderMeshLeafProcessor_1__ctor_m7E5A51AB0FD544107DD80AE89B8D92EFED1BD159_gshared (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* __this, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_meshCollider, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mBD64514733B67C4C871D27C6EDD2E2A6620C7858_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m70E19F42F5539C6F6BC6BDD6A23789C491ABB382_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mF273B93BE40E95C4399F5AD506781AD4A82F99EE_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mA08AA3CC71419A6E9A24A85E4FDE44A902F26AC7_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m2F4C17434148D1A3DECCF6B362BABAD181862700_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m10633D3460A936EAECAAA1D5548C159761BD77B5_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_m6B6189AB6CD15785F353BE4B6E1491222300CCE7_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m1C95468A29F07BD16705FFF9C3E4E6EC25AA44C1_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_mDAE411C493B6F4C3C0F8CD2C28A9268E40C46210_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderMeshLeafProcessor_1__ctor_mF9C9C11E8F1250B895620403B576B404066099C3_gshared (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_meshCollider, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC83934F57FC1772A8EE26CE6FB298E3037D7081C_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB6DFC5C7347BAAA287DB40C15749FD9D8DE03689_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m0E1EB741F435422E97C3EA73263ED5FC2E527948_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mA11FFBD6A9515FFF70DCB730AB5E6104FA60CEDD_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mA0F6DBA33B07553A0DB4ED9B68E61F1D3695BC8E_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m0BF0C21DA7DE32B8993FF3AEFCB3EE3B35C45FAA_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderMeshLeafProcessor_1__ctor_mB34DD1C0270DEA1A68028250ED4C89590F395BFC_gshared (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_meshCollider, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m0E46D6A93215B13E40A75715F90A258257A86B8E_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m3271489534A92C048D159FEB613CF6EFC6882FED_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA04C7DE37D4939B5B8325315411F1584E4C66214_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m0E7039B1AA3224F8FE7E04FD846BD18DE30BA5B4_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m9C880D748649132365CED159EECD6F4DEA4F571C_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m3AD8A17BE8D0E3B2F0B6DDAED7A2C966640A0F09_gshared (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_gshared_inline (AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E Activator_CreateInstance_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_m0DB82FC42ED42339F690E9407B49AC33D7EBF349_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompoundConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mA5D66243E60395B182242269FB2A6F91E1266FF7_gshared (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_gshared_inline (AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompoundConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB3D87C2A6F62FE7822793A2775BB0823C7CAAF97_gshared (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_gshared_inline (ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompoundConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mFED7C8C073BAF90A6ECC448F7995FF4AAD9A765D_gshared (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56_gshared (FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompoundConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mC2D046D2CA3A8BE42FBA1852B2257AB0E96344A2_gshared (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C_gshared (FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompoundConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB23C5B70BBD5633C65BE4DF4F2366D01FA2B42AC_gshared (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F_gshared (FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompoundConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m60A4926A723210442B92B198CF0B460928F7E829_gshared (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB Activator_CreateInstance_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_m0553AAF479E33632E3C5FF0C8E7D38063FEDCADA_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mB3B57288F1A7167EE55BA5F95B524E883FB1FB6C_gshared (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m72C81AA1B1D09CA96A8B8FC194C143BFCB45CFCB_gshared (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m3FD438E8E811CB1A96F5FE92026FCE5E64C440AE_gshared (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mAFC80680996122C5CF8A1CEA2BB0EB7962BBB822_gshared (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mDDF5B514CEB011D446379D24ADA5B22619A232C6_gshared (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m08C7B44802754F3F581BD28D866273FF460F65D7_gshared (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3D3531B79E8398E5C837583DF704EBE82E629E95_gshared (FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_mA991DC05E6CAC36EFBB2E3D7CE3271CB5E113825_gshared (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mC0B5FD0D996F27657988A05CC734AAFD27B86EB1_gshared (FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m1301DFF6BFDA22415D39B0BF18136686B4CFB025_gshared (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA858495329F1C01C54CE03F114151A469F93AD7_gshared (FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_mF02BE93CAE18062A69D0B6EC733AEF7408A551B8_gshared (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F Activator_CreateInstance_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_mA2A7C22BD7CB167CD570F5A91B862FB0B4BB4E91_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m902A73F43780EDEEC6898C2ED68671F9DC808105_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m23656C368E9751FEA24B683F59F7A5A8421001CC_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mFA680ADD27647F93DD626A42B39B3A0C0A5A8312_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m5E38D2C25FC66A12EA48157F66511C3D07CBA9F8_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB2507625221B0FFD1C5BED1893F9BF1C20046DF7_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m21ABEE1DC21F56B28685B3D98C95E37FE02D3267_gshared (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E Activator_CreateInstance_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_mAE001B1572C80EC0A4B8A726606D89CC1C89D123_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TerrainConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m1880D65929756D7BD008D0E99E5C0419F86F72FC_gshared (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TerrainConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m07320B97514457C6D32BE0529554C770E9B0FD9D_gshared (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TerrainConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m8FEA195EB349DE5AD6E720D67BE0AAB99FCF32D1_gshared (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TerrainConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m80345578CEF0D4C9D6B13B01F2189C2E4474C6C5_gshared (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TerrainConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m5754F178EB25694721A9F85C33A3432E6ECF3306_gshared (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TerrainConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m464C1FD93EE9FE2DC464EB12797BB2F2F2F73964_gshared (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistanceQueries_FlipColliderDistanceQuery_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC9686F3B850A8E8249351898736CFD3E3C5FF2F2_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_target, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___3_flippedQueryCollector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m7BC333175EFD937A618A402E4B50C7E2418AE18B_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistanceQueries_FlipColliderDistanceQuery_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB943E7C4434C97AE297293717A15BAAA573A59B5_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_target, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___3_flippedQueryCollector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m1200D3FBDC77C92CEA0E29FFABA12BE3B644F1E9_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistanceQueries_FlipColliderDistanceQuery_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m3187815F7854F75F088C94D57F384BD609B9CB10_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_target, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___3_flippedQueryCollector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m3A71D61F3DC0ABD1DC55DEA29A2B728B85E55379_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistanceQueries_FlipColliderDistanceQuery_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mE1A519EE5A7A9ADBF7EF12E953C5384625AB7964_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_target, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* ___3_flippedQueryCollector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_m6A8A0ED44B40243B377260813014F3D57AD8964D_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistanceQueries_FlipColliderDistanceQuery_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m5D90A299344038129F21495E1A679D30BCB63C5C_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_target, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* ___3_flippedQueryCollector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m30D2A298D43F31B37B7189E14AA3D155B4E46602_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistanceQueries_FlipColliderDistanceQuery_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m648555E39195C2BBED5F952CE0543826636C7EE9_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_target, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* ___3_flippedQueryCollector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_m2E70353933CB242768645D28F3A2E799604E7945_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AllHitsCollector_1_AddHit_m321B13B37162E71B15CBB0461DF60E435DF9A01C_gshared (AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m89F2276B7B09D75E8A3C7FDC79AEA76292FC5EB9_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m471B4B28FF02FD6110774810E299AC5ED7286FEA_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mA3DAA75205635A3312AA4AE7F9CC5A6169815D09_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AnyHitCollector_1_AddHit_m09C1E3D046EA0D121F572546F1331505F24D68A9_gshared (AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m42DADD12C25DB331413220FCB6C901B84420AE00_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m1DE516877AB61725A7EBA1835783FA2A5BFA384A_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m857BFE19A09A1EE687959BDD17B92F38A5C9906E_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClosestHitCollector_1_AddHit_m0A9A036016419B68ABE4B6188B9B5C0DB38A346A_gshared (ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m56B0F086C827F87CF7FA713843190A894A45F561_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m48AE3339901E3ADF4F19518F6267257D5033216C_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m87F0893D3163F9620A5F589BD71DF911E0D86BF8_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FlippedColliderDistanceQueryCollector_1_AddHit_mF617CB14BAFF6922ED6B5068BAD19F6551E6EE7D_gshared (FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m026677493FA01FC15783B27BBCB717E440B0860D_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m513FF8667B2CE6678CC71DF332E468385FD9B181_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FlippedColliderDistanceQueryCollector_1_AddHit_m61B01C65F9A8821B943ED93B6CD48B213E675678_gshared (FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m6C3DDC0DE8292EB9E53483C831580E4C61863968_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mBA507D5FC98EC8B7AF74D795899602397338A768_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FlippedColliderDistanceQueryCollector_1_AddHit_m2115BD3C177F1BF59D4B63AF7649321FFBBD9903_gshared (FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m35E548666DAF554054CD9D342DC8408BBA50E3DF_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m487354726077A5D0405A8AE4B498CF75F7C38EAD_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FlippedColliderDistanceQueryCollector_1_AddHit_mCC6F16170E62447F0ED4952AE29C5AFA2606BD00_gshared (FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_mD635CBD3BE77CDD04447B80A01AC4D7A6BBB4D5E_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_m09AC067AF2017A388C531BE484429091C67FED80_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FlippedColliderDistanceQueryCollector_1_AddHit_m461670D775449FE23E8DFAB70B897A19CFD60C08_gshared (FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m61D2BA2AF26E86BEAC72CE3BA8DBD1BC5C85B9DA_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_mBA0A782E64219687D8EC1E718326777DCE3E7094_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FlippedColliderDistanceQueryCollector_1_AddHit_mD2EDE4D56D514229E82268C135B41C57238A3794_gshared (FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_m8F3D51C5E7A0F01A07B6159B993796E6DA7B8F74_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_m7A157C61DC51201859398E2E0F0B1A8584306EC3_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* ___2_collector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FlippedColliderDistanceQueryCollector_1__ctor_mF32B45B2C4C88FA8F3ABF8667A415F0283E6D674_gshared (FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* __this, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___0_collector, ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___1_targetColliderKey, Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___2_targetMaterial, const RuntimeMethod* method) ;
+
+inline void ColliderMeshLeafProcessor_1__ctor_mC41D6EF08541BB166BA14100AFB704CC46A92D09 (ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75* __this, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_meshCollider, const RuntimeMethod* method)
+{
+	((  void (*) (ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75*, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, const RuntimeMethod*))ColliderMeshLeafProcessor_1__ctor_mC41D6EF08541BB166BA14100AFB704CC46A92D09_gshared)(__this, ___0_meshCollider, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* __this, const RuntimeMethod* method) ;
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m4095A98401CBA69E23E671341373C801C11990A8 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m4095A98401CBA69E23E671341373C801C11990A8_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m1C510066387AB90DE6F18884A76CDCF17AD47153 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m1C510066387AB90DE6F18884A76CDCF17AD47153_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m8AF47D030A79F4D18C839455765E3D3F9523DE81 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m8AF47D030A79F4D18C839455765E3D3F9523DE81_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m73837485DFEDBC4D179DEFC21673929ACC6C3FDF (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m73837485DFEDBC4D179DEFC21673929ACC6C3FDF_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline void ColliderMeshLeafProcessor_1__ctor_m7E5A51AB0FD544107DD80AE89B8D92EFED1BD159 (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* __this, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_meshCollider, const RuntimeMethod* method)
+{
+	((  void (*) (ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, const RuntimeMethod*))ColliderMeshLeafProcessor_1__ctor_m7E5A51AB0FD544107DD80AE89B8D92EFED1BD159_gshared)(__this, ___0_meshCollider, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mBD64514733B67C4C871D27C6EDD2E2A6620C7858 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mBD64514733B67C4C871D27C6EDD2E2A6620C7858_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m70E19F42F5539C6F6BC6BDD6A23789C491ABB382 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m70E19F42F5539C6F6BC6BDD6A23789C491ABB382_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mF273B93BE40E95C4399F5AD506781AD4A82F99EE (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mF273B93BE40E95C4399F5AD506781AD4A82F99EE_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mA08AA3CC71419A6E9A24A85E4FDE44A902F26AC7 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mA08AA3CC71419A6E9A24A85E4FDE44A902F26AC7_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m2F4C17434148D1A3DECCF6B362BABAD181862700 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m2F4C17434148D1A3DECCF6B362BABAD181862700_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m10633D3460A936EAECAAA1D5548C159761BD77B5 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m10633D3460A936EAECAAA1D5548C159761BD77B5_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_m6B6189AB6CD15785F353BE4B6E1491222300CCE7 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_m6B6189AB6CD15785F353BE4B6E1491222300CCE7_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m1C95468A29F07BD16705FFF9C3E4E6EC25AA44C1 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m1C95468A29F07BD16705FFF9C3E4E6EC25AA44C1_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_mDAE411C493B6F4C3C0F8CD2C28A9268E40C46210 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F*, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_mDAE411C493B6F4C3C0F8CD2C28A9268E40C46210_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline void ColliderMeshLeafProcessor_1__ctor_mF9C9C11E8F1250B895620403B576B404066099C3 (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* __this, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_meshCollider, const RuntimeMethod* method)
+{
+	((  void (*) (ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, const RuntimeMethod*))ColliderMeshLeafProcessor_1__ctor_mF9C9C11E8F1250B895620403B576B404066099C3_gshared)(__this, ___0_meshCollider, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC83934F57FC1772A8EE26CE6FB298E3037D7081C (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC83934F57FC1772A8EE26CE6FB298E3037D7081C_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB6DFC5C7347BAAA287DB40C15749FD9D8DE03689 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB6DFC5C7347BAAA287DB40C15749FD9D8DE03689_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m0E1EB741F435422E97C3EA73263ED5FC2E527948 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m0E1EB741F435422E97C3EA73263ED5FC2E527948_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mA11FFBD6A9515FFF70DCB730AB5E6104FA60CEDD (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mA11FFBD6A9515FFF70DCB730AB5E6104FA60CEDD_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mA0F6DBA33B07553A0DB4ED9B68E61F1D3695BC8E (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mA0F6DBA33B07553A0DB4ED9B68E61F1D3695BC8E_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m0BF0C21DA7DE32B8993FF3AEFCB3EE3B35C45FAA (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m0BF0C21DA7DE32B8993FF3AEFCB3EE3B35C45FAA_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline void ColliderMeshLeafProcessor_1__ctor_mB34DD1C0270DEA1A68028250ED4C89590F395BFC (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* __this, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___0_meshCollider, const RuntimeMethod* method)
+{
+	((  void (*) (ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, const RuntimeMethod*))ColliderMeshLeafProcessor_1__ctor_mB34DD1C0270DEA1A68028250ED4C89590F395BFC_gshared)(__this, ___0_meshCollider, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m0E46D6A93215B13E40A75715F90A258257A86B8E (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m0E46D6A93215B13E40A75715F90A258257A86B8E_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m3271489534A92C048D159FEB613CF6EFC6882FED (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m3271489534A92C048D159FEB613CF6EFC6882FED_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA04C7DE37D4939B5B8325315411F1584E4C66214 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA04C7DE37D4939B5B8325315411F1584E4C66214_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m0E7039B1AA3224F8FE7E04FD846BD18DE30BA5B4 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m0E7039B1AA3224F8FE7E04FD846BD18DE30BA5B4_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m9C880D748649132365CED159EECD6F4DEA4F571C (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m9C880D748649132365CED159EECD6F4DEA4F571C_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+inline bool BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m3AD8A17BE8D0E3B2F0B6DDAED7A2C966640A0F09 (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879* ___1_leafProcessor, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m3AD8A17BE8D0E3B2F0B6DDAED7A2C966640A0F09_gshared)(__this, ___0_input, ___1_leafProcessor, ___2_collector, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4 (TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline (CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___0_filterA, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___1_filterB, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___0_transform, float ___1_uniformScale, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85 (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* __this, Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 ___0_aabb, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743 (QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3* __this, Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* ___0_terrain, Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 ___1_aabb, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline (QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F (FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* __this, FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2* ___0_tranposedAabb, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_scale, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline (bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___0_lhs, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E (QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline (int4_tBA77D4945786DE82C3A487B33955EA1004996052* __this, int32_t ___0_x, int32_t ___1_y, int32_t ___2_z, int32_t ___3_w, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline (int32_t* ___0_output, int32_t ___1_index, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___2_val, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___3_mask, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284 (int4_tBA77D4945786DE82C3A487B33955EA1004996052* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301 (QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3* __this, int32_t ___0_childIndex, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* ___1_quadIndex, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___2_a, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___3_b, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___4_c, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___5_d, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B (PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_vertex0, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_vertex1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___2_vertex2, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___3_filter, Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___4_material, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102 (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* __this, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_index, int32_t ___1_triangle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25 (QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3* __this, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___0_hitMask, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB (QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3* __this, const RuntimeMethod* method) ;
+inline float AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline (AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_gshared_inline)(__this, method);
+}
+inline CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E Activator_CreateInstance_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_m0DB82FC42ED42339F690E9407B49AC33D7EBF349 (const RuntimeMethod* method)
+{
+	return ((  CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E (*) (const RuntimeMethod*))Activator_CreateInstance_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_m0DB82FC42ED42339F690E9407B49AC33D7EBF349_gshared)(method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompoundConvexDispatcher_Init_m6DA580411558325F789B1A31D3F1D03AD933E1FD (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E* __this, RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___0_targetFromQuery, const RuntimeMethod* method) ;
+inline bool CompoundConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mA5D66243E60395B182242269FB2A6F91E1266FF7 (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, uint32_t, uint32_t, const RuntimeMethod*))CompoundConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mA5D66243E60395B182242269FB2A6F91E1266FF7_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline float AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline (AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_gshared_inline)(__this, method);
+}
+inline bool CompoundConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB3D87C2A6F62FE7822793A2775BB0823C7CAAF97 (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, uint32_t, uint32_t, const RuntimeMethod*))CompoundConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB3D87C2A6F62FE7822793A2775BB0823C7CAAF97_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline float ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline (ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_gshared_inline)(__this, method);
+}
+inline bool CompoundConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mFED7C8C073BAF90A6ECC448F7995FF4AAD9A765D (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, uint32_t, uint32_t, const RuntimeMethod*))CompoundConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mFED7C8C073BAF90A6ECC448F7995FF4AAD9A765D_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56 (FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56_gshared)(__this, method);
+}
+inline bool CompoundConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mC2D046D2CA3A8BE42FBA1852B2257AB0E96344A2 (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, uint32_t, uint32_t, const RuntimeMethod*))CompoundConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mC2D046D2CA3A8BE42FBA1852B2257AB0E96344A2_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C (FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C_gshared)(__this, method);
+}
+inline bool CompoundConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB23C5B70BBD5633C65BE4DF4F2366D01FA2B42AC (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, uint32_t, uint32_t, const RuntimeMethod*))CompoundConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB23C5B70BBD5633C65BE4DF4F2366D01FA2B42AC_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F (FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F_gshared)(__this, method);
+}
+inline bool CompoundConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m60A4926A723210442B92B198CF0B460928F7E829 (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, uint32_t, uint32_t, const RuntimeMethod*))CompoundConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m60A4926A723210442B92B198CF0B460928F7E829_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB Activator_CreateInstance_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_m0553AAF479E33632E3C5FF0C8E7D38063FEDCADA (const RuntimeMethod* method)
+{
+	return ((  ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB (*) (const RuntimeMethod*))Activator_CreateInstance_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_m0553AAF479E33632E3C5FF0C8E7D38063FEDCADA_gshared)(method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConvexConvexDispatcher_Init_m454AF1F1198AD4FDD4247F006087C0C5DE56FBF6 (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___0_targetFromQuery, const RuntimeMethod* method) ;
+inline bool ConvexConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mB3B57288F1A7167EE55BA5F95B524E883FB1FB6C (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, uint32_t, uint32_t, const RuntimeMethod*))ConvexConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mB3B57288F1A7167EE55BA5F95B524E883FB1FB6C_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool ConvexConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m72C81AA1B1D09CA96A8B8FC194C143BFCB45CFCB (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, uint32_t, uint32_t, const RuntimeMethod*))ConvexConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m72C81AA1B1D09CA96A8B8FC194C143BFCB45CFCB_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool ConvexConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m3FD438E8E811CB1A96F5FE92026FCE5E64C440AE (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, uint32_t, uint32_t, const RuntimeMethod*))ConvexConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m3FD438E8E811CB1A96F5FE92026FCE5E64C440AE_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mAFC80680996122C5CF8A1CEA2BB0EB7962BBB822 (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, uint32_t, uint32_t, const RuntimeMethod*))ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mAFC80680996122C5CF8A1CEA2BB0EB7962BBB822_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mDDF5B514CEB011D446379D24ADA5B22619A232C6 (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, uint32_t, uint32_t, const RuntimeMethod*))ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mDDF5B514CEB011D446379D24ADA5B22619A232C6_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m08C7B44802754F3F581BD28D866273FF460F65D7 (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, uint32_t, uint32_t, const RuntimeMethod*))ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m08C7B44802754F3F581BD28D866273FF460F65D7_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3D3531B79E8398E5C837583DF704EBE82E629E95 (FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3D3531B79E8398E5C837583DF704EBE82E629E95_gshared)(__this, method);
+}
+inline bool ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_mA991DC05E6CAC36EFBB2E3D7CE3271CB5E113825 (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A*, uint32_t, uint32_t, const RuntimeMethod*))ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_mA991DC05E6CAC36EFBB2E3D7CE3271CB5E113825_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mC0B5FD0D996F27657988A05CC734AAFD27B86EB1 (FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mC0B5FD0D996F27657988A05CC734AAFD27B86EB1_gshared)(__this, method);
+}
+inline bool ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m1301DFF6BFDA22415D39B0BF18136686B4CFB025 (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD*, uint32_t, uint32_t, const RuntimeMethod*))ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m1301DFF6BFDA22415D39B0BF18136686B4CFB025_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline float FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA858495329F1C01C54CE03F114151A469F93AD7 (FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26*, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA858495329F1C01C54CE03F114151A469F93AD7_gshared)(__this, method);
+}
+inline bool ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_mF02BE93CAE18062A69D0B6EC733AEF7408A551B8 (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26*, uint32_t, uint32_t, const RuntimeMethod*))ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_mF02BE93CAE18062A69D0B6EC733AEF7408A551B8_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F Activator_CreateInstance_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_mA2A7C22BD7CB167CD570F5A91B862FB0B4BB4E91 (const RuntimeMethod* method)
+{
+	return ((  MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F (*) (const RuntimeMethod*))Activator_CreateInstance_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_mA2A7C22BD7CB167CD570F5A91B862FB0B4BB4E91_gshared)(method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshConvexDispatcher_Init_mFF30BC00367D8C4BA4EAEFC82099FA90323233F1 (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___0_targetFromQuery, const RuntimeMethod* method) ;
+inline bool MeshConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m902A73F43780EDEEC6898C2ED68671F9DC808105 (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m902A73F43780EDEEC6898C2ED68671F9DC808105_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m23656C368E9751FEA24B683F59F7A5A8421001CC (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m23656C368E9751FEA24B683F59F7A5A8421001CC_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mFA680ADD27647F93DD626A42B39B3A0C0A5A8312 (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mFA680ADD27647F93DD626A42B39B3A0C0A5A8312_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m5E38D2C25FC66A12EA48157F66511C3D07CBA9F8 (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m5E38D2C25FC66A12EA48157F66511C3D07CBA9F8_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB2507625221B0FFD1C5BED1893F9BF1C20046DF7 (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB2507625221B0FFD1C5BED1893F9BF1C20046DF7_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m21ABEE1DC21F56B28685B3D98C95E37FE02D3267 (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, uint32_t, uint32_t, const RuntimeMethod*))MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m21ABEE1DC21F56B28685B3D98C95E37FE02D3267_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E Activator_CreateInstance_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_mAE001B1572C80EC0A4B8A726606D89CC1C89D123 (const RuntimeMethod* method)
+{
+	return ((  TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E (*) (const RuntimeMethod*))Activator_CreateInstance_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_mAE001B1572C80EC0A4B8A726606D89CC1C89D123_gshared)(method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TerrainConvexDispatcher_Init_mEFEA455B8B69A5A58B7550A9B81893C588253834 (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E* __this, RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___0_targetFromQuery, const RuntimeMethod* method) ;
+inline bool TerrainConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m1880D65929756D7BD008D0E99E5C0419F86F72FC (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, uint32_t, uint32_t, const RuntimeMethod*))TerrainConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m1880D65929756D7BD008D0E99E5C0419F86F72FC_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool TerrainConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m07320B97514457C6D32BE0529554C770E9B0FD9D (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, uint32_t, uint32_t, const RuntimeMethod*))TerrainConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m07320B97514457C6D32BE0529554C770E9B0FD9D_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool TerrainConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m8FEA195EB349DE5AD6E720D67BE0AAB99FCF32D1 (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, uint32_t, uint32_t, const RuntimeMethod*))TerrainConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m8FEA195EB349DE5AD6E720D67BE0AAB99FCF32D1_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool TerrainConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m80345578CEF0D4C9D6B13B01F2189C2E4474C6C5 (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, uint32_t, uint32_t, const RuntimeMethod*))TerrainConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m80345578CEF0D4C9D6B13B01F2189C2E4474C6C5_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool TerrainConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m5754F178EB25694721A9F85C33A3432E6ECF3306 (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, uint32_t, uint32_t, const RuntimeMethod*))TerrainConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m5754F178EB25694721A9F85C33A3432E6ECF3306_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline bool TerrainConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m464C1FD93EE9FE2DC464EB12797BB2F2F2F73964 (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E* __this, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_polygon, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, uint32_t ___3_numColliderKeyBits, uint32_t ___4_subKey, const RuntimeMethod* method)
+{
+	return ((  bool (*) (TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E*, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, uint32_t, uint32_t, const RuntimeMethod*))TerrainConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m464C1FD93EE9FE2DC464EB12797BB2F2F2F73964_gshared)(__this, ___0_input, ___1_polygon, ___2_collector, ___3_numColliderKeyBits, ___4_subKey, method);
+}
+inline void DistanceQueries_FlipColliderDistanceQuery_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC9686F3B850A8E8249351898736CFD3E3C5FF2F2 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_target, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___3_flippedQueryCollector, const RuntimeMethod* method)
+{
+	((  void (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363*, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))DistanceQueries_FlipColliderDistanceQuery_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC9686F3B850A8E8249351898736CFD3E3C5FF2F2_gshared)(___0_input, ___1_target, ___2_collector, ___3_flippedQueryCollector, method);
+}
+inline bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m7BC333175EFD937A618A402E4B50C7E2418AE18B (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m7BC333175EFD937A618A402E4B50C7E2418AE18B_gshared)(___0_input, ___1_compoundCollider, ___2_collector, method);
+}
+inline void DistanceQueries_FlipColliderDistanceQuery_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB943E7C4434C97AE297293717A15BAAA573A59B5 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_target, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___3_flippedQueryCollector, const RuntimeMethod* method)
+{
+	((  void (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363*, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))DistanceQueries_FlipColliderDistanceQuery_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB943E7C4434C97AE297293717A15BAAA573A59B5_gshared)(___0_input, ___1_target, ___2_collector, ___3_flippedQueryCollector, method);
+}
+inline bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m1200D3FBDC77C92CEA0E29FFABA12BE3B644F1E9 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m1200D3FBDC77C92CEA0E29FFABA12BE3B644F1E9_gshared)(___0_input, ___1_compoundCollider, ___2_collector, method);
+}
+inline void DistanceQueries_FlipColliderDistanceQuery_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m3187815F7854F75F088C94D57F384BD609B9CB10 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_target, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___3_flippedQueryCollector, const RuntimeMethod* method)
+{
+	((  void (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363*, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))DistanceQueries_FlipColliderDistanceQuery_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m3187815F7854F75F088C94D57F384BD609B9CB10_gshared)(___0_input, ___1_target, ___2_collector, ___3_flippedQueryCollector, method);
+}
+inline bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m3A71D61F3DC0ABD1DC55DEA29A2B728B85E55379 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m3A71D61F3DC0ABD1DC55DEA29A2B728B85E55379_gshared)(___0_input, ___1_compoundCollider, ___2_collector, method);
+}
+inline void DistanceQueries_FlipColliderDistanceQuery_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mE1A519EE5A7A9ADBF7EF12E953C5384625AB7964 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_target, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* ___3_flippedQueryCollector, const RuntimeMethod* method)
+{
+	((  void (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363*, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A*, const RuntimeMethod*))DistanceQueries_FlipColliderDistanceQuery_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mE1A519EE5A7A9ADBF7EF12E953C5384625AB7964_gshared)(___0_input, ___1_target, ___2_collector, ___3_flippedQueryCollector, method);
+}
+inline bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_m6A8A0ED44B40243B377260813014F3D57AD8964D (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A*, const RuntimeMethod*))DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_m6A8A0ED44B40243B377260813014F3D57AD8964D_gshared)(___0_input, ___1_compoundCollider, ___2_collector, method);
+}
+inline void DistanceQueries_FlipColliderDistanceQuery_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m5D90A299344038129F21495E1A679D30BCB63C5C (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_target, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* ___3_flippedQueryCollector, const RuntimeMethod* method)
+{
+	((  void (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363*, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD*, const RuntimeMethod*))DistanceQueries_FlipColliderDistanceQuery_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m5D90A299344038129F21495E1A679D30BCB63C5C_gshared)(___0_input, ___1_target, ___2_collector, ___3_flippedQueryCollector, method);
+}
+inline bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m30D2A298D43F31B37B7189E14AA3D155B4E46602 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD*, const RuntimeMethod*))DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m30D2A298D43F31B37B7189E14AA3D155B4E46602_gshared)(___0_input, ___1_compoundCollider, ___2_collector, method);
+}
+inline void DistanceQueries_FlipColliderDistanceQuery_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m648555E39195C2BBED5F952CE0543826636C7EE9 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_target, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* ___3_flippedQueryCollector, const RuntimeMethod* method)
+{
+	((  void (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363*, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26*, const RuntimeMethod*))DistanceQueries_FlipColliderDistanceQuery_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m648555E39195C2BBED5F952CE0543826636C7EE9_gshared)(___0_input, ___1_target, ___2_collector, ___3_flippedQueryCollector, method);
+}
+inline bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_m2E70353933CB242768645D28F3A2E799604E7945 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26*, const RuntimeMethod*))DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_m2E70353933CB242768645D28F3A2E799604E7945_gshared)(___0_input, ___1_compoundCollider, ___2_collector, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 QueryContext_get_DefaultContext_m1D21718BF6DAF3E16177FE178C9664BD3598D8AA (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Collider_get_Type_m68A82CAC611BD2FBFCCE9F074154697E2144C7A3 (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaledMTransform__ctor_m39AB51931A2386CB396C4F82D5E78B0BF196D82D (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D* __this, RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD ___0_transform, float ___1_uniformScale, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ScaledMTransform_get_Scale_m5267587803DE272DFB0349D1E77606EDB5670E25_inline (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 DistanceQueries_ConvexConvex_mCC0336A99F81805AB0EFCEAD81B01BC04020A75E (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___0_convexA, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_convexB, MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC ___2_aFromB, float ___3_uniformScaleB, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55 (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline (float ___0_x, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_UnaryNegation_m862876969881839716CBAF9AE074FA4BFDFABDF1_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_val, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_select_m9AE2C8B94207D016E9AA462152BC0C7B468981A7_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_a, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_b, bool ___2_c, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DistanceHit_set_Fraction_mA6694FDB5B5553FBFC5928C8C18A03839703DCD9_inline (DistanceHit_t24623CA3232004563796E8AA41E409369C35643E* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ScaledMTransform_get_Rotation_m7FAA763F4B5F7422E31DCA2C964489B224B2133B (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_mul_m4C38B3C1EB3A8DEBFD06421A2FCBE54E7CDC46EE_inline (float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___0_a, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DistanceHit_set_SurfaceNormal_m7874F8EF4EA6808835DBC4AC5654FF3AFE105E29_inline (DistanceHit_t24623CA3232004563796E8AA41E409369C35643E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E Math_Mul_mCA6D1364A609D79D8FEF7C4ADEE45724888E45C5 (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D ___0_a, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_x, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DistanceHit_set_Position_m5781C77C6218E0CA4B5B62C1FA5FDD57104D78E7_inline (DistanceHit_t24623CA3232004563796E8AA41E409369C35643E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DistanceHit_set_RigidBodyIndex_m47E1CB059EC518B1D8992B9D70535FFE28EA67A6_inline (DistanceHit_t24623CA3232004563796E8AA41E409369C35643E* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DistanceHit_set_ColliderKey_m8948213D21E2582598D986289BFA8960E042C59C_inline (DistanceHit_t24623CA3232004563796E8AA41E409369C35643E* __this, ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DistanceHit_set_Material_m48FBAAAA01AAF1BF7A339E47C956EB06D3231E3B_inline (DistanceHit_t24623CA3232004563796E8AA41E409369C35643E* __this, Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DistanceHit_set_Entity_m7126D2D163CC281C620705ABEEFB06312CE27E49_inline (DistanceHit_t24623CA3232004563796E8AA41E409369C35643E* __this, Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___0_value, const RuntimeMethod* method) ;
+inline bool AllHitsCollector_1_AddHit_m321B13B37162E71B15CBB0461DF60E435DF9A01C (AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method)
+{
+	return ((  bool (*) (AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E, const RuntimeMethod*))AllHitsCollector_1_AddHit_m321B13B37162E71B15CBB0461DF60E435DF9A01C_gshared)(__this, ___0_hit, method);
+}
+inline bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m89F2276B7B09D75E8A3C7FDC79AEA76292FC5EB9 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m89F2276B7B09D75E8A3C7FDC79AEA76292FC5EB9_gshared)(___0_input, ___1_compoundCollider, ___2_collector, method);
+}
+inline bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m471B4B28FF02FD6110774810E299AC5ED7286FEA (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m471B4B28FF02FD6110774810E299AC5ED7286FEA_gshared)(___0_input, ___1_meshCollider, ___2_collector, method);
+}
+inline bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mA3DAA75205635A3312AA4AE7F9CC5A6169815D09 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, const RuntimeMethod*))DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mA3DAA75205635A3312AA4AE7F9CC5A6169815D09_gshared)(___0_input, ___1_terrainCollider, ___2_collector, method);
+}
+inline bool AnyHitCollector_1_AddHit_m09C1E3D046EA0D121F572546F1331505F24D68A9 (AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method)
+{
+	return ((  bool (*) (AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E, const RuntimeMethod*))AnyHitCollector_1_AddHit_m09C1E3D046EA0D121F572546F1331505F24D68A9_gshared)(__this, ___0_hit, method);
+}
+inline bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m42DADD12C25DB331413220FCB6C901B84420AE00 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m42DADD12C25DB331413220FCB6C901B84420AE00_gshared)(___0_input, ___1_compoundCollider, ___2_collector, method);
+}
+inline bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m1DE516877AB61725A7EBA1835783FA2A5BFA384A (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m1DE516877AB61725A7EBA1835783FA2A5BFA384A_gshared)(___0_input, ___1_meshCollider, ___2_collector, method);
+}
+inline bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m857BFE19A09A1EE687959BDD17B92F38A5C9906E (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21*, const RuntimeMethod*))DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m857BFE19A09A1EE687959BDD17B92F38A5C9906E_gshared)(___0_input, ___1_terrainCollider, ___2_collector, method);
+}
+inline bool ClosestHitCollector_1_AddHit_m0A9A036016419B68ABE4B6188B9B5C0DB38A346A (ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E, const RuntimeMethod*))ClosestHitCollector_1_AddHit_m0A9A036016419B68ABE4B6188B9B5C0DB38A346A_gshared)(__this, ___0_hit, method);
+}
+inline bool DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m56B0F086C827F87CF7FA713843190A894A45F561 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* ___1_compoundCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m56B0F086C827F87CF7FA713843190A894A45F561_gshared)(___0_input, ___1_compoundCollider, ___2_collector, method);
+}
+inline bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m48AE3339901E3ADF4F19518F6267257D5033216C (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m48AE3339901E3ADF4F19518F6267257D5033216C_gshared)(___0_input, ___1_meshCollider, ___2_collector, method);
+}
+inline bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m87F0893D3163F9620A5F589BD71DF911E0D86BF8 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0*, const RuntimeMethod*))DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m87F0893D3163F9620A5F589BD71DF911E0D86BF8_gshared)(___0_input, ___1_terrainCollider, ___2_collector, method);
+}
+inline bool FlippedColliderDistanceQueryCollector_1_AddHit_mF617CB14BAFF6922ED6B5068BAD19F6551E6EE7D (FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method)
+{
+	return ((  bool (*) (FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_AddHit_mF617CB14BAFF6922ED6B5068BAD19F6551E6EE7D_gshared)(__this, ___0_hit, method);
+}
+inline bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m026677493FA01FC15783B27BBCB717E440B0860D (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m026677493FA01FC15783B27BBCB717E440B0860D_gshared)(___0_input, ___1_meshCollider, ___2_collector, method);
+}
+inline bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m513FF8667B2CE6678CC71DF332E468385FD9B181 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, const RuntimeMethod*))DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m513FF8667B2CE6678CC71DF332E468385FD9B181_gshared)(___0_input, ___1_terrainCollider, ___2_collector, method);
+}
+inline bool FlippedColliderDistanceQueryCollector_1_AddHit_m61B01C65F9A8821B943ED93B6CD48B213E675678 (FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method)
+{
+	return ((  bool (*) (FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_AddHit_m61B01C65F9A8821B943ED93B6CD48B213E675678_gshared)(__this, ___0_hit, method);
+}
+inline bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m6C3DDC0DE8292EB9E53483C831580E4C61863968 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m6C3DDC0DE8292EB9E53483C831580E4C61863968_gshared)(___0_input, ___1_meshCollider, ___2_collector, method);
+}
+inline bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mBA507D5FC98EC8B7AF74D795899602397338A768 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5*, const RuntimeMethod*))DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mBA507D5FC98EC8B7AF74D795899602397338A768_gshared)(___0_input, ___1_terrainCollider, ___2_collector, method);
+}
+inline bool FlippedColliderDistanceQueryCollector_1_AddHit_m2115BD3C177F1BF59D4B63AF7649321FFBBD9903 (FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method)
+{
+	return ((  bool (*) (FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_AddHit_m2115BD3C177F1BF59D4B63AF7649321FFBBD9903_gshared)(__this, ___0_hit, method);
+}
+inline bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m35E548666DAF554054CD9D342DC8408BBA50E3DF (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m35E548666DAF554054CD9D342DC8408BBA50E3DF_gshared)(___0_input, ___1_meshCollider, ___2_collector, method);
+}
+inline bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m487354726077A5D0405A8AE4B498CF75F7C38EAD (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164*, const RuntimeMethod*))DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m487354726077A5D0405A8AE4B498CF75F7C38EAD_gshared)(___0_input, ___1_terrainCollider, ___2_collector, method);
+}
+inline bool FlippedColliderDistanceQueryCollector_1_AddHit_mCC6F16170E62447F0ED4952AE29C5AFA2606BD00 (FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method)
+{
+	return ((  bool (*) (FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A*, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_AddHit_mCC6F16170E62447F0ED4952AE29C5AFA2606BD00_gshared)(__this, ___0_hit, method);
+}
+inline bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_mD635CBD3BE77CDD04447B80A01AC4D7A6BBB4D5E (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A*, const RuntimeMethod*))DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_mD635CBD3BE77CDD04447B80A01AC4D7A6BBB4D5E_gshared)(___0_input, ___1_meshCollider, ___2_collector, method);
+}
+inline bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_m09AC067AF2017A388C531BE484429091C67FED80 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A*, const RuntimeMethod*))DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_m09AC067AF2017A388C531BE484429091C67FED80_gshared)(___0_input, ___1_terrainCollider, ___2_collector, method);
+}
+inline bool FlippedColliderDistanceQueryCollector_1_AddHit_m461670D775449FE23E8DFAB70B897A19CFD60C08 (FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method)
+{
+	return ((  bool (*) (FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD*, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_AddHit_m461670D775449FE23E8DFAB70B897A19CFD60C08_gshared)(__this, ___0_hit, method);
+}
+inline bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m61D2BA2AF26E86BEAC72CE3BA8DBD1BC5C85B9DA (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD*, const RuntimeMethod*))DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m61D2BA2AF26E86BEAC72CE3BA8DBD1BC5C85B9DA_gshared)(___0_input, ___1_meshCollider, ___2_collector, method);
+}
+inline bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_mBA0A782E64219687D8EC1E718326777DCE3E7094 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD*, const RuntimeMethod*))DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_mBA0A782E64219687D8EC1E718326777DCE3E7094_gshared)(___0_input, ___1_terrainCollider, ___2_collector, method);
+}
+inline bool FlippedColliderDistanceQueryCollector_1_AddHit_mD2EDE4D56D514229E82268C135B41C57238A3794 (FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* __this, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E ___0_hit, const RuntimeMethod* method)
+{
+	return ((  bool (*) (FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26*, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1_AddHit_mD2EDE4D56D514229E82268C135B41C57238A3794_gshared)(__this, ___0_hit, method);
+}
+inline bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_m8F3D51C5E7A0F01A07B6159B993796E6DA7B8F74 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26*, const RuntimeMethod*))DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_m8F3D51C5E7A0F01A07B6159B993796E6DA7B8F74_gshared)(___0_input, ___1_meshCollider, ___2_collector, method);
+}
+inline bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_m7A157C61DC51201859398E2E0F0B1A8584306EC3 (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* ___2_collector, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26*, const RuntimeMethod*))DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_m7A157C61DC51201859398E2E0F0B1A8584306EC3_gshared)(___0_input, ___1_terrainCollider, ___2_collector, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D Math_Mul_mC91C030B1C171ACC81F7ECD355AAFE9594B7DEF2 (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D ___0_cFromB, ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D ___1_bFromA, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D Math_Inverse_m381E83FD8942DF03683615F3D1DAEE8CC47E732F (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D ___0_transform, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void quaternion__ctor_m354F09C0E50CA59DA43037E9993EAE9BF97E9120 (quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* __this, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___0_m, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ScaledMTransform_get_Translation_mD278004F9D93E9925D3DA4FE05B6932288706219 (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RigidTransform__ctor_m7665CC6FBD784FC7CB02E48B0A4B58008A4BC709_inline (RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD* __this, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___0_rotation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_translation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ConvexCollider_get_Material_m5340F3FA9133D7C9FB0B9DE75265045171ABE5E9 (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* __this, const RuntimeMethod* method) ;
+inline void FlippedColliderDistanceQueryCollector_1__ctor_mF32B45B2C4C88FA8F3ABF8667A415F0283E6D674 (FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* __this, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___0_collector, ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___1_targetColliderKey, Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___2_targetMaterial, const RuntimeMethod* method)
+{
+	((  void (*) (FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F*, ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56, Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54, const RuntimeMethod*))FlippedColliderDistanceQueryCollector_1__ctor_mF32B45B2C4C88FA8F3ABF8667A415F0283E6D674_gshared)(__this, ___0_collector, ___1_targetColliderKey, ___2_targetMaterial, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void bool4__ctor_mF155096A6E6BF25B97648480B9A5224A22DFFF88_inline (bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* __this, bool ___0_x, bool ___1_y, bool ___2_z, bool ___3_w, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_inline (float ___0_x, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_inline (uint32_t ___0_x, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Addition_mFFCF4F7457594F5EFB0678C0DE90AAD3D3F6947B_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_asint_mBDED7FE966CA65F6A8ACEAEF8FD779B1B8998288_inline (float ___0_x, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_asfloat_m9FA56DE5C61FCEF3DCD0675252D40DFD9C9B712F_inline (int32_t ___0_x, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m0AF5BEBC26AF7EA2A3F135F244A8EB1F51413B9F_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_mC41D6EF08541BB166BA14100AFB704CC46A92D09((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m4095A98401CBA69E23E671341373C801C11990A8((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m642A98F79893DA7974621B3BAC870C05180EAC23_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_mC41D6EF08541BB166BA14100AFB704CC46A92D09((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m1C510066387AB90DE6F18884A76CDCF17AD47153((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mF5B85DFEF52223B93C305F6B4F88E14E03C1C9B0_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_mC41D6EF08541BB166BA14100AFB704CC46A92D09((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m8AF47D030A79F4D18C839455765E3D3F9523DE81((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m135CE7746E2190C80FFA5B53097ED4C5906705D6_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_mC41D6EF08541BB166BA14100AFB704CC46A92D09((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t7AABD9CD568D744D088F6F7E30A6C07D88C26A75_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m73837485DFEDBC4D179DEFC21673929ACC6C3FDF((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m471B4B28FF02FD6110774810E299AC5ED7286FEA_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_m7E5A51AB0FD544107DD80AE89B8D92EFED1BD159((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mBD64514733B67C4C871D27C6EDD2E2A6620C7858((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m1DE516877AB61725A7EBA1835783FA2A5BFA384A_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_m7E5A51AB0FD544107DD80AE89B8D92EFED1BD159((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m70E19F42F5539C6F6BC6BDD6A23789C491ABB382((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m48AE3339901E3ADF4F19518F6267257D5033216C_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_m7E5A51AB0FD544107DD80AE89B8D92EFED1BD159((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mF273B93BE40E95C4399F5AD506781AD4A82F99EE((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m026677493FA01FC15783B27BBCB717E440B0860D_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_m7E5A51AB0FD544107DD80AE89B8D92EFED1BD159((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mA08AA3CC71419A6E9A24A85E4FDE44A902F26AC7((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m6C3DDC0DE8292EB9E53483C831580E4C61863968_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_m7E5A51AB0FD544107DD80AE89B8D92EFED1BD159((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m2F4C17434148D1A3DECCF6B362BABAD181862700((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m35E548666DAF554054CD9D342DC8408BBA50E3DF_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_m7E5A51AB0FD544107DD80AE89B8D92EFED1BD159((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m10633D3460A936EAECAAA1D5548C159761BD77B5((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_mD635CBD3BE77CDD04447B80A01AC4D7A6BBB4D5E_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_m7E5A51AB0FD544107DD80AE89B8D92EFED1BD159((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_m6B6189AB6CD15785F353BE4B6E1491222300CCE7((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m61D2BA2AF26E86BEAC72CE3BA8DBD1BC5C85B9DA_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_m7E5A51AB0FD544107DD80AE89B8D92EFED1BD159((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m1C95468A29F07BD16705FFF9C3E4E6EC25AA44C1((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_m8F3D51C5E7A0F01A07B6159B993796E6DA7B8F74_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_m7E5A51AB0FD544107DD80AE89B8D92EFED1BD159((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t20FF5CEF17A07CD194848AC961BFFF3424CA6F3F_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_mDAE411C493B6F4C3C0F8CD2C28A9268E40C46210((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m9FDD7ED0490A7D82CBAB165A12E62F0924F862C4_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_mF9C9C11E8F1250B895620403B576B404066099C3((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC83934F57FC1772A8EE26CE6FB298E3037D7081C((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m8A9DCEF11D69EE0443F35CC25C00D3EEEF440C2B_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_mF9C9C11E8F1250B895620403B576B404066099C3((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB6DFC5C7347BAAA287DB40C15749FD9D8DE03689((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m9F55AD39C85ABB6B0EF491C2A120CEAB6B0959B4_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_mF9C9C11E8F1250B895620403B576B404066099C3((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m0E1EB741F435422E97C3EA73263ED5FC2E527948((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mBE70438CDF55EFA7A000A257CB34E0E20C989FD9_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_mF9C9C11E8F1250B895620403B576B404066099C3((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mA11FFBD6A9515FFF70DCB730AB5E6104FA60CEDD((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mD25B44F8B0FD412B07400760857EDD7F2A85ADC6_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_mF9C9C11E8F1250B895620403B576B404066099C3((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mA0F6DBA33B07553A0DB4ED9B68E61F1D3695BC8E((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m136CAA2FB8111628D57E61A23252CC6389F126F1_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_mF9C9C11E8F1250B895620403B576B404066099C3((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t66C9ACDA5A70539F5CE8B433427810F6EB486618_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m0BF0C21DA7DE32B8993FF3AEFCB3EE3B35C45FAA((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m49C6BA7C1C7BBF4259C23C7B6F7AC0E3C2A2CD8C_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_mB34DD1C0270DEA1A68028250ED4C89590F395BFC((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m0E46D6A93215B13E40A75715F90A258257A86B8E((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m2347533D6F106B48B81619A498A5C8BD580DC7FB_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_mB34DD1C0270DEA1A68028250ED4C89590F395BFC((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m3271489534A92C048D159FEB613CF6EFC6882FED((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mB2357A2A336709700D08A841B96B523FC7E79C2F_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_mB34DD1C0270DEA1A68028250ED4C89590F395BFC((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mA04C7DE37D4939B5B8325315411F1584E4C66214((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mD01D2CFE68EC59942C8AF3B8A26F060067E38710_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_mB34DD1C0270DEA1A68028250ED4C89590F395BFC((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m0E7039B1AA3224F8FE7E04FD846BD18DE30BA5B4((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m3A21200BCB027216E572B7C6E7F4DAFC849F0977_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_mB34DD1C0270DEA1A68028250ED4C89590F395BFC((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m9C880D748649132365CED159EECD6F4DEA4F571C((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderMesh_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_mB7982BC9F7707174D82C7F5D74B0A2C1BE3634CB_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* ___1_meshCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_0 = ___1_meshCollider;
+		ColliderMeshLeafProcessor_1__ctor_mB34DD1C0270DEA1A68028250ED4C89590F395BFC((&V_0), L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
+		MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236* L_1 = ___1_meshCollider;
+		NullCheck(L_1);
+		Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A* L_2 = (Mesh_t131030D94CCE1FAE7FE6305073F38A0B7317354A*)(&L_1->___Mesh);
+		BoundingVolumeHierarchy_t9890672DB31847A40C3C16BA34ACF97BF30D3A62 L_3;
+		L_3 = Mesh_get_BoundingVolumeHierarchy_m55A7CB84FE4A885EE0D8CF84638B1FBB75BB8B9C(L_2, NULL);
+		V_1 = L_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_5 = ___2_collector;
+		bool L_6;
+		L_6 = BoundingVolumeHierarchy_Distance_TisColliderMeshLeafProcessor_1_t087189F20CD3D6D0773E1097F4FFF13051DC2879_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m3AD8A17BE8D0E3B2F0B6DDAED7A2C966640A0F09((&V_1), L_4, (&V_0), L_5, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_mA40C9FD886AD8C340202FEC858A6798C31DF27AA_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, Il2CppFullySharedGenericStruct* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	const uint32_t SizeOf_D_t8424FE55F2CEEF1883B60EF2DB46C7AC218220EE = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->rgctx_data, 4));
+	void* L_54 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	void* L_57 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	void* L_68 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 4)));
+	void* L_117 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 4)));
+	const Il2CppFullySharedGenericStruct L_65 = alloca(SizeOf_D_t8424FE55F2CEEF1883B60EF2DB46C7AC218220EE);
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	Il2CppFullySharedGenericStruct V_7 = alloca(SizeOf_D_t8424FE55F2CEEF1883B60EF2DB46C7AC218220EE);
+	memset(V_7, 0, SizeOf_D_t8424FE55F2CEEF1883B60EF2DB46C7AC218220EE);
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		Il2CppFullySharedGenericStruct* L_53 = ___2_collector;
+		float L_55;
+		L_55 = ConstrainedFuncInvoker0< float >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_54, (void*)L_53);
+		Il2CppFullySharedGenericStruct* L_56 = ___2_collector;
+		float L_58;
+		L_58 = ConstrainedFuncInvoker0< float >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_57, (void*)L_56);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_60 = L_59.___QueryContext;
+		float L_61 = L_60.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_62 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_63 = L_62.___QueryContext;
+		float L_64 = L_63.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_55, L_58)), L_61)), L_64));
+		InvokerActionInvoker1< Il2CppFullySharedGenericStruct* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)), il2cpp_rgctx_method(method->rgctx_data, 3), NULL, (Il2CppFullySharedGenericStruct*)L_65);
+		il2cpp_codegen_memcpy(V_7, L_65, SizeOf_D_t8424FE55F2CEEF1883B60EF2DB46C7AC218220EE);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_66 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_67 = L_66.___Transform;
+		ConstrainedActionInvoker1< RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 4), il2cpp_rgctx_method(method->rgctx_data, 5), L_68, (void*)(Il2CppFullySharedGenericStruct*)V_7, L_67);
+		uint32_t L_69 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_69 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_70 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_69));
+		int8_t* L_71 = (int8_t*) (L_70 ? alloca(L_70) : NULL);
+		memset(L_71, 0, L_70);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_71);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_72;
+		L_72 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_72;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_73 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_74;
+		L_74 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_73, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_75;
+		L_75 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_74, NULL);
+		V_13 = L_75;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_76;
+		L_76 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_77 = L_76.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_78;
+		L_78 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_79 = L_78.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_77, L_79, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_81 = V_13;
+		float L_82 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_83;
+		L_83 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_81, L_82, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84;
+		L_84 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_80, L_83, NULL);
+		V_14 = L_84;
+		bool L_85;
+		L_85 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_85)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_86;
+		memset((&L_86), 0, sizeof(L_86));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_86), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_87 = V_14;
+		int32_t L_88;
+		L_88 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_86, L_87, NULL);
+		V_17 = L_88;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_89 = V_18;
+		int32_t L_90;
+		L_90 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_89, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_92 = V_8;
+		uint32_t L_93 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_94 = V_8;
+		uint32_t L_95 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_96 = V_8;
+		uint32_t L_97 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_90, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_91, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_92, (int32_t)L_93)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_94, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_95)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_96, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_97)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_98 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_98);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, (int32_t)L_101)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_103 = V_8;
+		uint32_t L_104 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_105 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_103, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_104)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_106 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_107 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_99, L_102, L_105, L_106, L_107, NULL);
+		bool L_108 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_109 = ___0_input;
+		Il2CppFullySharedGenericStruct* L_110 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_111 = V_0;
+		uint32_t L_112;
+		L_112 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_111, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_113 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_114 = V_19;
+		int32_t L_115 = V_20;
+		uint32_t L_116;
+		L_116 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_113, L_114, L_115, NULL);
+		bool L_118;
+		L_118 = ConstrainedFuncInvoker5< bool, ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, Il2CppFullySharedGenericStruct*, uint32_t, uint32_t >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 4), il2cpp_rgctx_method(method->rgctx_data, 6), L_117, (void*)(Il2CppFullySharedGenericStruct*)V_7, L_109, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_110, L_112, L_116);
+		V_3 = (bool)((int32_t)((int32_t)L_108|(int32_t)L_118));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_120 = V_8;
+		uint32_t L_121 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_122 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_120, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_121)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_119 = L_122;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_123 = V_8;
+		uint32_t L_124 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_125 = V_8;
+		uint32_t L_126 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_127 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_125, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_126)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_123, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_124)))) = L_127;
+		int32_t L_128 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_128, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_129 = V_20;
+		if ((((int32_t)L_129) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_130 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_130, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_131 = V_18;
+		int32_t L_132 = V_17;
+		if ((((int32_t)L_131) < ((int32_t)L_132)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_133 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_133, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_134;
+		L_134 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_134)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_135 = V_3;
+		return L_135;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mF631BC5BB2C5777BB1B7681B8E675470291E2712_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_53 = ___2_collector;
+		float L_54;
+		L_54 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_55 = ___2_collector;
+		float L_56;
+		L_56 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E L_63;
+		L_63 = Activator_CreateInstance_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_m0DB82FC42ED42339F690E9407B49AC33D7EBF349(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		CompoundConvexDispatcher_Init_m6DA580411558325F789B1A31D3F1D03AD933E1FD((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = CompoundConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mA5D66243E60395B182242269FB2A6F91E1266FF7((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m1A9677BCFD27AE3449F263E638231D654F2AD8FE_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_53 = ___2_collector;
+		float L_54;
+		L_54 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_55 = ___2_collector;
+		float L_56;
+		L_56 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E L_63;
+		L_63 = Activator_CreateInstance_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_m0DB82FC42ED42339F690E9407B49AC33D7EBF349(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		CompoundConvexDispatcher_Init_m6DA580411558325F789B1A31D3F1D03AD933E1FD((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = CompoundConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB3D87C2A6F62FE7822793A2775BB0823C7CAAF97((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m12EE60B448CCC0ECB86929158A04C6C14944BB8D_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_53 = ___2_collector;
+		float L_54;
+		L_54 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_55 = ___2_collector;
+		float L_56;
+		L_56 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E L_63;
+		L_63 = Activator_CreateInstance_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_m0DB82FC42ED42339F690E9407B49AC33D7EBF349(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		CompoundConvexDispatcher_Init_m6DA580411558325F789B1A31D3F1D03AD933E1FD((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = CompoundConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mFED7C8C073BAF90A6ECC448F7995FF4AAD9A765D((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m0C1BE235D3F4F95DDD82486C58622069A8123688_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_53 = ___2_collector;
+		float L_54;
+		L_54 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_55 = ___2_collector;
+		float L_56;
+		L_56 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E L_63;
+		L_63 = Activator_CreateInstance_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_m0DB82FC42ED42339F690E9407B49AC33D7EBF349(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		CompoundConvexDispatcher_Init_m6DA580411558325F789B1A31D3F1D03AD933E1FD((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = CompoundConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mC2D046D2CA3A8BE42FBA1852B2257AB0E96344A2((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m2D11AF5BE02C5B8F5F68E1D27F93059861A68F1B_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_53 = ___2_collector;
+		float L_54;
+		L_54 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_55 = ___2_collector;
+		float L_56;
+		L_56 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E L_63;
+		L_63 = Activator_CreateInstance_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_m0DB82FC42ED42339F690E9407B49AC33D7EBF349(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		CompoundConvexDispatcher_Init_m6DA580411558325F789B1A31D3F1D03AD933E1FD((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = CompoundConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB23C5B70BBD5633C65BE4DF4F2366D01FA2B42AC((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m77E2BF0AC65200945070B059BC4FC7269ABFAF6F_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_53 = ___2_collector;
+		float L_54;
+		L_54 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_55 = ___2_collector;
+		float L_56;
+		L_56 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		CompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E L_63;
+		L_63 = Activator_CreateInstance_TisCompoundConvexDispatcher_tC134288AF13383E784405BFF7F13B2C5CBB89D8E_m0DB82FC42ED42339F690E9407B49AC33D7EBF349(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		CompoundConvexDispatcher_Init_m6DA580411558325F789B1A31D3F1D03AD933E1FD((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = CompoundConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m60A4926A723210442B92B198CF0B460928F7E829((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mA3DAA75205635A3312AA4AE7F9CC5A6169815D09_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_53 = ___2_collector;
+		float L_54;
+		L_54 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_55 = ___2_collector;
+		float L_56;
+		L_56 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB L_63;
+		L_63 = Activator_CreateInstance_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_m0553AAF479E33632E3C5FF0C8E7D38063FEDCADA(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		ConvexConvexDispatcher_Init_m454AF1F1198AD4FDD4247F006087C0C5DE56FBF6((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = ConvexConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mB3B57288F1A7167EE55BA5F95B524E883FB1FB6C((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m857BFE19A09A1EE687959BDD17B92F38A5C9906E_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_53 = ___2_collector;
+		float L_54;
+		L_54 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_55 = ___2_collector;
+		float L_56;
+		L_56 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB L_63;
+		L_63 = Activator_CreateInstance_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_m0553AAF479E33632E3C5FF0C8E7D38063FEDCADA(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		ConvexConvexDispatcher_Init_m454AF1F1198AD4FDD4247F006087C0C5DE56FBF6((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = ConvexConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m72C81AA1B1D09CA96A8B8FC194C143BFCB45CFCB((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m87F0893D3163F9620A5F589BD71DF911E0D86BF8_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_53 = ___2_collector;
+		float L_54;
+		L_54 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_55 = ___2_collector;
+		float L_56;
+		L_56 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB L_63;
+		L_63 = Activator_CreateInstance_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_m0553AAF479E33632E3C5FF0C8E7D38063FEDCADA(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		ConvexConvexDispatcher_Init_m454AF1F1198AD4FDD4247F006087C0C5DE56FBF6((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = ConvexConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m3FD438E8E811CB1A96F5FE92026FCE5E64C440AE((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m513FF8667B2CE6678CC71DF332E468385FD9B181_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_53 = ___2_collector;
+		float L_54;
+		L_54 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_55 = ___2_collector;
+		float L_56;
+		L_56 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB L_63;
+		L_63 = Activator_CreateInstance_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_m0553AAF479E33632E3C5FF0C8E7D38063FEDCADA(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		ConvexConvexDispatcher_Init_m454AF1F1198AD4FDD4247F006087C0C5DE56FBF6((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mAFC80680996122C5CF8A1CEA2BB0EB7962BBB822((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mBA507D5FC98EC8B7AF74D795899602397338A768_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_53 = ___2_collector;
+		float L_54;
+		L_54 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_55 = ___2_collector;
+		float L_56;
+		L_56 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB L_63;
+		L_63 = Activator_CreateInstance_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_m0553AAF479E33632E3C5FF0C8E7D38063FEDCADA(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		ConvexConvexDispatcher_Init_m454AF1F1198AD4FDD4247F006087C0C5DE56FBF6((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mDDF5B514CEB011D446379D24ADA5B22619A232C6((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m487354726077A5D0405A8AE4B498CF75F7C38EAD_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_53 = ___2_collector;
+		float L_54;
+		L_54 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_55 = ___2_collector;
+		float L_56;
+		L_56 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB L_63;
+		L_63 = Activator_CreateInstance_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_m0553AAF479E33632E3C5FF0C8E7D38063FEDCADA(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		ConvexConvexDispatcher_Init_m454AF1F1198AD4FDD4247F006087C0C5DE56FBF6((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m08C7B44802754F3F581BD28D866273FF460F65D7((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_m09AC067AF2017A388C531BE484429091C67FED80_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* L_53 = ___2_collector;
+		float L_54;
+		L_54 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3D3531B79E8398E5C837583DF704EBE82E629E95(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* L_55 = ___2_collector;
+		float L_56;
+		L_56 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3D3531B79E8398E5C837583DF704EBE82E629E95(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB L_63;
+		L_63 = Activator_CreateInstance_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_m0553AAF479E33632E3C5FF0C8E7D38063FEDCADA(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		ConvexConvexDispatcher_Init_m454AF1F1198AD4FDD4247F006087C0C5DE56FBF6((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_mA991DC05E6CAC36EFBB2E3D7CE3271CB5E113825((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_mBA0A782E64219687D8EC1E718326777DCE3E7094_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* L_53 = ___2_collector;
+		float L_54;
+		L_54 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mC0B5FD0D996F27657988A05CC734AAFD27B86EB1(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* L_55 = ___2_collector;
+		float L_56;
+		L_56 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mC0B5FD0D996F27657988A05CC734AAFD27B86EB1(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB L_63;
+		L_63 = Activator_CreateInstance_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_m0553AAF479E33632E3C5FF0C8E7D38063FEDCADA(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		ConvexConvexDispatcher_Init_m454AF1F1198AD4FDD4247F006087C0C5DE56FBF6((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m1301DFF6BFDA22415D39B0BF18136686B4CFB025((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_m7A157C61DC51201859398E2E0F0B1A8584306EC3_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* L_53 = ___2_collector;
+		float L_54;
+		L_54 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA858495329F1C01C54CE03F114151A469F93AD7(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* L_55 = ___2_collector;
+		float L_56;
+		L_56 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA858495329F1C01C54CE03F114151A469F93AD7(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		ConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB L_63;
+		L_63 = Activator_CreateInstance_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_m0553AAF479E33632E3C5FF0C8E7D38063FEDCADA(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		ConvexConvexDispatcher_Init_m454AF1F1198AD4FDD4247F006087C0C5DE56FBF6((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = ConvexConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_mF02BE93CAE18062A69D0B6EC733AEF7408A551B8((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m12C7B892C2349E5F55C9D61A22B9BC87DCBF4B54_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_53 = ___2_collector;
+		float L_54;
+		L_54 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_55 = ___2_collector;
+		float L_56;
+		L_56 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F L_63;
+		L_63 = Activator_CreateInstance_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_mA2A7C22BD7CB167CD570F5A91B862FB0B4BB4E91(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		MeshConvexDispatcher_Init_mFF30BC00367D8C4BA4EAEFC82099FA90323233F1((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = MeshConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m902A73F43780EDEEC6898C2ED68671F9DC808105((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m5EEAB205391EFDB0C1E7AC3F9EFFAF4B43E80C3D_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_53 = ___2_collector;
+		float L_54;
+		L_54 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_55 = ___2_collector;
+		float L_56;
+		L_56 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F L_63;
+		L_63 = Activator_CreateInstance_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_mA2A7C22BD7CB167CD570F5A91B862FB0B4BB4E91(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		MeshConvexDispatcher_Init_mFF30BC00367D8C4BA4EAEFC82099FA90323233F1((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = MeshConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m23656C368E9751FEA24B683F59F7A5A8421001CC((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mF0E2278016C116E90AA72A77E054E8BFFA87B3EE_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_53 = ___2_collector;
+		float L_54;
+		L_54 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_55 = ___2_collector;
+		float L_56;
+		L_56 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F L_63;
+		L_63 = Activator_CreateInstance_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_mA2A7C22BD7CB167CD570F5A91B862FB0B4BB4E91(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		MeshConvexDispatcher_Init_mFF30BC00367D8C4BA4EAEFC82099FA90323233F1((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = MeshConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mFA680ADD27647F93DD626A42B39B3A0C0A5A8312((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m23372EED28EAA5E2DF548D3D05A423C6D96D1ECC_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_53 = ___2_collector;
+		float L_54;
+		L_54 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_55 = ___2_collector;
+		float L_56;
+		L_56 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F L_63;
+		L_63 = Activator_CreateInstance_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_mA2A7C22BD7CB167CD570F5A91B862FB0B4BB4E91(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		MeshConvexDispatcher_Init_mFF30BC00367D8C4BA4EAEFC82099FA90323233F1((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m5E38D2C25FC66A12EA48157F66511C3D07CBA9F8((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m5615BC7E20A2AFC1D76C20A11142702F68CFFAA7_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_53 = ___2_collector;
+		float L_54;
+		L_54 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_55 = ___2_collector;
+		float L_56;
+		L_56 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F L_63;
+		L_63 = Activator_CreateInstance_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_mA2A7C22BD7CB167CD570F5A91B862FB0B4BB4E91(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		MeshConvexDispatcher_Init_mFF30BC00367D8C4BA4EAEFC82099FA90323233F1((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mB2507625221B0FFD1C5BED1893F9BF1C20046DF7((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m00A87F8E3C4DA6F4DEC3490958A0B14664477188_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_53 = ___2_collector;
+		float L_54;
+		L_54 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_55 = ___2_collector;
+		float L_56;
+		L_56 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		MeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F L_63;
+		L_63 = Activator_CreateInstance_TisMeshConvexDispatcher_tB70E14ABBC83F59FC72B2CC9739FD7A4A203961F_mA2A7C22BD7CB167CD570F5A91B862FB0B4BB4E91(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		MeshConvexDispatcher_Init_mFF30BC00367D8C4BA4EAEFC82099FA90323233F1((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = MeshConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m21ABEE1DC21F56B28685B3D98C95E37FE02D3267((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC6D20626F4B82DB54B305138A5B70A6E0C3740BB_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_53 = ___2_collector;
+		float L_54;
+		L_54 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_55 = ___2_collector;
+		float L_56;
+		L_56 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E L_63;
+		L_63 = Activator_CreateInstance_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_mAE001B1572C80EC0A4B8A726606D89CC1C89D123(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		TerrainConvexDispatcher_Init_mEFEA455B8B69A5A58B7550A9B81893C588253834((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = TerrainConvexDispatcher_Dispatch_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m1880D65929756D7BD008D0E99E5C0419F86F72FC((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m2BAD12592DBC9A076B2985588C32FDF088B23D69_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_53 = ___2_collector;
+		float L_54;
+		L_54 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_55 = ___2_collector;
+		float L_56;
+		L_56 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E L_63;
+		L_63 = Activator_CreateInstance_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_mAE001B1572C80EC0A4B8A726606D89CC1C89D123(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		TerrainConvexDispatcher_Init_mEFEA455B8B69A5A58B7550A9B81893C588253834((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = TerrainConvexDispatcher_Dispatch_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m07320B97514457C6D32BE0529554C770E9B0FD9D((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m4299F90794900BAE6495CB0C738262AF08F668C9_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_53 = ___2_collector;
+		float L_54;
+		L_54 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_55 = ___2_collector;
+		float L_56;
+		L_56 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E L_63;
+		L_63 = Activator_CreateInstance_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_mAE001B1572C80EC0A4B8A726606D89CC1C89D123(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		TerrainConvexDispatcher_Init_mEFEA455B8B69A5A58B7550A9B81893C588253834((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = TerrainConvexDispatcher_Dispatch_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m8FEA195EB349DE5AD6E720D67BE0AAB99FCF32D1((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mDF6961B25835A356B6D9A7ED37C575FB58684882_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_53 = ___2_collector;
+		float L_54;
+		L_54 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_55 = ___2_collector;
+		float L_56;
+		L_56 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E L_63;
+		L_63 = Activator_CreateInstance_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_mAE001B1572C80EC0A4B8A726606D89CC1C89D123(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		TerrainConvexDispatcher_Init_mEFEA455B8B69A5A58B7550A9B81893C588253834((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = TerrainConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m80345578CEF0D4C9D6B13B01F2189C2E4474C6C5((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m180F4D3484E86938190D6088B24C7CB9B8961016_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_53 = ___2_collector;
+		float L_54;
+		L_54 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_55 = ___2_collector;
+		float L_56;
+		L_56 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E L_63;
+		L_63 = Activator_CreateInstance_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_mAE001B1572C80EC0A4B8A726606D89CC1C89D123(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		TerrainConvexDispatcher_Init_mEFEA455B8B69A5A58B7550A9B81893C588253834((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = TerrainConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m5754F178EB25694721A9F85C33A3432E6ECF3306((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ColliderTerrain_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_mF9AD3961EE88093CBF19E70CAE5EC1BB44DA8D45_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* ___1_terrainCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* V_0 = NULL;
+	CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* V_8 = NULL;
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	int32_t V_20 = 0;
+	PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_0 = ___1_terrainCollider;
+		NullCheck(L_0);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_1 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_0->___Terrain);
+		V_0 = L_1;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_2 = ___1_terrainCollider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_3;
+		L_3 = TerrainCollider_GetCollisionFilter_m9FD0E2C17D783097DF035291DCCC9A1C4DBAC4D4((TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_2, NULL);
+		V_1 = L_3;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = V_1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_5 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_6 = L_5.___Collider;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_7;
+		L_7 = Collider_GetCollisionFilter_mF4F38175402C1000CF383A52C0B55AEB245C491C((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline(L_4, L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0023:
+	{
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_9 = ___1_terrainCollider;
+		NullCheck(L_9);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_10 = L_9->___Material;
+		V_2 = L_10;
+		V_3 = (bool)0;
+		il2cpp_codegen_initobj((&V_4), sizeof(FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_12 = L_11.___Collider;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_13 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_14 = L_13.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_16 = L_15.___QueryContext;
+		float L_17 = L_16.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_18 = ___0_input;
+		float L_19 = L_18.___Scale;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_20;
+		L_20 = Collider_CalculateAabb_m6D062083E3116878B034FC999B9628A37B336E9D((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_12, L_14, ((float)il2cpp_codegen_multiply(L_17, L_19)), NULL);
+		V_9 = L_20;
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_21 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22 = L_21.___Min;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_23 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_24;
+		L_24 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_23, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_22, L_24, NULL);
+		(&V_12)->___Min = L_25;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_26 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_27 = L_26.___Max;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_28 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_29;
+		L_29 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_28, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_27, L_29, NULL);
+		(&V_12)->___Max = L_30;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_31 = V_12;
+		V_10 = L_31;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_32 = V_10;
+		FourTransposedAabbs_SetAllAabbs_m9B1B29DA731E8E56D8992F41AA506ABAFA8E9E85((&V_4), L_32, NULL);
+		il2cpp_codegen_initobj((&V_12), sizeof(Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853));
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_33 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___Min;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_35 = ___0_input;
+		float L_36 = L_35.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline(L_34, L_36, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_38 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_39;
+		L_39 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_38, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_40;
+		L_40 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_37, L_39, NULL);
+		(&V_12)->___Min = L_40;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_41 = V_9;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = L_41.___Max;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		float L_44 = L_43.___MaxDistance;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_45;
+		L_45 = float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline(L_42, L_44, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_46 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
+		L_47 = Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline(L_46, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_45, L_47, NULL);
+		(&V_12)->___Max = L_48;
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_49 = V_12;
+		V_11 = L_49;
+		TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B* L_50 = ___1_terrainCollider;
+		NullCheck(L_50);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_51 = (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)(&L_50->___Terrain);
+		Aabb_tCE79FBED620BCE1AC56CA435BA9E9CE1B4291853 L_52 = V_11;
+		QuadTreeWalker__ctor_m3D23FE5B9A5F3502FBC3D6402F9F1D8605882743((&V_5), (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA*)((uintptr_t)L_51), L_52, NULL);
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_53 = ___2_collector;
+		float L_54;
+		L_54 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_53, il2cpp_rgctx_method(method->rgctx_data, 2));
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_55 = ___2_collector;
+		float L_56;
+		L_56 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_55, il2cpp_rgctx_method(method->rgctx_data, 2));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_57 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_58 = L_57.___QueryContext;
+		float L_59 = L_58.___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_60 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_61 = L_60.___QueryContext;
+		float L_62 = L_61.___InvTargetScale;
+		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_54, L_56)), L_59)), L_62));
+		TerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E L_63;
+		L_63 = Activator_CreateInstance_TisTerrainConvexDispatcher_t325A907DCA788F7B8F29E90561E8A6B92768B39E_mAE001B1572C80EC0A4B8A726606D89CC1C89D123(il2cpp_rgctx_method(method->rgctx_data, 3));
+		V_7 = L_63;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_64 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_65 = L_64.___Transform;
+		TerrainConvexDispatcher_Init_mEFEA455B8B69A5A58B7550A9B81893C588253834((&V_7), L_65, il2cpp_rgctx_method(method->rgctx_data, 5));
+		uint32_t L_66 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		if ((uintptr_t)((uintptr_t)4) * (uintptr_t)L_66 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
+		intptr_t L_67 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)4), (int32_t)L_66));
+		int8_t* L_68 = (int8_t*) (L_67 ? alloca(L_67) : NULL);
+		memset(L_68, 0, L_67);
+		V_8 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)(L_68);
+		goto IL_02cf;
+	}
+
+IL_0163:
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_69;
+		L_69 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		V_15 = L_69;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_70 = V_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_71;
+		L_71 = Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline(L_70, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_72;
+		L_72 = FourTransposedAabbs_DistanceFromAabbSquared_mA763156443D3E3DCBAA5DA23F954F97DC05BAD2F((&V_15), (&V_4), L_71, NULL);
+		V_13 = L_72;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_73;
+		L_73 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_74 = L_73.___Ly;
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_75;
+		L_75 = QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline((&V_5), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_76 = L_75.___Hy;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_77;
+		L_77 = float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline(L_74, L_76, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_78 = V_13;
+		float L_79 = V_6;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_80;
+		L_80 = float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline(L_78, L_79, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_81;
+		L_81 = bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline(L_77, L_80, NULL);
+		V_14 = L_81;
+		bool L_82;
+		L_82 = QuadTreeWalker_get_IsLeaf_mB2B69CC5EDC324F50F81CB7F2907B457B602694E((&V_5), NULL);
+		if (!L_82)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_83), 0, 1, 2, 3, NULL);
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_84 = V_14;
+		int32_t L_85;
+		L_85 = math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline((int32_t*)((uintptr_t)(&V_16)), 0, L_83, L_84, NULL);
+		V_17 = L_85;
+		V_18 = 0;
+		goto IL_02bb;
+	}
+
+IL_01d4:
+	{
+		int32_t L_86 = V_18;
+		int32_t L_87;
+		L_87 = int4_get_Item_m2281A8F3D1D12AE2E09614009F90CEDAED6CB284((&V_16), L_86, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_88 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_89 = V_8;
+		uint32_t L_90 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_91 = V_8;
+		uint32_t L_92 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_93 = V_8;
+		uint32_t L_94 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		QuadTreeWalker_GetQuad_m32E7499D9AB227A4A44AC7F8CBDAF52751C1F301((&V_5), L_87, (&V_19), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_88, (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_89, (int32_t)L_90)), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_92)))), (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_94)))), NULL);
+		V_20 = 0;
+		goto IL_02ad;
+	}
+
+IL_0211:
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(PolygonCollider_t8DF207E4C2CEF2C31A3AA25ECD0B26DA9C967EDF));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_95 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_96 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_95);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_97 = V_8;
+		uint32_t L_98 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_99 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_97, (int32_t)L_98)));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_100 = V_8;
+		uint32_t L_101 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_102 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_100, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_101)))));
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_103 = V_1;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_104 = V_2;
+		PolygonCollider_InitAsTriangle_mF561F72F0ED33FBD16C8E2A2DE383166DEAED27B((&V_21), L_96, L_99, L_102, L_103, L_104, NULL);
+		bool L_105 = V_3;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_106 = ___0_input;
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_107 = ___2_collector;
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_108 = V_0;
+		uint32_t L_109;
+		L_109 = Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline(L_108, NULL);
+		Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* L_110 = V_0;
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_111 = V_19;
+		int32_t L_112 = V_20;
+		uint32_t L_113;
+		L_113 = Terrain_GetSubKey_mF53752C8CCE5425EB9834D297900CEA0526FF102(L_110, L_111, L_112, NULL);
+		bool L_114;
+		L_114 = TerrainConvexDispatcher_Dispatch_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m464C1FD93EE9FE2DC464EB12797BB2F2F2F73964((&V_7), L_106, (ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)((uintptr_t)(&V_21)), L_107, L_109, L_113, il2cpp_rgctx_method(method->rgctx_data, 6));
+		V_3 = (bool)((int32_t)((int32_t)L_105|(int32_t)L_114));
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_115 = V_8;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_116 = V_8;
+		uint32_t L_117 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_118 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_117)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_115 = L_118;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_119 = V_8;
+		uint32_t L_120 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_121 = V_8;
+		uint32_t L_122 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_123 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), (int32_t)L_122)))));
+		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), (int32_t)L_120)))) = L_123;
+		int32_t L_124 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_124, 1));
+	}
+
+IL_02ad:
+	{
+		int32_t L_125 = V_20;
+		if ((((int32_t)L_125) < ((int32_t)2)))
+		{
+			goto IL_0211;
+		}
+	}
+	{
+		int32_t L_126 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_127 = V_18;
+		int32_t L_128 = V_17;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_01d4;
+		}
+	}
+	{
+		goto IL_02cf;
+	}
+
+IL_02c6:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_129 = V_14;
+		QuadTreeWalker_Push_m4996A7E130E87CCC3AFDA27806D84BC6C974DB25((&V_5), L_129, NULL);
+	}
+
+IL_02cf:
+	{
+		bool L_130;
+		L_130 = QuadTreeWalker_Pop_m8342CAEEC850EB7166469D1A13AC07EC84B671EB((&V_5), NULL);
+		if (L_130)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		bool L_131 = V_3;
+		return L_131;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_CompoundConvex_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m20EC2FF471C2562F2B1D4FFE6B702C773836F249_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* V_0 = NULL;
+	FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_1 = L_0.___Collider;
+		V_0 = (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_1;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_2 = ___1_convexCollider;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_3 = ___2_collector;
+		DistanceQueries_FlipColliderDistanceQuery_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC9686F3B850A8E8249351898736CFD3E3C5FF2F2((&___0_input), L_2, L_3, (&V_1), il2cpp_rgctx_method(method->rgctx_data, 1));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* L_5 = V_0;
+		bool L_6;
+		L_6 = DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m7BC333175EFD937A618A402E4B50C7E2418AE18B(L_4, L_5, (&V_1), il2cpp_rgctx_method(method->rgctx_data, 3));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_CompoundConvex_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mD628CF76151EC2D3B7245FBF307D73DAD6EAAA82_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* V_0 = NULL;
+	FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_1 = L_0.___Collider;
+		V_0 = (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_1;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_2 = ___1_convexCollider;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_3 = ___2_collector;
+		DistanceQueries_FlipColliderDistanceQuery_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mB943E7C4434C97AE297293717A15BAAA573A59B5((&___0_input), L_2, L_3, (&V_1), il2cpp_rgctx_method(method->rgctx_data, 1));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* L_5 = V_0;
+		bool L_6;
+		L_6 = DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m1200D3FBDC77C92CEA0E29FFABA12BE3B644F1E9(L_4, L_5, (&V_1), il2cpp_rgctx_method(method->rgctx_data, 3));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_CompoundConvex_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_mD7CC1707A6BC918FE09FE31C7FCC55F206F62836_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* V_0 = NULL;
+	FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_1 = L_0.___Collider;
+		V_0 = (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_1;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_2 = ___1_convexCollider;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_3 = ___2_collector;
+		DistanceQueries_FlipColliderDistanceQuery_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m3187815F7854F75F088C94D57F384BD609B9CB10((&___0_input), L_2, L_3, (&V_1), il2cpp_rgctx_method(method->rgctx_data, 1));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* L_5 = V_0;
+		bool L_6;
+		L_6 = DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m3A71D61F3DC0ABD1DC55DEA29A2B728B85E55379(L_4, L_5, (&V_1), il2cpp_rgctx_method(method->rgctx_data, 3));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_CompoundConvex_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mFDFEA5598561176A44AADF99F145A486E871D423_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* V_0 = NULL;
+	FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_1 = L_0.___Collider;
+		V_0 = (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_1;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_2 = ___1_convexCollider;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_3 = ___2_collector;
+		DistanceQueries_FlipColliderDistanceQuery_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_mE1A519EE5A7A9ADBF7EF12E953C5384625AB7964((&___0_input), L_2, L_3, (&V_1), il2cpp_rgctx_method(method->rgctx_data, 1));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* L_5 = V_0;
+		bool L_6;
+		L_6 = DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_m6A8A0ED44B40243B377260813014F3D57AD8964D(L_4, L_5, (&V_1), il2cpp_rgctx_method(method->rgctx_data, 3));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_CompoundConvex_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m52FE63B2FA725715DC59E0519D2E57EE963D0989_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* V_0 = NULL;
+	FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_1 = L_0.___Collider;
+		V_0 = (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_1;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_2 = ___1_convexCollider;
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_3 = ___2_collector;
+		DistanceQueries_FlipColliderDistanceQuery_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m5D90A299344038129F21495E1A679D30BCB63C5C((&___0_input), L_2, L_3, (&V_1), il2cpp_rgctx_method(method->rgctx_data, 1));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* L_5 = V_0;
+		bool L_6;
+		L_6 = DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m30D2A298D43F31B37B7189E14AA3D155B4E46602(L_4, L_5, (&V_1), il2cpp_rgctx_method(method->rgctx_data, 3));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_CompoundConvex_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_mA1D3760579287F1C38229A9C3AA3C85979FF005D_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* V_0 = NULL;
+	FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_1 = L_0.___Collider;
+		V_0 = (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_1;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_2 = ___1_convexCollider;
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_3 = ___2_collector;
+		DistanceQueries_FlipColliderDistanceQuery_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m648555E39195C2BBED5F952CE0543826636C7EE9((&___0_input), L_2, L_3, (&V_1), il2cpp_rgctx_method(method->rgctx_data, 1));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* L_5 = V_0;
+		bool L_6;
+		L_6 = DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_m2E70353933CB242768645D28F3A2E799604E7945(L_4, L_5, (&V_1), il2cpp_rgctx_method(method->rgctx_data, 3));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_CompoundConvex_TisIl2CppFullySharedGenericStruct_mC02BB09067DC01832E806DC8E777928F621C58DE_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_convexCollider, Il2CppFullySharedGenericStruct* ___2_collector, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* V_0 = NULL;
+	FlippedColliderDistanceQueryCollector_1_tE28C02CE1D303DB4E460B260FA0CE48459965CD0 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_1 = L_0.___Collider;
+		V_0 = (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_1;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_2 = ___1_convexCollider;
+		Il2CppFullySharedGenericStruct* L_3 = ___2_collector;
+		((  void (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363*, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*, Il2CppFullySharedGenericStruct*, FlippedColliderDistanceQueryCollector_1_tE28C02CE1D303DB4E460B260FA0CE48459965CD0*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))((&___0_input), L_2, L_3, (&V_1), il2cpp_rgctx_method(method->rgctx_data, 1));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_4 = ___0_input;
+		CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028* L_5 = V_0;
+		bool L_6;
+		L_6 = ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*, FlippedColliderDistanceQueryCollector_1_tE28C02CE1D303DB4E460B260FA0CE48459965CD0*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(L_4, L_5, (&V_1), il2cpp_rgctx_method(method->rgctx_data, 3));
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ConvexCollider_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m8763FB06B2D915248F0500AF10FD0E3397112751_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	uint8_t V_3 = 0;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_1 = L_0.___QueryContext;
+		bool L_2 = L_1.___IsInitialized;
+		if (L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_3;
+		L_3 = QueryContext_get_DefaultContext_m1D21718BF6DAF3E16177FE178C9664BD3598D8AA(NULL);
+		(&___0_input)->___QueryContext = L_3;
+	}
+
+IL_0019:
+	{
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_4 = ___1_target;
+		uint8_t L_5;
+		L_5 = Collider_get_Type_m68A82CAC611BD2FBFCCE9F074154697E2144C7A3((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_4, NULL);
+		V_3 = L_5;
+		uint8_t L_6 = V_3;
+		switch (L_6)
+		{
+			case 0:
+			{
+				goto IL_0053;
+			}
+			case 1:
+			{
+				goto IL_0053;
+			}
+			case 2:
+			{
+				goto IL_0053;
+			}
+			case 3:
+			{
+				goto IL_0053;
+			}
+			case 4:
+			{
+				goto IL_0053;
+			}
+			case 5:
+			{
+				goto IL_0053;
+			}
+			case 6:
+			{
+				goto IL_0053;
+			}
+			case 7:
+			{
+				goto IL_019b;
+			}
+			case 8:
+			{
+				goto IL_0192;
+			}
+			case 9:
+			{
+				goto IL_01a4;
+			}
+		}
+	}
+	{
+		goto IL_01ad;
+	}
+
+IL_0053:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_7 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_8 = L_7.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		float L_10 = L_9.___Scale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		ScaledMTransform__ctor_m39AB51931A2386CB396C4F82D5E78B0BF196D82D((&V_0), L_8, ((float)il2cpp_codegen_multiply(L_10, L_13)), NULL);
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_14 = ___1_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_16 = L_15.___Collider;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_17 = V_0;
+		MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC L_18 = L_17.___Transform;
+		float L_19;
+		L_19 = ScaledMTransform_get_Scale_m5267587803DE272DFB0349D1E77606EDB5670E25_inline((&V_0), NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_20;
+		L_20 = DistanceQueries_ConvexConvex_mCC0336A99F81805AB0EFCEAD81B01BC04020A75E(L_14, L_16, L_18, L_19, NULL);
+		V_1 = L_20;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_21 = V_1;
+		float L_22 = L_21.___Distance;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_23 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_24;
+		L_24 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_23, NULL);
+		float L_25;
+		L_25 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_24, NULL);
+		V_2 = ((float)il2cpp_codegen_multiply(L_22, L_25));
+		float L_26 = V_2;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_27 = ___2_collector;
+		float L_28;
+		L_28 = AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_inline(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		if ((!(((float)L_26) < ((float)L_28))))
+		{
+			goto IL_0190;
+		}
+	}
+	{
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_29 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30 = L_29.___NormalInA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_31;
+		L_31 = float3_op_UnaryNegation_m862876969881839716CBAF9AE074FA4BFDFABDF1_inline(L_30, NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_32 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_33 = L_32.___NormalInA;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_34 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_35;
+		L_35 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_34, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_36;
+		L_36 = math_select_m9AE2C8B94207D016E9AA462152BC0C7B468981A7_inline(L_31, L_33, (bool)((((float)L_35) < ((float)(0.0f)))? 1 : 0), NULL);
+		V_4 = L_36;
+		il2cpp_codegen_initobj((&V_6), sizeof(DistanceHit_t24623CA3232004563796E8AA41E409369C35643E));
+		float L_37 = V_2;
+		DistanceHit_set_Fraction_mA6694FDB5B5553FBFC5928C8C18A03839703DCD9_inline((&V_6), L_37, NULL);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_38 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D* L_39 = (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D*)(&L_38->___WorldFromLocalTransform);
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_40;
+		L_40 = ScaledMTransform_get_Rotation_m7FAA763F4B5F7422E31DCA2C964489B224B2133B(L_39, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_41 = V_4;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42;
+		L_42 = math_mul_m4C38B3C1EB3A8DEBFD06421A2FCBE54E7CDC46EE_inline(L_40, L_41, NULL);
+		DistanceHit_set_SurfaceNormal_m7874F8EF4EA6808835DBC4AC5654FF3AFE105E29_inline((&V_6), L_42, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_44 = L_43.___QueryContext;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_45 = L_44.___WorldFromLocalTransform;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_46 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47 = L_46.___PositionOnAinA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = Math_Mul_mCA6D1364A609D79D8FEF7C4ADEE45724888E45C5(L_45, L_47, NULL);
+		DistanceHit_set_Position_m5781C77C6218E0CA4B5B62C1FA5FDD57104D78E7_inline((&V_6), L_48, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_49 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_50 = L_49.___QueryContext;
+		int32_t L_51 = L_50.___RigidBodyIndex;
+		DistanceHit_set_RigidBodyIndex_m47E1CB059EC518B1D8992B9D70535FFE28EA67A6_inline((&V_6), L_51, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_52 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_53 = L_52.___QueryContext;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_54 = L_53.___ColliderKey;
+		DistanceHit_set_ColliderKey_m8948213D21E2582598D986289BFA8960E042C59C_inline((&V_6), L_54, NULL);
+		il2cpp_codegen_runtime_class_init_inline(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_55 = ((ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_StaticFields*)il2cpp_codegen_static_fields_for(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var))->___Empty;
+		(&V_6)->___QueryColliderKey = L_55;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_56 = ___1_target;
+		NullCheck(L_56);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_57 = ((ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B*)L_56)->___Material;
+		DistanceHit_set_Material_m48FBAAAA01AAF1BF7A339E47C956EB06D3231E3B_inline((&V_6), L_57, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_58 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_59 = L_58.___QueryContext;
+		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_60 = L_59.___Entity;
+		DistanceHit_set_Entity_m7126D2D163CC281C620705ABEEFB06312CE27E49_inline((&V_6), L_60, NULL);
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_61 = V_6;
+		V_5 = L_61;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_62 = ___2_collector;
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_63 = V_5;
+		bool L_64;
+		L_64 = AllHitsCollector_1_AddHit_m321B13B37162E71B15CBB0461DF60E435DF9A01C(L_62, L_63, il2cpp_rgctx_method(method->rgctx_data, 3));
+		return L_64;
+	}
+
+IL_0190:
+	{
+		return (bool)0;
+	}
+
+IL_0192:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_65 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_66 = ___1_target;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_67 = ___2_collector;
+		bool L_68;
+		L_68 = DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m89F2276B7B09D75E8A3C7FDC79AEA76292FC5EB9(L_65, (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_66, L_67, il2cpp_rgctx_method(method->rgctx_data, 4));
+		return L_68;
+	}
+
+IL_019b:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_69 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_70 = ___1_target;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_71 = ___2_collector;
+		bool L_72;
+		L_72 = DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_m471B4B28FF02FD6110774810E299AC5ED7286FEA(L_69, (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)L_70, L_71, il2cpp_rgctx_method(method->rgctx_data, 5));
+		return L_72;
+	}
+
+IL_01a4:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_73 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_74 = ___1_target;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_75 = ___2_collector;
+		bool L_76;
+		L_76 = DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mA3DAA75205635A3312AA4AE7F9CC5A6169815D09(L_73, (TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_74, L_75, il2cpp_rgctx_method(method->rgctx_data, 6));
+		return L_76;
+	}
+
+IL_01ad:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ConvexCollider_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_mA27FDD3D2B50983DFE0A7D2384AA03F05EB0F59B_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	uint8_t V_3 = 0;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_1 = L_0.___QueryContext;
+		bool L_2 = L_1.___IsInitialized;
+		if (L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_3;
+		L_3 = QueryContext_get_DefaultContext_m1D21718BF6DAF3E16177FE178C9664BD3598D8AA(NULL);
+		(&___0_input)->___QueryContext = L_3;
+	}
+
+IL_0019:
+	{
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_4 = ___1_target;
+		uint8_t L_5;
+		L_5 = Collider_get_Type_m68A82CAC611BD2FBFCCE9F074154697E2144C7A3((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_4, NULL);
+		V_3 = L_5;
+		uint8_t L_6 = V_3;
+		switch (L_6)
+		{
+			case 0:
+			{
+				goto IL_0053;
+			}
+			case 1:
+			{
+				goto IL_0053;
+			}
+			case 2:
+			{
+				goto IL_0053;
+			}
+			case 3:
+			{
+				goto IL_0053;
+			}
+			case 4:
+			{
+				goto IL_0053;
+			}
+			case 5:
+			{
+				goto IL_0053;
+			}
+			case 6:
+			{
+				goto IL_0053;
+			}
+			case 7:
+			{
+				goto IL_019b;
+			}
+			case 8:
+			{
+				goto IL_0192;
+			}
+			case 9:
+			{
+				goto IL_01a4;
+			}
+		}
+	}
+	{
+		goto IL_01ad;
+	}
+
+IL_0053:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_7 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_8 = L_7.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		float L_10 = L_9.___Scale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		ScaledMTransform__ctor_m39AB51931A2386CB396C4F82D5E78B0BF196D82D((&V_0), L_8, ((float)il2cpp_codegen_multiply(L_10, L_13)), NULL);
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_14 = ___1_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_16 = L_15.___Collider;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_17 = V_0;
+		MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC L_18 = L_17.___Transform;
+		float L_19;
+		L_19 = ScaledMTransform_get_Scale_m5267587803DE272DFB0349D1E77606EDB5670E25_inline((&V_0), NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_20;
+		L_20 = DistanceQueries_ConvexConvex_mCC0336A99F81805AB0EFCEAD81B01BC04020A75E(L_14, L_16, L_18, L_19, NULL);
+		V_1 = L_20;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_21 = V_1;
+		float L_22 = L_21.___Distance;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_23 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_24;
+		L_24 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_23, NULL);
+		float L_25;
+		L_25 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_24, NULL);
+		V_2 = ((float)il2cpp_codegen_multiply(L_22, L_25));
+		float L_26 = V_2;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_27 = ___2_collector;
+		float L_28;
+		L_28 = AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_inline(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		if ((!(((float)L_26) < ((float)L_28))))
+		{
+			goto IL_0190;
+		}
+	}
+	{
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_29 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30 = L_29.___NormalInA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_31;
+		L_31 = float3_op_UnaryNegation_m862876969881839716CBAF9AE074FA4BFDFABDF1_inline(L_30, NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_32 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_33 = L_32.___NormalInA;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_34 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_35;
+		L_35 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_34, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_36;
+		L_36 = math_select_m9AE2C8B94207D016E9AA462152BC0C7B468981A7_inline(L_31, L_33, (bool)((((float)L_35) < ((float)(0.0f)))? 1 : 0), NULL);
+		V_4 = L_36;
+		il2cpp_codegen_initobj((&V_6), sizeof(DistanceHit_t24623CA3232004563796E8AA41E409369C35643E));
+		float L_37 = V_2;
+		DistanceHit_set_Fraction_mA6694FDB5B5553FBFC5928C8C18A03839703DCD9_inline((&V_6), L_37, NULL);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_38 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D* L_39 = (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D*)(&L_38->___WorldFromLocalTransform);
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_40;
+		L_40 = ScaledMTransform_get_Rotation_m7FAA763F4B5F7422E31DCA2C964489B224B2133B(L_39, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_41 = V_4;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42;
+		L_42 = math_mul_m4C38B3C1EB3A8DEBFD06421A2FCBE54E7CDC46EE_inline(L_40, L_41, NULL);
+		DistanceHit_set_SurfaceNormal_m7874F8EF4EA6808835DBC4AC5654FF3AFE105E29_inline((&V_6), L_42, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_44 = L_43.___QueryContext;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_45 = L_44.___WorldFromLocalTransform;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_46 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47 = L_46.___PositionOnAinA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = Math_Mul_mCA6D1364A609D79D8FEF7C4ADEE45724888E45C5(L_45, L_47, NULL);
+		DistanceHit_set_Position_m5781C77C6218E0CA4B5B62C1FA5FDD57104D78E7_inline((&V_6), L_48, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_49 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_50 = L_49.___QueryContext;
+		int32_t L_51 = L_50.___RigidBodyIndex;
+		DistanceHit_set_RigidBodyIndex_m47E1CB059EC518B1D8992B9D70535FFE28EA67A6_inline((&V_6), L_51, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_52 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_53 = L_52.___QueryContext;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_54 = L_53.___ColliderKey;
+		DistanceHit_set_ColliderKey_m8948213D21E2582598D986289BFA8960E042C59C_inline((&V_6), L_54, NULL);
+		il2cpp_codegen_runtime_class_init_inline(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_55 = ((ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_StaticFields*)il2cpp_codegen_static_fields_for(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var))->___Empty;
+		(&V_6)->___QueryColliderKey = L_55;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_56 = ___1_target;
+		NullCheck(L_56);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_57 = ((ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B*)L_56)->___Material;
+		DistanceHit_set_Material_m48FBAAAA01AAF1BF7A339E47C956EB06D3231E3B_inline((&V_6), L_57, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_58 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_59 = L_58.___QueryContext;
+		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_60 = L_59.___Entity;
+		DistanceHit_set_Entity_m7126D2D163CC281C620705ABEEFB06312CE27E49_inline((&V_6), L_60, NULL);
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_61 = V_6;
+		V_5 = L_61;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_62 = ___2_collector;
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_63 = V_5;
+		bool L_64;
+		L_64 = AnyHitCollector_1_AddHit_m09C1E3D046EA0D121F572546F1331505F24D68A9(L_62, L_63, il2cpp_rgctx_method(method->rgctx_data, 3));
+		return L_64;
+	}
+
+IL_0190:
+	{
+		return (bool)0;
+	}
+
+IL_0192:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_65 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_66 = ___1_target;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_67 = ___2_collector;
+		bool L_68;
+		L_68 = DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m42DADD12C25DB331413220FCB6C901B84420AE00(L_65, (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_66, L_67, il2cpp_rgctx_method(method->rgctx_data, 4));
+		return L_68;
+	}
+
+IL_019b:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_69 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_70 = ___1_target;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_71 = ___2_collector;
+		bool L_72;
+		L_72 = DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m1DE516877AB61725A7EBA1835783FA2A5BFA384A(L_69, (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)L_70, L_71, il2cpp_rgctx_method(method->rgctx_data, 5));
+		return L_72;
+	}
+
+IL_01a4:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_73 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_74 = ___1_target;
+		AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* L_75 = ___2_collector;
+		bool L_76;
+		L_76 = DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisAnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21_m857BFE19A09A1EE687959BDD17B92F38A5C9906E(L_73, (TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_74, L_75, il2cpp_rgctx_method(method->rgctx_data, 6));
+		return L_76;
+	}
+
+IL_01ad:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ConvexCollider_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m047A8299B5EBDB01A87CF83F3FCB608A4DFCE649_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	uint8_t V_3 = 0;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_1 = L_0.___QueryContext;
+		bool L_2 = L_1.___IsInitialized;
+		if (L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_3;
+		L_3 = QueryContext_get_DefaultContext_m1D21718BF6DAF3E16177FE178C9664BD3598D8AA(NULL);
+		(&___0_input)->___QueryContext = L_3;
+	}
+
+IL_0019:
+	{
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_4 = ___1_target;
+		uint8_t L_5;
+		L_5 = Collider_get_Type_m68A82CAC611BD2FBFCCE9F074154697E2144C7A3((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_4, NULL);
+		V_3 = L_5;
+		uint8_t L_6 = V_3;
+		switch (L_6)
+		{
+			case 0:
+			{
+				goto IL_0053;
+			}
+			case 1:
+			{
+				goto IL_0053;
+			}
+			case 2:
+			{
+				goto IL_0053;
+			}
+			case 3:
+			{
+				goto IL_0053;
+			}
+			case 4:
+			{
+				goto IL_0053;
+			}
+			case 5:
+			{
+				goto IL_0053;
+			}
+			case 6:
+			{
+				goto IL_0053;
+			}
+			case 7:
+			{
+				goto IL_019b;
+			}
+			case 8:
+			{
+				goto IL_0192;
+			}
+			case 9:
+			{
+				goto IL_01a4;
+			}
+		}
+	}
+	{
+		goto IL_01ad;
+	}
+
+IL_0053:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_7 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_8 = L_7.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		float L_10 = L_9.___Scale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		ScaledMTransform__ctor_m39AB51931A2386CB396C4F82D5E78B0BF196D82D((&V_0), L_8, ((float)il2cpp_codegen_multiply(L_10, L_13)), NULL);
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_14 = ___1_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_16 = L_15.___Collider;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_17 = V_0;
+		MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC L_18 = L_17.___Transform;
+		float L_19;
+		L_19 = ScaledMTransform_get_Scale_m5267587803DE272DFB0349D1E77606EDB5670E25_inline((&V_0), NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_20;
+		L_20 = DistanceQueries_ConvexConvex_mCC0336A99F81805AB0EFCEAD81B01BC04020A75E(L_14, L_16, L_18, L_19, NULL);
+		V_1 = L_20;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_21 = V_1;
+		float L_22 = L_21.___Distance;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_23 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_24;
+		L_24 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_23, NULL);
+		float L_25;
+		L_25 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_24, NULL);
+		V_2 = ((float)il2cpp_codegen_multiply(L_22, L_25));
+		float L_26 = V_2;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_27 = ___2_collector;
+		float L_28;
+		L_28 = ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_inline(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		if ((!(((float)L_26) < ((float)L_28))))
+		{
+			goto IL_0190;
+		}
+	}
+	{
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_29 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30 = L_29.___NormalInA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_31;
+		L_31 = float3_op_UnaryNegation_m862876969881839716CBAF9AE074FA4BFDFABDF1_inline(L_30, NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_32 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_33 = L_32.___NormalInA;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_34 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_35;
+		L_35 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_34, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_36;
+		L_36 = math_select_m9AE2C8B94207D016E9AA462152BC0C7B468981A7_inline(L_31, L_33, (bool)((((float)L_35) < ((float)(0.0f)))? 1 : 0), NULL);
+		V_4 = L_36;
+		il2cpp_codegen_initobj((&V_6), sizeof(DistanceHit_t24623CA3232004563796E8AA41E409369C35643E));
+		float L_37 = V_2;
+		DistanceHit_set_Fraction_mA6694FDB5B5553FBFC5928C8C18A03839703DCD9_inline((&V_6), L_37, NULL);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_38 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D* L_39 = (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D*)(&L_38->___WorldFromLocalTransform);
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_40;
+		L_40 = ScaledMTransform_get_Rotation_m7FAA763F4B5F7422E31DCA2C964489B224B2133B(L_39, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_41 = V_4;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42;
+		L_42 = math_mul_m4C38B3C1EB3A8DEBFD06421A2FCBE54E7CDC46EE_inline(L_40, L_41, NULL);
+		DistanceHit_set_SurfaceNormal_m7874F8EF4EA6808835DBC4AC5654FF3AFE105E29_inline((&V_6), L_42, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_44 = L_43.___QueryContext;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_45 = L_44.___WorldFromLocalTransform;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_46 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47 = L_46.___PositionOnAinA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = Math_Mul_mCA6D1364A609D79D8FEF7C4ADEE45724888E45C5(L_45, L_47, NULL);
+		DistanceHit_set_Position_m5781C77C6218E0CA4B5B62C1FA5FDD57104D78E7_inline((&V_6), L_48, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_49 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_50 = L_49.___QueryContext;
+		int32_t L_51 = L_50.___RigidBodyIndex;
+		DistanceHit_set_RigidBodyIndex_m47E1CB059EC518B1D8992B9D70535FFE28EA67A6_inline((&V_6), L_51, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_52 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_53 = L_52.___QueryContext;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_54 = L_53.___ColliderKey;
+		DistanceHit_set_ColliderKey_m8948213D21E2582598D986289BFA8960E042C59C_inline((&V_6), L_54, NULL);
+		il2cpp_codegen_runtime_class_init_inline(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_55 = ((ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_StaticFields*)il2cpp_codegen_static_fields_for(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var))->___Empty;
+		(&V_6)->___QueryColliderKey = L_55;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_56 = ___1_target;
+		NullCheck(L_56);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_57 = ((ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B*)L_56)->___Material;
+		DistanceHit_set_Material_m48FBAAAA01AAF1BF7A339E47C956EB06D3231E3B_inline((&V_6), L_57, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_58 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_59 = L_58.___QueryContext;
+		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_60 = L_59.___Entity;
+		DistanceHit_set_Entity_m7126D2D163CC281C620705ABEEFB06312CE27E49_inline((&V_6), L_60, NULL);
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_61 = V_6;
+		V_5 = L_61;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_62 = ___2_collector;
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_63 = V_5;
+		bool L_64;
+		L_64 = ClosestHitCollector_1_AddHit_m0A9A036016419B68ABE4B6188B9B5C0DB38A346A(L_62, L_63, il2cpp_rgctx_method(method->rgctx_data, 3));
+		return L_64;
+	}
+
+IL_0190:
+	{
+		return (bool)0;
+	}
+
+IL_0192:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_65 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_66 = ___1_target;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_67 = ___2_collector;
+		bool L_68;
+		L_68 = DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m56B0F086C827F87CF7FA713843190A894A45F561(L_65, (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_66, L_67, il2cpp_rgctx_method(method->rgctx_data, 4));
+		return L_68;
+	}
+
+IL_019b:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_69 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_70 = ___1_target;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_71 = ___2_collector;
+		bool L_72;
+		L_72 = DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m48AE3339901E3ADF4F19518F6267257D5033216C(L_69, (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)L_70, L_71, il2cpp_rgctx_method(method->rgctx_data, 5));
+		return L_72;
+	}
+
+IL_01a4:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_73 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_74 = ___1_target;
+		ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* L_75 = ___2_collector;
+		bool L_76;
+		L_76 = DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0_m87F0893D3163F9620A5F589BD71DF911E0D86BF8(L_73, (TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_74, L_75, il2cpp_rgctx_method(method->rgctx_data, 6));
+		return L_76;
+	}
+
+IL_01ad:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ConvexCollider_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m162C84F01EE4018598E1D4F344BB350088BCE624_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	uint8_t V_3 = 0;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_1 = L_0.___QueryContext;
+		bool L_2 = L_1.___IsInitialized;
+		if (L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_3;
+		L_3 = QueryContext_get_DefaultContext_m1D21718BF6DAF3E16177FE178C9664BD3598D8AA(NULL);
+		(&___0_input)->___QueryContext = L_3;
+	}
+
+IL_0019:
+	{
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_4 = ___1_target;
+		uint8_t L_5;
+		L_5 = Collider_get_Type_m68A82CAC611BD2FBFCCE9F074154697E2144C7A3((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_4, NULL);
+		V_3 = L_5;
+		uint8_t L_6 = V_3;
+		switch (L_6)
+		{
+			case 0:
+			{
+				goto IL_0053;
+			}
+			case 1:
+			{
+				goto IL_0053;
+			}
+			case 2:
+			{
+				goto IL_0053;
+			}
+			case 3:
+			{
+				goto IL_0053;
+			}
+			case 4:
+			{
+				goto IL_0053;
+			}
+			case 5:
+			{
+				goto IL_0053;
+			}
+			case 6:
+			{
+				goto IL_0053;
+			}
+			case 7:
+			{
+				goto IL_019b;
+			}
+			case 8:
+			{
+				goto IL_0192;
+			}
+			case 9:
+			{
+				goto IL_01a4;
+			}
+		}
+	}
+	{
+		goto IL_01ad;
+	}
+
+IL_0053:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_7 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_8 = L_7.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		float L_10 = L_9.___Scale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		ScaledMTransform__ctor_m39AB51931A2386CB396C4F82D5E78B0BF196D82D((&V_0), L_8, ((float)il2cpp_codegen_multiply(L_10, L_13)), NULL);
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_14 = ___1_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_16 = L_15.___Collider;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_17 = V_0;
+		MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC L_18 = L_17.___Transform;
+		float L_19;
+		L_19 = ScaledMTransform_get_Scale_m5267587803DE272DFB0349D1E77606EDB5670E25_inline((&V_0), NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_20;
+		L_20 = DistanceQueries_ConvexConvex_mCC0336A99F81805AB0EFCEAD81B01BC04020A75E(L_14, L_16, L_18, L_19, NULL);
+		V_1 = L_20;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_21 = V_1;
+		float L_22 = L_21.___Distance;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_23 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_24;
+		L_24 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_23, NULL);
+		float L_25;
+		L_25 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_24, NULL);
+		V_2 = ((float)il2cpp_codegen_multiply(L_22, L_25));
+		float L_26 = V_2;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m53DDFA61F04466DC7BFC1AC8B9E541B77387AE56(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		if ((!(((float)L_26) < ((float)L_28))))
+		{
+			goto IL_0190;
+		}
+	}
+	{
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_29 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30 = L_29.___NormalInA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_31;
+		L_31 = float3_op_UnaryNegation_m862876969881839716CBAF9AE074FA4BFDFABDF1_inline(L_30, NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_32 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_33 = L_32.___NormalInA;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_34 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_35;
+		L_35 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_34, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_36;
+		L_36 = math_select_m9AE2C8B94207D016E9AA462152BC0C7B468981A7_inline(L_31, L_33, (bool)((((float)L_35) < ((float)(0.0f)))? 1 : 0), NULL);
+		V_4 = L_36;
+		il2cpp_codegen_initobj((&V_6), sizeof(DistanceHit_t24623CA3232004563796E8AA41E409369C35643E));
+		float L_37 = V_2;
+		DistanceHit_set_Fraction_mA6694FDB5B5553FBFC5928C8C18A03839703DCD9_inline((&V_6), L_37, NULL);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_38 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D* L_39 = (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D*)(&L_38->___WorldFromLocalTransform);
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_40;
+		L_40 = ScaledMTransform_get_Rotation_m7FAA763F4B5F7422E31DCA2C964489B224B2133B(L_39, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_41 = V_4;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42;
+		L_42 = math_mul_m4C38B3C1EB3A8DEBFD06421A2FCBE54E7CDC46EE_inline(L_40, L_41, NULL);
+		DistanceHit_set_SurfaceNormal_m7874F8EF4EA6808835DBC4AC5654FF3AFE105E29_inline((&V_6), L_42, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_44 = L_43.___QueryContext;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_45 = L_44.___WorldFromLocalTransform;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_46 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47 = L_46.___PositionOnAinA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = Math_Mul_mCA6D1364A609D79D8FEF7C4ADEE45724888E45C5(L_45, L_47, NULL);
+		DistanceHit_set_Position_m5781C77C6218E0CA4B5B62C1FA5FDD57104D78E7_inline((&V_6), L_48, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_49 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_50 = L_49.___QueryContext;
+		int32_t L_51 = L_50.___RigidBodyIndex;
+		DistanceHit_set_RigidBodyIndex_m47E1CB059EC518B1D8992B9D70535FFE28EA67A6_inline((&V_6), L_51, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_52 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_53 = L_52.___QueryContext;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_54 = L_53.___ColliderKey;
+		DistanceHit_set_ColliderKey_m8948213D21E2582598D986289BFA8960E042C59C_inline((&V_6), L_54, NULL);
+		il2cpp_codegen_runtime_class_init_inline(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_55 = ((ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_StaticFields*)il2cpp_codegen_static_fields_for(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var))->___Empty;
+		(&V_6)->___QueryColliderKey = L_55;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_56 = ___1_target;
+		NullCheck(L_56);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_57 = ((ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B*)L_56)->___Material;
+		DistanceHit_set_Material_m48FBAAAA01AAF1BF7A339E47C956EB06D3231E3B_inline((&V_6), L_57, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_58 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_59 = L_58.___QueryContext;
+		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_60 = L_59.___Entity;
+		DistanceHit_set_Entity_m7126D2D163CC281C620705ABEEFB06312CE27E49_inline((&V_6), L_60, NULL);
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_61 = V_6;
+		V_5 = L_61;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_62 = ___2_collector;
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_63 = V_5;
+		bool L_64;
+		L_64 = FlippedColliderDistanceQueryCollector_1_AddHit_mF617CB14BAFF6922ED6B5068BAD19F6551E6EE7D(L_62, L_63, il2cpp_rgctx_method(method->rgctx_data, 3));
+		return L_64;
+	}
+
+IL_0190:
+	{
+		return (bool)0;
+	}
+
+IL_0192:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_65 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_66 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_67 = ___2_collector;
+		bool L_68;
+		L_68 = DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m7BC333175EFD937A618A402E4B50C7E2418AE18B(L_65, (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_66, L_67, il2cpp_rgctx_method(method->rgctx_data, 4));
+		return L_68;
+	}
+
+IL_019b:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_69 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_70 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_71 = ___2_collector;
+		bool L_72;
+		L_72 = DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m026677493FA01FC15783B27BBCB717E440B0860D(L_69, (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)L_70, L_71, il2cpp_rgctx_method(method->rgctx_data, 5));
+		return L_72;
+	}
+
+IL_01a4:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_73 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_74 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_75 = ___2_collector;
+		bool L_76;
+		L_76 = DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7_m513FF8667B2CE6678CC71DF332E468385FD9B181(L_73, (TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_74, L_75, il2cpp_rgctx_method(method->rgctx_data, 6));
+		return L_76;
+	}
+
+IL_01ad:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ConvexCollider_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m01BAD8985308D19C108C8DD10E7245BBCD8FBBAD_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	uint8_t V_3 = 0;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_1 = L_0.___QueryContext;
+		bool L_2 = L_1.___IsInitialized;
+		if (L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_3;
+		L_3 = QueryContext_get_DefaultContext_m1D21718BF6DAF3E16177FE178C9664BD3598D8AA(NULL);
+		(&___0_input)->___QueryContext = L_3;
+	}
+
+IL_0019:
+	{
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_4 = ___1_target;
+		uint8_t L_5;
+		L_5 = Collider_get_Type_m68A82CAC611BD2FBFCCE9F074154697E2144C7A3((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_4, NULL);
+		V_3 = L_5;
+		uint8_t L_6 = V_3;
+		switch (L_6)
+		{
+			case 0:
+			{
+				goto IL_0053;
+			}
+			case 1:
+			{
+				goto IL_0053;
+			}
+			case 2:
+			{
+				goto IL_0053;
+			}
+			case 3:
+			{
+				goto IL_0053;
+			}
+			case 4:
+			{
+				goto IL_0053;
+			}
+			case 5:
+			{
+				goto IL_0053;
+			}
+			case 6:
+			{
+				goto IL_0053;
+			}
+			case 7:
+			{
+				goto IL_019b;
+			}
+			case 8:
+			{
+				goto IL_0192;
+			}
+			case 9:
+			{
+				goto IL_01a4;
+			}
+		}
+	}
+	{
+		goto IL_01ad;
+	}
+
+IL_0053:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_7 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_8 = L_7.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		float L_10 = L_9.___Scale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		ScaledMTransform__ctor_m39AB51931A2386CB396C4F82D5E78B0BF196D82D((&V_0), L_8, ((float)il2cpp_codegen_multiply(L_10, L_13)), NULL);
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_14 = ___1_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_16 = L_15.___Collider;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_17 = V_0;
+		MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC L_18 = L_17.___Transform;
+		float L_19;
+		L_19 = ScaledMTransform_get_Scale_m5267587803DE272DFB0349D1E77606EDB5670E25_inline((&V_0), NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_20;
+		L_20 = DistanceQueries_ConvexConvex_mCC0336A99F81805AB0EFCEAD81B01BC04020A75E(L_14, L_16, L_18, L_19, NULL);
+		V_1 = L_20;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_21 = V_1;
+		float L_22 = L_21.___Distance;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_23 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_24;
+		L_24 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_23, NULL);
+		float L_25;
+		L_25 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_24, NULL);
+		V_2 = ((float)il2cpp_codegen_multiply(L_22, L_25));
+		float L_26 = V_2;
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDD7B88488C4F5105C054B34000526DC286FB513C(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		if ((!(((float)L_26) < ((float)L_28))))
+		{
+			goto IL_0190;
+		}
+	}
+	{
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_29 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30 = L_29.___NormalInA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_31;
+		L_31 = float3_op_UnaryNegation_m862876969881839716CBAF9AE074FA4BFDFABDF1_inline(L_30, NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_32 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_33 = L_32.___NormalInA;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_34 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_35;
+		L_35 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_34, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_36;
+		L_36 = math_select_m9AE2C8B94207D016E9AA462152BC0C7B468981A7_inline(L_31, L_33, (bool)((((float)L_35) < ((float)(0.0f)))? 1 : 0), NULL);
+		V_4 = L_36;
+		il2cpp_codegen_initobj((&V_6), sizeof(DistanceHit_t24623CA3232004563796E8AA41E409369C35643E));
+		float L_37 = V_2;
+		DistanceHit_set_Fraction_mA6694FDB5B5553FBFC5928C8C18A03839703DCD9_inline((&V_6), L_37, NULL);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_38 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D* L_39 = (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D*)(&L_38->___WorldFromLocalTransform);
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_40;
+		L_40 = ScaledMTransform_get_Rotation_m7FAA763F4B5F7422E31DCA2C964489B224B2133B(L_39, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_41 = V_4;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42;
+		L_42 = math_mul_m4C38B3C1EB3A8DEBFD06421A2FCBE54E7CDC46EE_inline(L_40, L_41, NULL);
+		DistanceHit_set_SurfaceNormal_m7874F8EF4EA6808835DBC4AC5654FF3AFE105E29_inline((&V_6), L_42, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_44 = L_43.___QueryContext;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_45 = L_44.___WorldFromLocalTransform;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_46 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47 = L_46.___PositionOnAinA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = Math_Mul_mCA6D1364A609D79D8FEF7C4ADEE45724888E45C5(L_45, L_47, NULL);
+		DistanceHit_set_Position_m5781C77C6218E0CA4B5B62C1FA5FDD57104D78E7_inline((&V_6), L_48, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_49 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_50 = L_49.___QueryContext;
+		int32_t L_51 = L_50.___RigidBodyIndex;
+		DistanceHit_set_RigidBodyIndex_m47E1CB059EC518B1D8992B9D70535FFE28EA67A6_inline((&V_6), L_51, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_52 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_53 = L_52.___QueryContext;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_54 = L_53.___ColliderKey;
+		DistanceHit_set_ColliderKey_m8948213D21E2582598D986289BFA8960E042C59C_inline((&V_6), L_54, NULL);
+		il2cpp_codegen_runtime_class_init_inline(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_55 = ((ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_StaticFields*)il2cpp_codegen_static_fields_for(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var))->___Empty;
+		(&V_6)->___QueryColliderKey = L_55;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_56 = ___1_target;
+		NullCheck(L_56);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_57 = ((ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B*)L_56)->___Material;
+		DistanceHit_set_Material_m48FBAAAA01AAF1BF7A339E47C956EB06D3231E3B_inline((&V_6), L_57, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_58 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_59 = L_58.___QueryContext;
+		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_60 = L_59.___Entity;
+		DistanceHit_set_Entity_m7126D2D163CC281C620705ABEEFB06312CE27E49_inline((&V_6), L_60, NULL);
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_61 = V_6;
+		V_5 = L_61;
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_62 = ___2_collector;
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_63 = V_5;
+		bool L_64;
+		L_64 = FlippedColliderDistanceQueryCollector_1_AddHit_m61B01C65F9A8821B943ED93B6CD48B213E675678(L_62, L_63, il2cpp_rgctx_method(method->rgctx_data, 3));
+		return L_64;
+	}
+
+IL_0190:
+	{
+		return (bool)0;
+	}
+
+IL_0192:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_65 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_66 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_67 = ___2_collector;
+		bool L_68;
+		L_68 = DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m1200D3FBDC77C92CEA0E29FFABA12BE3B644F1E9(L_65, (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_66, L_67, il2cpp_rgctx_method(method->rgctx_data, 4));
+		return L_68;
+	}
+
+IL_019b:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_69 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_70 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_71 = ___2_collector;
+		bool L_72;
+		L_72 = DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_m6C3DDC0DE8292EB9E53483C831580E4C61863968(L_69, (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)L_70, L_71, il2cpp_rgctx_method(method->rgctx_data, 5));
+		return L_72;
+	}
+
+IL_01a4:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_73 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_74 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5* L_75 = ___2_collector;
+		bool L_76;
+		L_76 = DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t297DA034E642B5008EC78F20F9F9AA2A647A2AD5_mBA507D5FC98EC8B7AF74D795899602397338A768(L_73, (TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_74, L_75, il2cpp_rgctx_method(method->rgctx_data, 6));
+		return L_76;
+	}
+
+IL_01ad:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ConvexCollider_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_mF245DB715D8204E9B700AF26D06510875E23615C_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	uint8_t V_3 = 0;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_1 = L_0.___QueryContext;
+		bool L_2 = L_1.___IsInitialized;
+		if (L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_3;
+		L_3 = QueryContext_get_DefaultContext_m1D21718BF6DAF3E16177FE178C9664BD3598D8AA(NULL);
+		(&___0_input)->___QueryContext = L_3;
+	}
+
+IL_0019:
+	{
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_4 = ___1_target;
+		uint8_t L_5;
+		L_5 = Collider_get_Type_m68A82CAC611BD2FBFCCE9F074154697E2144C7A3((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_4, NULL);
+		V_3 = L_5;
+		uint8_t L_6 = V_3;
+		switch (L_6)
+		{
+			case 0:
+			{
+				goto IL_0053;
+			}
+			case 1:
+			{
+				goto IL_0053;
+			}
+			case 2:
+			{
+				goto IL_0053;
+			}
+			case 3:
+			{
+				goto IL_0053;
+			}
+			case 4:
+			{
+				goto IL_0053;
+			}
+			case 5:
+			{
+				goto IL_0053;
+			}
+			case 6:
+			{
+				goto IL_0053;
+			}
+			case 7:
+			{
+				goto IL_019b;
+			}
+			case 8:
+			{
+				goto IL_0192;
+			}
+			case 9:
+			{
+				goto IL_01a4;
+			}
+		}
+	}
+	{
+		goto IL_01ad;
+	}
+
+IL_0053:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_7 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_8 = L_7.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		float L_10 = L_9.___Scale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		ScaledMTransform__ctor_m39AB51931A2386CB396C4F82D5E78B0BF196D82D((&V_0), L_8, ((float)il2cpp_codegen_multiply(L_10, L_13)), NULL);
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_14 = ___1_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_16 = L_15.___Collider;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_17 = V_0;
+		MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC L_18 = L_17.___Transform;
+		float L_19;
+		L_19 = ScaledMTransform_get_Scale_m5267587803DE272DFB0349D1E77606EDB5670E25_inline((&V_0), NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_20;
+		L_20 = DistanceQueries_ConvexConvex_mCC0336A99F81805AB0EFCEAD81B01BC04020A75E(L_14, L_16, L_18, L_19, NULL);
+		V_1 = L_20;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_21 = V_1;
+		float L_22 = L_21.___Distance;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_23 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_24;
+		L_24 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_23, NULL);
+		float L_25;
+		L_25 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_24, NULL);
+		V_2 = ((float)il2cpp_codegen_multiply(L_22, L_25));
+		float L_26 = V_2;
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m8094044667E06773E5C229E8C2352653FBDBB45F(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		if ((!(((float)L_26) < ((float)L_28))))
+		{
+			goto IL_0190;
+		}
+	}
+	{
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_29 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30 = L_29.___NormalInA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_31;
+		L_31 = float3_op_UnaryNegation_m862876969881839716CBAF9AE074FA4BFDFABDF1_inline(L_30, NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_32 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_33 = L_32.___NormalInA;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_34 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_35;
+		L_35 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_34, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_36;
+		L_36 = math_select_m9AE2C8B94207D016E9AA462152BC0C7B468981A7_inline(L_31, L_33, (bool)((((float)L_35) < ((float)(0.0f)))? 1 : 0), NULL);
+		V_4 = L_36;
+		il2cpp_codegen_initobj((&V_6), sizeof(DistanceHit_t24623CA3232004563796E8AA41E409369C35643E));
+		float L_37 = V_2;
+		DistanceHit_set_Fraction_mA6694FDB5B5553FBFC5928C8C18A03839703DCD9_inline((&V_6), L_37, NULL);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_38 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D* L_39 = (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D*)(&L_38->___WorldFromLocalTransform);
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_40;
+		L_40 = ScaledMTransform_get_Rotation_m7FAA763F4B5F7422E31DCA2C964489B224B2133B(L_39, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_41 = V_4;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42;
+		L_42 = math_mul_m4C38B3C1EB3A8DEBFD06421A2FCBE54E7CDC46EE_inline(L_40, L_41, NULL);
+		DistanceHit_set_SurfaceNormal_m7874F8EF4EA6808835DBC4AC5654FF3AFE105E29_inline((&V_6), L_42, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_44 = L_43.___QueryContext;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_45 = L_44.___WorldFromLocalTransform;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_46 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47 = L_46.___PositionOnAinA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = Math_Mul_mCA6D1364A609D79D8FEF7C4ADEE45724888E45C5(L_45, L_47, NULL);
+		DistanceHit_set_Position_m5781C77C6218E0CA4B5B62C1FA5FDD57104D78E7_inline((&V_6), L_48, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_49 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_50 = L_49.___QueryContext;
+		int32_t L_51 = L_50.___RigidBodyIndex;
+		DistanceHit_set_RigidBodyIndex_m47E1CB059EC518B1D8992B9D70535FFE28EA67A6_inline((&V_6), L_51, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_52 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_53 = L_52.___QueryContext;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_54 = L_53.___ColliderKey;
+		DistanceHit_set_ColliderKey_m8948213D21E2582598D986289BFA8960E042C59C_inline((&V_6), L_54, NULL);
+		il2cpp_codegen_runtime_class_init_inline(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_55 = ((ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_StaticFields*)il2cpp_codegen_static_fields_for(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var))->___Empty;
+		(&V_6)->___QueryColliderKey = L_55;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_56 = ___1_target;
+		NullCheck(L_56);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_57 = ((ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B*)L_56)->___Material;
+		DistanceHit_set_Material_m48FBAAAA01AAF1BF7A339E47C956EB06D3231E3B_inline((&V_6), L_57, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_58 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_59 = L_58.___QueryContext;
+		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_60 = L_59.___Entity;
+		DistanceHit_set_Entity_m7126D2D163CC281C620705ABEEFB06312CE27E49_inline((&V_6), L_60, NULL);
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_61 = V_6;
+		V_5 = L_61;
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_62 = ___2_collector;
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_63 = V_5;
+		bool L_64;
+		L_64 = FlippedColliderDistanceQueryCollector_1_AddHit_m2115BD3C177F1BF59D4B63AF7649321FFBBD9903(L_62, L_63, il2cpp_rgctx_method(method->rgctx_data, 3));
+		return L_64;
+	}
+
+IL_0190:
+	{
+		return (bool)0;
+	}
+
+IL_0192:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_65 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_66 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_67 = ___2_collector;
+		bool L_68;
+		L_68 = DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m3A71D61F3DC0ABD1DC55DEA29A2B728B85E55379(L_65, (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_66, L_67, il2cpp_rgctx_method(method->rgctx_data, 4));
+		return L_68;
+	}
+
+IL_019b:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_69 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_70 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_71 = ___2_collector;
+		bool L_72;
+		L_72 = DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m35E548666DAF554054CD9D342DC8408BBA50E3DF(L_69, (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)L_70, L_71, il2cpp_rgctx_method(method->rgctx_data, 5));
+		return L_72;
+	}
+
+IL_01a4:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_73 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_74 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164* L_75 = ___2_collector;
+		bool L_76;
+		L_76 = DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_t3DDF17ABBE5CB9559AA6DB84BFA42FD4CD290164_m487354726077A5D0405A8AE4B498CF75F7C38EAD(L_73, (TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_74, L_75, il2cpp_rgctx_method(method->rgctx_data, 6));
+		return L_76;
+	}
+
+IL_01ad:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ConvexCollider_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_mB93349F645B738C80D97BA5FBA5C9F2B91CBFFBC_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	uint8_t V_3 = 0;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_1 = L_0.___QueryContext;
+		bool L_2 = L_1.___IsInitialized;
+		if (L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_3;
+		L_3 = QueryContext_get_DefaultContext_m1D21718BF6DAF3E16177FE178C9664BD3598D8AA(NULL);
+		(&___0_input)->___QueryContext = L_3;
+	}
+
+IL_0019:
+	{
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_4 = ___1_target;
+		uint8_t L_5;
+		L_5 = Collider_get_Type_m68A82CAC611BD2FBFCCE9F074154697E2144C7A3((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_4, NULL);
+		V_3 = L_5;
+		uint8_t L_6 = V_3;
+		switch (L_6)
+		{
+			case 0:
+			{
+				goto IL_0053;
+			}
+			case 1:
+			{
+				goto IL_0053;
+			}
+			case 2:
+			{
+				goto IL_0053;
+			}
+			case 3:
+			{
+				goto IL_0053;
+			}
+			case 4:
+			{
+				goto IL_0053;
+			}
+			case 5:
+			{
+				goto IL_0053;
+			}
+			case 6:
+			{
+				goto IL_0053;
+			}
+			case 7:
+			{
+				goto IL_019b;
+			}
+			case 8:
+			{
+				goto IL_0192;
+			}
+			case 9:
+			{
+				goto IL_01a4;
+			}
+		}
+	}
+	{
+		goto IL_01ad;
+	}
+
+IL_0053:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_7 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_8 = L_7.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		float L_10 = L_9.___Scale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		ScaledMTransform__ctor_m39AB51931A2386CB396C4F82D5E78B0BF196D82D((&V_0), L_8, ((float)il2cpp_codegen_multiply(L_10, L_13)), NULL);
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_14 = ___1_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_16 = L_15.___Collider;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_17 = V_0;
+		MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC L_18 = L_17.___Transform;
+		float L_19;
+		L_19 = ScaledMTransform_get_Scale_m5267587803DE272DFB0349D1E77606EDB5670E25_inline((&V_0), NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_20;
+		L_20 = DistanceQueries_ConvexConvex_mCC0336A99F81805AB0EFCEAD81B01BC04020A75E(L_14, L_16, L_18, L_19, NULL);
+		V_1 = L_20;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_21 = V_1;
+		float L_22 = L_21.___Distance;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_23 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_24;
+		L_24 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_23, NULL);
+		float L_25;
+		L_25 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_24, NULL);
+		V_2 = ((float)il2cpp_codegen_multiply(L_22, L_25));
+		float L_26 = V_2;
+		FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_m3D3531B79E8398E5C837583DF704EBE82E629E95(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		if ((!(((float)L_26) < ((float)L_28))))
+		{
+			goto IL_0190;
+		}
+	}
+	{
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_29 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30 = L_29.___NormalInA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_31;
+		L_31 = float3_op_UnaryNegation_m862876969881839716CBAF9AE074FA4BFDFABDF1_inline(L_30, NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_32 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_33 = L_32.___NormalInA;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_34 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_35;
+		L_35 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_34, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_36;
+		L_36 = math_select_m9AE2C8B94207D016E9AA462152BC0C7B468981A7_inline(L_31, L_33, (bool)((((float)L_35) < ((float)(0.0f)))? 1 : 0), NULL);
+		V_4 = L_36;
+		il2cpp_codegen_initobj((&V_6), sizeof(DistanceHit_t24623CA3232004563796E8AA41E409369C35643E));
+		float L_37 = V_2;
+		DistanceHit_set_Fraction_mA6694FDB5B5553FBFC5928C8C18A03839703DCD9_inline((&V_6), L_37, NULL);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_38 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D* L_39 = (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D*)(&L_38->___WorldFromLocalTransform);
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_40;
+		L_40 = ScaledMTransform_get_Rotation_m7FAA763F4B5F7422E31DCA2C964489B224B2133B(L_39, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_41 = V_4;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42;
+		L_42 = math_mul_m4C38B3C1EB3A8DEBFD06421A2FCBE54E7CDC46EE_inline(L_40, L_41, NULL);
+		DistanceHit_set_SurfaceNormal_m7874F8EF4EA6808835DBC4AC5654FF3AFE105E29_inline((&V_6), L_42, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_44 = L_43.___QueryContext;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_45 = L_44.___WorldFromLocalTransform;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_46 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47 = L_46.___PositionOnAinA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = Math_Mul_mCA6D1364A609D79D8FEF7C4ADEE45724888E45C5(L_45, L_47, NULL);
+		DistanceHit_set_Position_m5781C77C6218E0CA4B5B62C1FA5FDD57104D78E7_inline((&V_6), L_48, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_49 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_50 = L_49.___QueryContext;
+		int32_t L_51 = L_50.___RigidBodyIndex;
+		DistanceHit_set_RigidBodyIndex_m47E1CB059EC518B1D8992B9D70535FFE28EA67A6_inline((&V_6), L_51, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_52 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_53 = L_52.___QueryContext;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_54 = L_53.___ColliderKey;
+		DistanceHit_set_ColliderKey_m8948213D21E2582598D986289BFA8960E042C59C_inline((&V_6), L_54, NULL);
+		il2cpp_codegen_runtime_class_init_inline(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_55 = ((ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_StaticFields*)il2cpp_codegen_static_fields_for(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var))->___Empty;
+		(&V_6)->___QueryColliderKey = L_55;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_56 = ___1_target;
+		NullCheck(L_56);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_57 = ((ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B*)L_56)->___Material;
+		DistanceHit_set_Material_m48FBAAAA01AAF1BF7A339E47C956EB06D3231E3B_inline((&V_6), L_57, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_58 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_59 = L_58.___QueryContext;
+		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_60 = L_59.___Entity;
+		DistanceHit_set_Entity_m7126D2D163CC281C620705ABEEFB06312CE27E49_inline((&V_6), L_60, NULL);
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_61 = V_6;
+		V_5 = L_61;
+		FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* L_62 = ___2_collector;
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_63 = V_5;
+		bool L_64;
+		L_64 = FlippedColliderDistanceQueryCollector_1_AddHit_mCC6F16170E62447F0ED4952AE29C5AFA2606BD00(L_62, L_63, il2cpp_rgctx_method(method->rgctx_data, 3));
+		return L_64;
+	}
+
+IL_0190:
+	{
+		return (bool)0;
+	}
+
+IL_0192:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_65 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_66 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* L_67 = ___2_collector;
+		bool L_68;
+		L_68 = DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_m6A8A0ED44B40243B377260813014F3D57AD8964D(L_65, (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_66, L_67, il2cpp_rgctx_method(method->rgctx_data, 4));
+		return L_68;
+	}
+
+IL_019b:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_69 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_70 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* L_71 = ___2_collector;
+		bool L_72;
+		L_72 = DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_mD635CBD3BE77CDD04447B80A01AC4D7A6BBB4D5E(L_69, (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)L_70, L_71, il2cpp_rgctx_method(method->rgctx_data, 5));
+		return L_72;
+	}
+
+IL_01a4:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_73 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_74 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A* L_75 = ___2_collector;
+		bool L_76;
+		L_76 = DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA83C6427A3B03AFC6795770A8BAE8C1E66F6419A_m09AC067AF2017A388C531BE484429091C67FED80(L_73, (TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_74, L_75, il2cpp_rgctx_method(method->rgctx_data, 6));
+		return L_76;
+	}
+
+IL_01ad:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ConvexCollider_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_mD5C3A860E6C10A78156D20758684F96E0CD0592C_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	uint8_t V_3 = 0;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_1 = L_0.___QueryContext;
+		bool L_2 = L_1.___IsInitialized;
+		if (L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_3;
+		L_3 = QueryContext_get_DefaultContext_m1D21718BF6DAF3E16177FE178C9664BD3598D8AA(NULL);
+		(&___0_input)->___QueryContext = L_3;
+	}
+
+IL_0019:
+	{
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_4 = ___1_target;
+		uint8_t L_5;
+		L_5 = Collider_get_Type_m68A82CAC611BD2FBFCCE9F074154697E2144C7A3((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_4, NULL);
+		V_3 = L_5;
+		uint8_t L_6 = V_3;
+		switch (L_6)
+		{
+			case 0:
+			{
+				goto IL_0053;
+			}
+			case 1:
+			{
+				goto IL_0053;
+			}
+			case 2:
+			{
+				goto IL_0053;
+			}
+			case 3:
+			{
+				goto IL_0053;
+			}
+			case 4:
+			{
+				goto IL_0053;
+			}
+			case 5:
+			{
+				goto IL_0053;
+			}
+			case 6:
+			{
+				goto IL_0053;
+			}
+			case 7:
+			{
+				goto IL_019b;
+			}
+			case 8:
+			{
+				goto IL_0192;
+			}
+			case 9:
+			{
+				goto IL_01a4;
+			}
+		}
+	}
+	{
+		goto IL_01ad;
+	}
+
+IL_0053:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_7 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_8 = L_7.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		float L_10 = L_9.___Scale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		ScaledMTransform__ctor_m39AB51931A2386CB396C4F82D5E78B0BF196D82D((&V_0), L_8, ((float)il2cpp_codegen_multiply(L_10, L_13)), NULL);
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_14 = ___1_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_16 = L_15.___Collider;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_17 = V_0;
+		MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC L_18 = L_17.___Transform;
+		float L_19;
+		L_19 = ScaledMTransform_get_Scale_m5267587803DE272DFB0349D1E77606EDB5670E25_inline((&V_0), NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_20;
+		L_20 = DistanceQueries_ConvexConvex_mCC0336A99F81805AB0EFCEAD81B01BC04020A75E(L_14, L_16, L_18, L_19, NULL);
+		V_1 = L_20;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_21 = V_1;
+		float L_22 = L_21.___Distance;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_23 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_24;
+		L_24 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_23, NULL);
+		float L_25;
+		L_25 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_24, NULL);
+		V_2 = ((float)il2cpp_codegen_multiply(L_22, L_25));
+		float L_26 = V_2;
+		FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mC0B5FD0D996F27657988A05CC734AAFD27B86EB1(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		if ((!(((float)L_26) < ((float)L_28))))
+		{
+			goto IL_0190;
+		}
+	}
+	{
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_29 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30 = L_29.___NormalInA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_31;
+		L_31 = float3_op_UnaryNegation_m862876969881839716CBAF9AE074FA4BFDFABDF1_inline(L_30, NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_32 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_33 = L_32.___NormalInA;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_34 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_35;
+		L_35 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_34, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_36;
+		L_36 = math_select_m9AE2C8B94207D016E9AA462152BC0C7B468981A7_inline(L_31, L_33, (bool)((((float)L_35) < ((float)(0.0f)))? 1 : 0), NULL);
+		V_4 = L_36;
+		il2cpp_codegen_initobj((&V_6), sizeof(DistanceHit_t24623CA3232004563796E8AA41E409369C35643E));
+		float L_37 = V_2;
+		DistanceHit_set_Fraction_mA6694FDB5B5553FBFC5928C8C18A03839703DCD9_inline((&V_6), L_37, NULL);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_38 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D* L_39 = (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D*)(&L_38->___WorldFromLocalTransform);
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_40;
+		L_40 = ScaledMTransform_get_Rotation_m7FAA763F4B5F7422E31DCA2C964489B224B2133B(L_39, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_41 = V_4;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42;
+		L_42 = math_mul_m4C38B3C1EB3A8DEBFD06421A2FCBE54E7CDC46EE_inline(L_40, L_41, NULL);
+		DistanceHit_set_SurfaceNormal_m7874F8EF4EA6808835DBC4AC5654FF3AFE105E29_inline((&V_6), L_42, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_44 = L_43.___QueryContext;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_45 = L_44.___WorldFromLocalTransform;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_46 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47 = L_46.___PositionOnAinA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = Math_Mul_mCA6D1364A609D79D8FEF7C4ADEE45724888E45C5(L_45, L_47, NULL);
+		DistanceHit_set_Position_m5781C77C6218E0CA4B5B62C1FA5FDD57104D78E7_inline((&V_6), L_48, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_49 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_50 = L_49.___QueryContext;
+		int32_t L_51 = L_50.___RigidBodyIndex;
+		DistanceHit_set_RigidBodyIndex_m47E1CB059EC518B1D8992B9D70535FFE28EA67A6_inline((&V_6), L_51, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_52 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_53 = L_52.___QueryContext;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_54 = L_53.___ColliderKey;
+		DistanceHit_set_ColliderKey_m8948213D21E2582598D986289BFA8960E042C59C_inline((&V_6), L_54, NULL);
+		il2cpp_codegen_runtime_class_init_inline(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_55 = ((ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_StaticFields*)il2cpp_codegen_static_fields_for(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var))->___Empty;
+		(&V_6)->___QueryColliderKey = L_55;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_56 = ___1_target;
+		NullCheck(L_56);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_57 = ((ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B*)L_56)->___Material;
+		DistanceHit_set_Material_m48FBAAAA01AAF1BF7A339E47C956EB06D3231E3B_inline((&V_6), L_57, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_58 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_59 = L_58.___QueryContext;
+		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_60 = L_59.___Entity;
+		DistanceHit_set_Entity_m7126D2D163CC281C620705ABEEFB06312CE27E49_inline((&V_6), L_60, NULL);
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_61 = V_6;
+		V_5 = L_61;
+		FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* L_62 = ___2_collector;
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_63 = V_5;
+		bool L_64;
+		L_64 = FlippedColliderDistanceQueryCollector_1_AddHit_m461670D775449FE23E8DFAB70B897A19CFD60C08(L_62, L_63, il2cpp_rgctx_method(method->rgctx_data, 3));
+		return L_64;
+	}
+
+IL_0190:
+	{
+		return (bool)0;
+	}
+
+IL_0192:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_65 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_66 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* L_67 = ___2_collector;
+		bool L_68;
+		L_68 = DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m30D2A298D43F31B37B7189E14AA3D155B4E46602(L_65, (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_66, L_67, il2cpp_rgctx_method(method->rgctx_data, 4));
+		return L_68;
+	}
+
+IL_019b:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_69 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_70 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* L_71 = ___2_collector;
+		bool L_72;
+		L_72 = DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_m61D2BA2AF26E86BEAC72CE3BA8DBD1BC5C85B9DA(L_69, (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)L_70, L_71, il2cpp_rgctx_method(method->rgctx_data, 5));
+		return L_72;
+	}
+
+IL_01a4:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_73 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_74 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD* L_75 = ___2_collector;
+		bool L_76;
+		L_76 = DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tA4AB51D930DCB5FF97616B0C701A82614005A5BD_mBA0A782E64219687D8EC1E718326777DCE3E7094(L_73, (TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_74, L_75, il2cpp_rgctx_method(method->rgctx_data, 6));
+		return L_76;
+	}
+
+IL_01ad:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ConvexCollider_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_m0239897D4E02A448B10BA6EEC5D2D2665AFE04D8_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	uint8_t V_3 = 0;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_1 = L_0.___QueryContext;
+		bool L_2 = L_1.___IsInitialized;
+		if (L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_3;
+		L_3 = QueryContext_get_DefaultContext_m1D21718BF6DAF3E16177FE178C9664BD3598D8AA(NULL);
+		(&___0_input)->___QueryContext = L_3;
+	}
+
+IL_0019:
+	{
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_4 = ___1_target;
+		uint8_t L_5;
+		L_5 = Collider_get_Type_m68A82CAC611BD2FBFCCE9F074154697E2144C7A3((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_4, NULL);
+		V_3 = L_5;
+		uint8_t L_6 = V_3;
+		switch (L_6)
+		{
+			case 0:
+			{
+				goto IL_0053;
+			}
+			case 1:
+			{
+				goto IL_0053;
+			}
+			case 2:
+			{
+				goto IL_0053;
+			}
+			case 3:
+			{
+				goto IL_0053;
+			}
+			case 4:
+			{
+				goto IL_0053;
+			}
+			case 5:
+			{
+				goto IL_0053;
+			}
+			case 6:
+			{
+				goto IL_0053;
+			}
+			case 7:
+			{
+				goto IL_019b;
+			}
+			case 8:
+			{
+				goto IL_0192;
+			}
+			case 9:
+			{
+				goto IL_01a4;
+			}
+		}
+	}
+	{
+		goto IL_01ad;
+	}
+
+IL_0053:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_7 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_8 = L_7.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		float L_10 = L_9.___Scale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		ScaledMTransform__ctor_m39AB51931A2386CB396C4F82D5E78B0BF196D82D((&V_0), L_8, ((float)il2cpp_codegen_multiply(L_10, L_13)), NULL);
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_14 = ___1_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_16 = L_15.___Collider;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_17 = V_0;
+		MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC L_18 = L_17.___Transform;
+		float L_19;
+		L_19 = ScaledMTransform_get_Scale_m5267587803DE272DFB0349D1E77606EDB5670E25_inline((&V_0), NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_20;
+		L_20 = DistanceQueries_ConvexConvex_mCC0336A99F81805AB0EFCEAD81B01BC04020A75E(L_14, L_16, L_18, L_19, NULL);
+		V_1 = L_20;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_21 = V_1;
+		float L_22 = L_21.___Distance;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_23 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_24;
+		L_24 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_23, NULL);
+		float L_25;
+		L_25 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_24, NULL);
+		V_2 = ((float)il2cpp_codegen_multiply(L_22, L_25));
+		float L_26 = V_2;
+		FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* L_27 = ___2_collector;
+		float L_28;
+		L_28 = FlippedColliderDistanceQueryCollector_1_get_MaxFraction_mDA858495329F1C01C54CE03F114151A469F93AD7(L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
+		if ((!(((float)L_26) < ((float)L_28))))
+		{
+			goto IL_0190;
+		}
+	}
+	{
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_29 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30 = L_29.___NormalInA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_31;
+		L_31 = float3_op_UnaryNegation_m862876969881839716CBAF9AE074FA4BFDFABDF1_inline(L_30, NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_32 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_33 = L_32.___NormalInA;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_34 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_35;
+		L_35 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_34, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_36;
+		L_36 = math_select_m9AE2C8B94207D016E9AA462152BC0C7B468981A7_inline(L_31, L_33, (bool)((((float)L_35) < ((float)(0.0f)))? 1 : 0), NULL);
+		V_4 = L_36;
+		il2cpp_codegen_initobj((&V_6), sizeof(DistanceHit_t24623CA3232004563796E8AA41E409369C35643E));
+		float L_37 = V_2;
+		DistanceHit_set_Fraction_mA6694FDB5B5553FBFC5928C8C18A03839703DCD9_inline((&V_6), L_37, NULL);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_38 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D* L_39 = (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D*)(&L_38->___WorldFromLocalTransform);
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_40;
+		L_40 = ScaledMTransform_get_Rotation_m7FAA763F4B5F7422E31DCA2C964489B224B2133B(L_39, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_41 = V_4;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42;
+		L_42 = math_mul_m4C38B3C1EB3A8DEBFD06421A2FCBE54E7CDC46EE_inline(L_40, L_41, NULL);
+		DistanceHit_set_SurfaceNormal_m7874F8EF4EA6808835DBC4AC5654FF3AFE105E29_inline((&V_6), L_42, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_43 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_44 = L_43.___QueryContext;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_45 = L_44.___WorldFromLocalTransform;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_46 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47 = L_46.___PositionOnAinA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48;
+		L_48 = Math_Mul_mCA6D1364A609D79D8FEF7C4ADEE45724888E45C5(L_45, L_47, NULL);
+		DistanceHit_set_Position_m5781C77C6218E0CA4B5B62C1FA5FDD57104D78E7_inline((&V_6), L_48, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_49 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_50 = L_49.___QueryContext;
+		int32_t L_51 = L_50.___RigidBodyIndex;
+		DistanceHit_set_RigidBodyIndex_m47E1CB059EC518B1D8992B9D70535FFE28EA67A6_inline((&V_6), L_51, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_52 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_53 = L_52.___QueryContext;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_54 = L_53.___ColliderKey;
+		DistanceHit_set_ColliderKey_m8948213D21E2582598D986289BFA8960E042C59C_inline((&V_6), L_54, NULL);
+		il2cpp_codegen_runtime_class_init_inline(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_55 = ((ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_StaticFields*)il2cpp_codegen_static_fields_for(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var))->___Empty;
+		(&V_6)->___QueryColliderKey = L_55;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_56 = ___1_target;
+		NullCheck(L_56);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_57 = ((ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B*)L_56)->___Material;
+		DistanceHit_set_Material_m48FBAAAA01AAF1BF7A339E47C956EB06D3231E3B_inline((&V_6), L_57, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_58 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_59 = L_58.___QueryContext;
+		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_60 = L_59.___Entity;
+		DistanceHit_set_Entity_m7126D2D163CC281C620705ABEEFB06312CE27E49_inline((&V_6), L_60, NULL);
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_61 = V_6;
+		V_5 = L_61;
+		FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* L_62 = ___2_collector;
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_63 = V_5;
+		bool L_64;
+		L_64 = FlippedColliderDistanceQueryCollector_1_AddHit_mD2EDE4D56D514229E82268C135B41C57238A3794(L_62, L_63, il2cpp_rgctx_method(method->rgctx_data, 3));
+		return L_64;
+	}
+
+IL_0190:
+	{
+		return (bool)0;
+	}
+
+IL_0192:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_65 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_66 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* L_67 = ___2_collector;
+		bool L_68;
+		L_68 = DistanceQueries_ColliderCompound_TisConvexCompoundDistanceDispatcher_t23419CAD34FEFC3E726CE1785D4B66381A3DFC62_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_m2E70353933CB242768645D28F3A2E799604E7945(L_65, (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_66, L_67, il2cpp_rgctx_method(method->rgctx_data, 4));
+		return L_68;
+	}
+
+IL_019b:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_69 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_70 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* L_71 = ___2_collector;
+		bool L_72;
+		L_72 = DistanceQueries_ColliderMesh_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_m8F3D51C5E7A0F01A07B6159B993796E6DA7B8F74(L_69, (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)L_70, L_71, il2cpp_rgctx_method(method->rgctx_data, 5));
+		return L_72;
+	}
+
+IL_01a4:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_73 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_74 = ___1_target;
+		FlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26* L_75 = ___2_collector;
+		bool L_76;
+		L_76 = DistanceQueries_ColliderTerrain_TisConvexConvexDispatcher_t10C2102AEE30E51C5DFBDE54F1EEA20259364EDB_TisFlippedColliderDistanceQueryCollector_1_tEF43699F80FF9067525CEE36BA83D35E4B2BAE26_m7A157C61DC51201859398E2E0F0B1A8584306EC3(L_73, (TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_74, L_75, il2cpp_rgctx_method(method->rgctx_data, 6));
+		return L_76;
+	}
+
+IL_01ad:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DistanceQueries_ConvexCollider_TisIl2CppFullySharedGenericStruct_mFD57E66AC0E81E1D8A17C2BF0E7AFD01CB62CDA6_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 ___0_input, Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* ___1_target, Il2CppFullySharedGenericStruct* ___2_collector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	void* L_28 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	void* L_65 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 1)));
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	uint8_t V_3 = 0;
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	DistanceHit_t24623CA3232004563796E8AA41E409369C35643E V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_0 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_1 = L_0.___QueryContext;
+		bool L_2 = L_1.___IsInitialized;
+		if (L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_3;
+		L_3 = QueryContext_get_DefaultContext_m1D21718BF6DAF3E16177FE178C9664BD3598D8AA(NULL);
+		(&___0_input)->___QueryContext = L_3;
+	}
+
+IL_0019:
+	{
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_4 = ___1_target;
+		uint8_t L_5;
+		L_5 = Collider_get_Type_m68A82CAC611BD2FBFCCE9F074154697E2144C7A3((Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_4, NULL);
+		V_3 = L_5;
+		uint8_t L_6 = V_3;
+		switch (L_6)
+		{
+			case 0:
+			{
+				goto IL_0053;
+			}
+			case 1:
+			{
+				goto IL_0053;
+			}
+			case 2:
+			{
+				goto IL_0053;
+			}
+			case 3:
+			{
+				goto IL_0053;
+			}
+			case 4:
+			{
+				goto IL_0053;
+			}
+			case 5:
+			{
+				goto IL_0053;
+			}
+			case 6:
+			{
+				goto IL_0053;
+			}
+			case 7:
+			{
+				goto IL_019b;
+			}
+			case 8:
+			{
+				goto IL_0192;
+			}
+			case 9:
+			{
+				goto IL_01a4;
+			}
+		}
+	}
+	{
+		goto IL_01ad;
+	}
+
+IL_0053:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_7 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_8 = L_7.___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_9 = ___0_input;
+		float L_10 = L_9.___Scale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_11 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_12 = L_11.___QueryContext;
+		float L_13 = L_12.___InvTargetScale;
+		ScaledMTransform__ctor_m39AB51931A2386CB396C4F82D5E78B0BF196D82D((&V_0), L_8, ((float)il2cpp_codegen_multiply(L_10, L_13)), NULL);
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_14 = ___1_target;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_15 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_16 = L_15.___Collider;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_17 = V_0;
+		MTransform_t1AD7C8733046B726C9EB85F7309D1C286D4A5AAC L_18 = L_17.___Transform;
+		float L_19;
+		L_19 = ScaledMTransform_get_Scale_m5267587803DE272DFB0349D1E77606EDB5670E25_inline((&V_0), NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_20;
+		L_20 = DistanceQueries_ConvexConvex_mCC0336A99F81805AB0EFCEAD81B01BC04020A75E(L_14, L_16, L_18, L_19, NULL);
+		V_1 = L_20;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_21 = V_1;
+		float L_22 = L_21.___Distance;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_23 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_24;
+		L_24 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_23, NULL);
+		float L_25;
+		L_25 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_24, NULL);
+		V_2 = ((float)il2cpp_codegen_multiply(L_22, L_25));
+		float L_26 = V_2;
+		Il2CppFullySharedGenericStruct* L_27 = ___2_collector;
+		float L_29;
+		L_29 = ConstrainedFuncInvoker0< float >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 2), L_28, (void*)L_27);
+		if ((!(((float)L_26) < ((float)L_29))))
+		{
+			goto IL_0190;
+		}
+	}
+	{
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_30 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_31 = L_30.___NormalInA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_32;
+		L_32 = float3_op_UnaryNegation_m862876969881839716CBAF9AE074FA4BFDFABDF1_inline(L_31, NULL);
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_33 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_34 = L_33.___NormalInA;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_35 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		float L_36;
+		L_36 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_35, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_37;
+		L_37 = math_select_m9AE2C8B94207D016E9AA462152BC0C7B468981A7_inline(L_32, L_34, (bool)((((float)L_36) < ((float)(0.0f)))? 1 : 0), NULL);
+		V_4 = L_37;
+		il2cpp_codegen_initobj((&V_6), sizeof(DistanceHit_t24623CA3232004563796E8AA41E409369C35643E));
+		float L_38 = V_2;
+		DistanceHit_set_Fraction_mA6694FDB5B5553FBFC5928C8C18A03839703DCD9_inline((&V_6), L_38, NULL);
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_39 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&(&___0_input)->___QueryContext);
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D* L_40 = (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D*)(&L_39->___WorldFromLocalTransform);
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_41;
+		L_41 = ScaledMTransform_get_Rotation_m7FAA763F4B5F7422E31DCA2C964489B224B2133B(L_40, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_42 = V_4;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_43;
+		L_43 = math_mul_m4C38B3C1EB3A8DEBFD06421A2FCBE54E7CDC46EE_inline(L_41, L_42, NULL);
+		DistanceHit_set_SurfaceNormal_m7874F8EF4EA6808835DBC4AC5654FF3AFE105E29_inline((&V_6), L_43, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_44 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_45 = L_44.___QueryContext;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_46 = L_45.___WorldFromLocalTransform;
+		Result_t09912C709A0E97E15711B93CB72802803EE9D9D5 L_47 = V_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_48 = L_47.___PositionOnAinA;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_49;
+		L_49 = Math_Mul_mCA6D1364A609D79D8FEF7C4ADEE45724888E45C5(L_46, L_48, NULL);
+		DistanceHit_set_Position_m5781C77C6218E0CA4B5B62C1FA5FDD57104D78E7_inline((&V_6), L_49, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_50 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_51 = L_50.___QueryContext;
+		int32_t L_52 = L_51.___RigidBodyIndex;
+		DistanceHit_set_RigidBodyIndex_m47E1CB059EC518B1D8992B9D70535FFE28EA67A6_inline((&V_6), L_52, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_53 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_54 = L_53.___QueryContext;
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_55 = L_54.___ColliderKey;
+		DistanceHit_set_ColliderKey_m8948213D21E2582598D986289BFA8960E042C59C_inline((&V_6), L_55, NULL);
+		il2cpp_codegen_runtime_class_init_inline(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_56 = ((ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_StaticFields*)il2cpp_codegen_static_fields_for(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var))->___Empty;
+		(&V_6)->___QueryColliderKey = L_56;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_57 = ___1_target;
+		NullCheck(L_57);
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_58 = ((ConvexColliderHeader_t446A123A60101151765CBB51F34AA701629FF77B*)L_57)->___Material;
+		DistanceHit_set_Material_m48FBAAAA01AAF1BF7A339E47C956EB06D3231E3B_inline((&V_6), L_58, NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_59 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5 L_60 = L_59.___QueryContext;
+		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_61 = L_60.___Entity;
+		DistanceHit_set_Entity_m7126D2D163CC281C620705ABEEFB06312CE27E49_inline((&V_6), L_61, NULL);
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_62 = V_6;
+		V_5 = L_62;
+		Il2CppFullySharedGenericStruct* L_63 = ___2_collector;
+		DistanceHit_t24623CA3232004563796E8AA41E409369C35643E L_64 = V_5;
+		bool L_66;
+		L_66 = ConstrainedFuncInvoker1< bool, DistanceHit_t24623CA3232004563796E8AA41E409369C35643E >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 1), il2cpp_rgctx_method(method->rgctx_data, 3), L_65, (void*)L_63, L_64);
+		return L_66;
+	}
+
+IL_0190:
+	{
+		return (bool)0;
+	}
+
+IL_0192:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_67 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_68 = ___1_target;
+		Il2CppFullySharedGenericStruct* L_69 = ___2_collector;
+		bool L_70;
+		L_70 = ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_67, (CompoundCollider_t6DDACFE9E58DC5A9C6925638C30904D1AA103028*)L_68, L_69, il2cpp_rgctx_method(method->rgctx_data, 4));
+		return L_70;
+	}
+
+IL_019b:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_71 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_72 = ___1_target;
+		Il2CppFullySharedGenericStruct* L_73 = ___2_collector;
+		bool L_74;
+		L_74 = ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 5)))(L_71, (MeshCollider_t825ECE09BBD62B103CC545DD8E456AF844F9A236*)L_72, L_73, il2cpp_rgctx_method(method->rgctx_data, 5));
+		return L_74;
+	}
+
+IL_01a4:
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363 L_75 = ___0_input;
+		Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31* L_76 = ___1_target;
+		Il2CppFullySharedGenericStruct* L_77 = ___2_collector;
+		bool L_78;
+		L_78 = ((  bool (*) (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363, TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*, Il2CppFullySharedGenericStruct*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 6)))(L_75, (TerrainCollider_tFD51F178EFE0A5D27D0F3A0EB84C223C3ADB714B*)L_76, L_77, il2cpp_rgctx_method(method->rgctx_data, 6));
+		return L_78;
+	}
+
+IL_01ad:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistanceQueries_FlipColliderDistanceQuery_TisAllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F_mC9686F3B850A8E8249351898736CFD3E3C5FF2F2_gshared (ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* ___0_input, ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* ___1_target, AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* ___2_collector, FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* ___3_flippedQueryCollector, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	float V_3 = 0.0f;
+	{
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* L_0 = ___0_input;
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_1 = L_0->___Transform;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* L_2 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_3 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&L_2->___QueryContext);
+		float L_4 = L_3->___InvTargetScale;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* L_5 = ___0_input;
+		float L_6 = L_5->___Scale;
+		ScaledMTransform__ctor_m39AB51931A2386CB396C4F82D5E78B0BF196D82D((&V_0), L_1, ((float)il2cpp_codegen_multiply(L_4, L_6)), NULL);
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* L_7 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_8 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&L_7->___QueryContext);
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_9 = L_8->___WorldFromLocalTransform;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_10 = V_0;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_11;
+		L_11 = Math_Mul_mC91C030B1C171ACC81F7ECD355AAFE9594B7DEF2(L_9, L_10, NULL);
+		V_1 = L_11;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_12 = V_0;
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_13;
+		L_13 = Math_Inverse_m381E83FD8942DF03683615F3D1DAEE8CC47E732F(L_12, NULL);
+		V_2 = L_13;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* L_14 = ___0_input;
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_15;
+		L_15 = ScaledMTransform_get_Rotation_m7FAA763F4B5F7422E31DCA2C964489B224B2133B((&V_2), NULL);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		quaternion__ctor_m354F09C0E50CA59DA43037E9993EAE9BF97E9120((&L_16), L_15, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_17;
+		L_17 = ScaledMTransform_get_Translation_mD278004F9D93E9925D3DA4FE05B6932288706219((&V_2), NULL);
+		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		RigidTransform__ctor_m7665CC6FBD784FC7CB02E48B0A4B58008A4BC709_inline((&L_18), L_16, L_17, NULL);
+		L_14->___Transform = L_18;
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7* L_19 = ___3_flippedQueryCollector;
+		AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* L_20 = ___2_collector;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* L_21 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_22 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&L_21->___QueryContext);
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_23 = L_22->___ColliderKey;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_24 = ___1_target;
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_25;
+		L_25 = ConvexCollider_get_Material_m5340F3FA9133D7C9FB0B9DE75265045171ABE5E9((ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257*)L_24, NULL);
+		FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		FlippedColliderDistanceQueryCollector_1__ctor_mF32B45B2C4C88FA8F3ABF8667A415F0283E6D674((&L_26), L_20, L_23, L_25, il2cpp_rgctx_method(method->rgctx_data, 3));
+		*(FlippedColliderDistanceQueryCollector_1_t8095759EEA56E13B3933C24A0DBE526D08ACE8D7*)L_19 = L_26;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* L_27 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_28 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&L_27->___QueryContext);
+		il2cpp_codegen_runtime_class_init_inline(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var);
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_29 = ((ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_StaticFields*)il2cpp_codegen_static_fields_for(ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56_il2cpp_TypeInfo_var))->___Empty;
+		L_28->___ColliderKey = L_29;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* L_30 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_31 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&L_30->___QueryContext);
+		L_31->___NumColliderKeyBits = (uint32_t)0;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* L_32 = ___0_input;
+		ConvexCollider_tEEF96C9D581058A5B18D496273BC3E6E5AC87257* L_33 = ___1_target;
+		L_32->___Collider = (Collider_t3DBB6053C02D2235C9E62CCA5476D1823507BE31*)L_33;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* L_34 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_35 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&L_34->___QueryContext);
+		L_35->___IsFlipped = (bool)1;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* L_36 = ___0_input;
+		float L_37 = L_36->___Scale;
+		V_3 = L_37;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* L_38 = ___0_input;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* L_39 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_40 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&L_39->___QueryContext);
+		float L_41;
+		L_41 = QueryContext_get_TargetScale_m6E59A4BAFF9684CF042BE23927A36208B1DD8B55(L_40, NULL);
+		L_38->___Scale = L_41;
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* L_42 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_43 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&L_42->___QueryContext);
+		float L_44 = V_3;
+		L_43->___InvTargetScale = ((float)((1.0f)/L_44));
+		ColliderDistanceInput_tC217630A29BE68A28F872BA6590AB4C5C2E52363* L_45 = ___0_input;
+		QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5* L_46 = (QueryContext_t23195FF8EA2E8937F8ED2395260A96F008F217E5*)(&L_45->___QueryContext);
+		ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D L_47 = V_1;
+		L_46->___WorldFromLocalTransform = L_47;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CollisionFilter_IsCollisionEnabled_m4585B89AE47E95DAD6A7A1B241506239579F9D65_inline (CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___0_filterA, CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A ___1_filterB, const RuntimeMethod* method) 
+{
+	{
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_0 = ___0_filterA;
+		int32_t L_1 = L_0.___GroupIndex;
+		if ((((int32_t)L_1) <= ((int32_t)0)))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_2 = ___0_filterA;
+		int32_t L_3 = L_2.___GroupIndex;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_4 = ___1_filterB;
+		int32_t L_5 = L_4.___GroupIndex;
+		if ((!(((uint32_t)L_3) == ((uint32_t)L_5))))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0019:
+	{
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_6 = ___0_filterA;
+		int32_t L_7 = L_6.___GroupIndex;
+		if ((((int32_t)L_7) >= ((int32_t)0)))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_8 = ___0_filterA;
+		int32_t L_9 = L_8.___GroupIndex;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_10 = ___1_filterB;
+		int32_t L_11 = L_10.___GroupIndex;
+		if ((!(((uint32_t)L_9) == ((uint32_t)L_11))))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0032:
+	{
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_12 = ___0_filterA;
+		uint32_t L_13 = L_12.___BelongsTo;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_14 = ___1_filterB;
+		uint32_t L_15 = L_14.___CollidesWith;
+		if (!((int32_t)((int32_t)L_13&(int32_t)L_15)))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_16 = ___1_filterB;
+		uint32_t L_17 = L_16.___BelongsTo;
+		CollisionFilter_t510BABFDA15A5F9D69FE37F73CA499F64D9D844A L_18 = ___0_filterA;
+		uint32_t L_19 = L_18.___CollidesWith;
+		return (bool)((!(((uint32_t)((int32_t)((int32_t)L_17&(int32_t)L_19))) <= ((uint32_t)0)))? 1 : 0);
+	}
+
+IL_0052:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E Terrain_get_InverseScale_mC4613F62195470484CDB33D6F8C99F42ECA7AA2E_inline (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* __this, const RuntimeMethod* method) 
+{
+	{
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = __this->___U3CInverseScaleU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
+		float L_1 = L_0.___x;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_rhs;
+		float L_3 = L_2.___x;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___0_lhs;
+		float L_5 = L_4.___y;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6 = ___1_rhs;
+		float L_7 = L_6.___y;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_8 = ___0_lhs;
+		float L_9 = L_8.___z;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = ___1_rhs;
+		float L_11 = L_10.___z;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_12), ((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)), ((float)il2cpp_codegen_multiply(L_9, L_11)), NULL);
+		return L_12;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Subtraction_m111BEEA770E140739DDC6A3410736DFF7EE32045_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_rhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___0_lhs;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_rhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6 = ___0_lhs;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_rhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_9), ((float)il2cpp_codegen_subtract(L_1, L_2)), ((float)il2cpp_codegen_subtract(L_4, L_5)), ((float)il2cpp_codegen_subtract(L_7, L_8)), NULL);
+		return L_9;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Addition_mABF24BC9A16C272B9F5AB21A601B9D9A831F8C43_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_rhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___0_lhs;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_rhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6 = ___0_lhs;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_rhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_9), ((float)il2cpp_codegen_add(L_1, L_2)), ((float)il2cpp_codegen_add(L_4, L_5)), ((float)il2cpp_codegen_add(L_7, L_8)), NULL);
+		return L_9;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 QuadTreeWalker_get_Bounds_mF4F8209E531AA7F96CFA26B0B6D8975A8CDF8DF2_inline (QuadTreeWalker_tB2EEA351E0A1F7157F2AF7F159627915C6C91BA3* __this, const RuntimeMethod* method) 
+{
+	{
+		FourTransposedAabbs_t2BF65645C885385A82D04298E047A12CD1BB61D2 L_0 = __this->___U3CBoundsU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E Terrain_get_Scale_mD662F002A21A56AAD831A7AD52C221F17E4B1FB0_inline (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* __this, const RuntimeMethod* method) 
+{
+	{
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = __this->___U3CScaleU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_lhs;
+		float L_1 = L_0.___x;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___1_rhs;
+		float L_3 = L_2.___x;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___0_lhs;
+		float L_5 = L_4.___y;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___1_rhs;
+		float L_7 = L_6.___y;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8 = ___0_lhs;
+		float L_9 = L_8.___z;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10 = ___1_rhs;
+		float L_11 = L_10.___z;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12 = ___0_lhs;
+		float L_13 = L_12.___w;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14 = ___1_rhs;
+		float L_15 = L_14.___w;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		bool4__ctor_mF155096A6E6BF25B97648480B9A5224A22DFFF88_inline((&L_16), (bool)((((int32_t)((!(((float)L_1) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0), (bool)((((int32_t)((!(((float)L_5) <= ((float)L_7)))? 1 : 0)) == ((int32_t)0))? 1 : 0), (bool)((((int32_t)((!(((float)L_9) <= ((float)L_11)))? 1 : 0)) == ((int32_t)0))? 1 : 0), (bool)((((int32_t)((!(((float)L_13) <= ((float)L_15)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		return L_16;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_lhs;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_rhs;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3 = ___0_lhs;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_rhs;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___0_lhs;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_rhs;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_9 = ___0_lhs;
+		float L_10 = L_9.___w;
+		float L_11 = ___1_rhs;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		bool4__ctor_mF155096A6E6BF25B97648480B9A5224A22DFFF88_inline((&L_12), (bool)((((int32_t)((!(((float)L_1) <= ((float)L_2)))? 1 : 0)) == ((int32_t)0))? 1 : 0), (bool)((((int32_t)((!(((float)L_4) <= ((float)L_5)))? 1 : 0)) == ((int32_t)0))? 1 : 0), (bool)((((int32_t)((!(((float)L_7) <= ((float)L_8)))? 1 : 0)) == ((int32_t)0))? 1 : 0), (bool)((((int32_t)((!(((float)L_10) <= ((float)L_11)))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		return L_12;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 bool4_op_BitwiseAnd_m51E09FAFC992B2F1946DCB1B6CBFE95C712D8572_inline (bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___0_lhs, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_0 = ___0_lhs;
+		bool L_1 = L_0.___x;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_2 = ___1_rhs;
+		bool L_3 = L_2.___x;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_4 = ___0_lhs;
+		bool L_5 = L_4.___y;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_6 = ___1_rhs;
+		bool L_7 = L_6.___y;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_8 = ___0_lhs;
+		bool L_9 = L_8.___z;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_10 = ___1_rhs;
+		bool L_11 = L_10.___z;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_12 = ___0_lhs;
+		bool L_13 = L_12.___w;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_14 = ___1_rhs;
+		bool L_15 = L_14.___w;
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		bool4__ctor_mF155096A6E6BF25B97648480B9A5224A22DFFF88_inline((&L_16), (bool)((int32_t)((int32_t)L_1&(int32_t)L_3)), (bool)((int32_t)((int32_t)L_5&(int32_t)L_7)), (bool)((int32_t)((int32_t)L_9&(int32_t)L_11)), (bool)((int32_t)((int32_t)L_13&(int32_t)L_15)), NULL);
+		return L_16;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline (int4_tBA77D4945786DE82C3A487B33955EA1004996052* __this, int32_t ___0_x, int32_t ___1_y, int32_t ___2_z, int32_t ___3_w, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_x;
+		__this->___x = L_0;
+		int32_t L_1 = ___1_y;
+		__this->___y = L_1;
+		int32_t L_2 = ___2_z;
+		__this->___z = L_2;
+		int32_t L_3 = ___3_w;
+		__this->___w = L_3;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_compress_mFA156C77218D057F8997BFE26B835FD4660DDD0D_inline (int32_t* ___0_output, int32_t ___1_index, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___2_val, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___3_mask, const RuntimeMethod* method) 
+{
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_0 = ___3_mask;
+		bool L_1 = L_0.___x;
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t* L_2 = ___0_output;
+		int32_t L_3 = ___1_index;
+		int32_t L_4 = L_3;
+		___1_index = ((int32_t)il2cpp_codegen_add(L_4, 1));
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_5 = ___2_val;
+		int32_t L_6 = L_5.___x;
+		*((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_2, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_4), 4))))) = (int32_t)L_6;
+	}
+
+IL_001a:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_7 = ___3_mask;
+		bool L_8 = L_7.___y;
+		if (!L_8)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t* L_9 = ___0_output;
+		int32_t L_10 = ___1_index;
+		int32_t L_11 = L_10;
+		___1_index = ((int32_t)il2cpp_codegen_add(L_11, 1));
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_12 = ___2_val;
+		int32_t L_13 = L_12.___y;
+		*((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_9, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_11), 4))))) = (int32_t)L_13;
+	}
+
+IL_0034:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_14 = ___3_mask;
+		bool L_15 = L_14.___z;
+		if (!L_15)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		int32_t* L_16 = ___0_output;
+		int32_t L_17 = ___1_index;
+		int32_t L_18 = L_17;
+		___1_index = ((int32_t)il2cpp_codegen_add(L_18, 1));
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_19 = ___2_val;
+		int32_t L_20 = L_19.___z;
+		*((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_16, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_18), 4))))) = (int32_t)L_20;
+	}
+
+IL_004e:
+	{
+		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_21 = ___3_mask;
+		bool L_22 = L_21.___w;
+		if (!L_22)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		int32_t* L_23 = ___0_output;
+		int32_t L_24 = ___1_index;
+		int32_t L_25 = L_24;
+		___1_index = ((int32_t)il2cpp_codegen_add(L_25, 1));
+		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_26 = ___2_val;
+		int32_t L_27 = L_26.___w;
+		*((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_23, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_25), 4))))) = (int32_t)L_27;
+	}
+
+IL_0068:
+	{
+		int32_t L_28 = ___1_index;
+		return L_28;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t Terrain_get_NumColliderKeyBits_m5F3207BC0CAD9CD59B67EF2EE21BEC5E5C8572D3_inline (Terrain_t4928C2664A4EB5BFA6478E4540788EB2CE4443FA* __this, const RuntimeMethod* method) 
+{
+	{
+		uint32_t L_0 = __this->___U3CNumColliderKeyBitsU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ScaledMTransform_get_Scale_m5267587803DE272DFB0349D1E77606EDB5670E25_inline (ScaledMTransform_tB256F6F9CA19B94493CB97365F80E884E82D9B2D* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___m_Scale;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline (float ___0_x, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		uint32_t L_1;
+		L_1 = math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_inline(L_0, NULL);
+		float L_2;
+		L_2 = math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_inline(((int32_t)((int32_t)L_1&((int32_t)2147483647LL))), NULL);
+		return L_2;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_UnaryNegation_m862876969881839716CBAF9AE074FA4BFDFABDF1_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_val, const RuntimeMethod* method) 
+{
+	{
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_val;
+		float L_1 = L_0.___x;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___0_val;
+		float L_3 = L_2.___y;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___0_val;
+		float L_5 = L_4.___z;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_6), ((-L_1)), ((-L_3)), ((-L_5)), NULL);
+		return L_6;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_select_m9AE2C8B94207D016E9AA462152BC0C7B468981A7_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_a, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_b, bool ___2_c, const RuntimeMethod* method) 
+{
+	{
+		bool L_0 = ___2_c;
+		if (L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___0_a;
+		return L_1;
+	}
+
+IL_0005:
+	{
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_b;
+		return L_2;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DistanceHit_set_Fraction_mA6694FDB5B5553FBFC5928C8C18A03839703DCD9_inline (DistanceHit_t24623CA3232004563796E8AA41E409369C35643E* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_value;
+		__this->___U3CFractionU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_mul_m4C38B3C1EB3A8DEBFD06421A2FCBE54E7CDC46EE_inline (float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___0_a, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_b, const RuntimeMethod* method) 
+{
+	{
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_0 = ___0_a;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = L_0.___c0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4;
+		L_4 = float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81_inline(L_1, L_3, NULL);
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_5 = ___0_a;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6 = L_5.___c1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7 = ___1_b;
+		float L_8 = L_7.___y;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9;
+		L_9 = float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81_inline(L_6, L_8, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10;
+		L_10 = float3_op_Addition_mFFCF4F7457594F5EFB0678C0DE90AAD3D3F6947B_inline(L_4, L_9, NULL);
+		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_11 = ___0_a;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_12 = L_11.___c2;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_13 = ___1_b;
+		float L_14 = L_13.___z;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_15;
+		L_15 = float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81_inline(L_12, L_14, NULL);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_16;
+		L_16 = float3_op_Addition_mFFCF4F7457594F5EFB0678C0DE90AAD3D3F6947B_inline(L_10, L_15, NULL);
+		return L_16;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DistanceHit_set_SurfaceNormal_m7874F8EF4EA6808835DBC4AC5654FF3AFE105E29_inline (DistanceHit_t24623CA3232004563796E8AA41E409369C35643E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_value, const RuntimeMethod* method) 
+{
+	{
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_value;
+		__this->___U3CSurfaceNormalU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DistanceHit_set_Position_m5781C77C6218E0CA4B5B62C1FA5FDD57104D78E7_inline (DistanceHit_t24623CA3232004563796E8AA41E409369C35643E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_value, const RuntimeMethod* method) 
+{
+	{
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_value;
+		__this->___U3CPositionU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DistanceHit_set_RigidBodyIndex_m47E1CB059EC518B1D8992B9D70535FFE28EA67A6_inline (DistanceHit_t24623CA3232004563796E8AA41E409369C35643E* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_value;
+		__this->___U3CRigidBodyIndexU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DistanceHit_set_ColliderKey_m8948213D21E2582598D986289BFA8960E042C59C_inline (DistanceHit_t24623CA3232004563796E8AA41E409369C35643E* __this, ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 ___0_value, const RuntimeMethod* method) 
+{
+	{
+		ColliderKey_tDBE6EEB4EFEF0384A4646B0E6002E267D2E96A56 L_0 = ___0_value;
+		__this->___U3CColliderKeyU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DistanceHit_set_Material_m48FBAAAA01AAF1BF7A339E47C956EB06D3231E3B_inline (DistanceHit_t24623CA3232004563796E8AA41E409369C35643E* __this, Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 ___0_value, const RuntimeMethod* method) 
+{
+	{
+		Material_t0D8A596ADD93AB3B53F232A1C23D55705ABCAA54 L_0 = ___0_value;
+		__this->___U3CMaterialU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DistanceHit_set_Entity_m7126D2D163CC281C620705ABEEFB06312CE27E49_inline (DistanceHit_t24623CA3232004563796E8AA41E409369C35643E* __this, Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD ___0_value, const RuntimeMethod* method) 
+{
+	{
+		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_0 = ___0_value;
+		__this->___U3CEntityU3Ek__BackingField = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RigidTransform__ctor_m7665CC6FBD784FC7CB02E48B0A4B58008A4BC709_inline (RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD* __this, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___0_rotation, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_translation, const RuntimeMethod* method) 
+{
+	{
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_0 = ___0_rotation;
+		__this->___rot = L_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___1_translation;
+		__this->___pos = L_1;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AllHitsCollector_1_get_MaxFraction_m7A76B6E35D10E5F4A7FDEF99994993F10B401FCB_gshared_inline (AllHitsCollector_1_tBB8BB8690C9AC734C7A04E53A25A06BEAC92889F* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___U3CMaxFractionU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AnyHitCollector_1_get_MaxFraction_m2373A55698813A130309CA14349F0E9A47E2F20E_gshared_inline (AnyHitCollector_1_t8CCC9AEE87EEA576BE9C690484DEB5E92DD12B21* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___U3CMaxFractionU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ClosestHitCollector_1_get_MaxFraction_mDF67113AC645FF1C62E7C034A0695A27A4702B4D_gshared_inline (ClosestHitCollector_1_t4AF5AEB12D78F01E7A2E1A1C779A8A3147A73DF0* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___U3CMaxFractionU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void bool4__ctor_mF155096A6E6BF25B97648480B9A5224A22DFFF88_inline (bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* __this, bool ___0_x, bool ___1_y, bool ___2_z, bool ___3_w, const RuntimeMethod* method) 
+{
+	{
+		bool L_0 = ___0_x;
+		__this->___x = L_0;
+		bool L_1 = ___1_y;
+		__this->___y = L_1;
+		bool L_2 = ___2_z;
+		__this->___z = L_2;
+		bool L_3 = ___3_w;
+		__this->___w = L_3;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_inline (float ___0_x, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		int32_t L_1;
+		L_1 = math_asint_mBDED7FE966CA65F6A8ACEAEF8FD779B1B8998288_inline(L_0, NULL);
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_inline (uint32_t ___0_x, const RuntimeMethod* method) 
+{
+	{
+		uint32_t L_0 = ___0_x;
+		float L_1;
+		L_1 = math_asfloat_m9FA56DE5C61FCEF3DCD0675252D40DFD9C9B712F_inline(L_0, NULL);
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_rhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___0_lhs;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_rhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6 = ___0_lhs;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_rhs;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), NULL);
+		return L_9;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Addition_mFFCF4F7457594F5EFB0678C0DE90AAD3D3F6947B_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
+		float L_1 = L_0.___x;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_rhs;
+		float L_3 = L_2.___x;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___0_lhs;
+		float L_5 = L_4.___y;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6 = ___1_rhs;
+		float L_7 = L_6.___y;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_8 = ___0_lhs;
+		float L_9 = L_8.___z;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = ___1_rhs;
+		float L_11 = L_10.___z;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_12), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), NULL);
+		return L_12;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_asint_mBDED7FE966CA65F6A8ACEAEF8FD779B1B8998288_inline (float ___0_x, const RuntimeMethod* method) 
+{
+	IntFloatUnion_t549256A9DD754252DD18383D9CE7EA55EBBD6D96 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		(&V_0)->___intValue = 0;
+		float L_0 = ___0_x;
+		(&V_0)->___floatValue = L_0;
+		IntFloatUnion_t549256A9DD754252DD18383D9CE7EA55EBBD6D96 L_1 = V_0;
+		int32_t L_2 = L_1.___intValue;
+		return L_2;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_asfloat_m9FA56DE5C61FCEF3DCD0675252D40DFD9C9B712F_inline (int32_t ___0_x, const RuntimeMethod* method) 
+{
+	IntFloatUnion_t549256A9DD754252DD18383D9CE7EA55EBBD6D96 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		(&V_0)->___floatValue = (0.0f);
+		int32_t L_0 = ___0_x;
+		(&V_0)->___intValue = L_0;
+		IntFloatUnion_t549256A9DD754252DD18383D9CE7EA55EBBD6D96 L_1 = V_0;
+		float L_2 = L_1.___floatValue;
+		return L_2;
+	}
+}

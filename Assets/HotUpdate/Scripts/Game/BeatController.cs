@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+namespace GameScrip{
 public class BeatController : MonoBehaviour
 {
 
@@ -20,4 +20,5 @@ public class BeatController : MonoBehaviour
     {
         
     }
+}
 }

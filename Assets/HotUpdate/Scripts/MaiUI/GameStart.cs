@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+namespace MainUiScrip{
 public class GameStart : MonoBehaviour
 {
     public Button statrGame;
@@ -22,4 +22,5 @@ public class GameStart : MonoBehaviour
     void startGame(){
         SceneManager.LoadScene("Game");
     }
+}
 }

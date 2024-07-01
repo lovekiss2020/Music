@@ -3,7 +3,7 @@ using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-
+namespace MainUiScrip{
 public class SelectSongs : MonoBehaviour
 {
     public Button sleect;
@@ -84,4 +84,5 @@ public class SelectSongs : MonoBehaviour
     {
         sleect.onClick.RemoveAllListeners();
     }
+}
 }
