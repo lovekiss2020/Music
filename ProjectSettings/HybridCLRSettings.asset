@@ -25,8 +25,8 @@ MonoBehaviour:
   strippedAOTDllOutputRootDir: HybridCLRData/AssembliesPostIl2CppStrip
   patchAOTAssemblies:
   - mscorlib
-  - System.Core
   - System
+  - System.Core
   - EasySave3
   - DOTween
   - RhythmTool

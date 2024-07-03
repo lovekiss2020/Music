@@ -7,7 +7,7 @@ namespace MainUiScrip
 {
     public class RedPointTree : MonoBehaviour
     {
-
+        
         public GameObject point;
         [SerializeField] private bool notUpworld;
         private RedPointTree redParent;
