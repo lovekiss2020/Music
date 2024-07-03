@@ -34,6 +34,7 @@ MonoBehaviour:
     - DOTween.Modules
     - DOTweenPro.Scripts
     - EasySave3
+    - HotUpdate
     - HybridCLR.Runtime
     - RhythmTool
     showAdvancedSettings: 0

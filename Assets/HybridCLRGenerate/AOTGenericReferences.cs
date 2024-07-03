@@ -77,6 +77,7 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 		// object DG.Tweening.TweenSettingsExtensions.SetId<object>(object,object)
 		// object DG.Tweening.TweenSettingsExtensions.SetId<object>(object,string)
 		// object DG.Tweening.TweenSettingsExtensions.SetLoops<object>(object,int)
+		// object DG.Tweening.TweenSettingsExtensions.SetUpdate<object>(object,bool)
 		// int ES3.Deserialize<int>(byte[],ES3Settings)
 		// int ES3.Load<int>(string)
 		// int ES3.Load<int>(string,ES3Settings)

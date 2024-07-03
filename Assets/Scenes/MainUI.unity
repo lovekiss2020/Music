@@ -418,6 +418,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 97167449}
     m_Modifications:
+    - target: {fileID: 75567565435528313, guid: c0a92a7480cbe644f9d6dda028803264, type: 3}
+      propertyPath: m_text
+      value: Be Chillin
+      objectReference: {fileID: 0}
+    - target: {fileID: 75567565435528313, guid: c0a92a7480cbe644f9d6dda028803264, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4209967326808797975, guid: 4e3c85a8bb4e5f34389dc5229cc1a676, type: 2}
     - target: {fileID: 348080115935055801, guid: c0a92a7480cbe644f9d6dda028803264, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -430,6 +438,18 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 676828402444553874, guid: c0a92a7480cbe644f9d6dda028803264, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4209967326808797975, guid: 4e3c85a8bb4e5f34389dc5229cc1a676, type: 2}
+    - target: {fileID: 1820890140901093764, guid: c0a92a7480cbe644f9d6dda028803264, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4209967326808797975, guid: 4e3c85a8bb4e5f34389dc5229cc1a676, type: 2}
+    - target: {fileID: 3283609030436958530, guid: c0a92a7480cbe644f9d6dda028803264, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4209967326808797975, guid: 4e3c85a8bb4e5f34389dc5229cc1a676, type: 2}
     - target: {fileID: 4173782541833321574, guid: c0a92a7480cbe644f9d6dda028803264, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -466,6 +486,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainUI
       objectReference: {fileID: 0}
+    - target: {fileID: 6401238421496469919, guid: c0a92a7480cbe644f9d6dda028803264, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401238421496469919, guid: c0a92a7480cbe644f9d6dda028803264, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401238421496469919, guid: c0a92a7480cbe644f9d6dda028803264, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 6602908483265546450, guid: c0a92a7480cbe644f9d6dda028803264, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4209967326808797975, guid: 4e3c85a8bb4e5f34389dc5229cc1a676, type: 2}
     - target: {fileID: 6910341212940059172, guid: c0a92a7480cbe644f9d6dda028803264, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -562,6 +598,10 @@ PrefabInstance:
       propertyPath: m_Options.m_Options.Array.data[2].m_Text
       value: Okawari - Luv Letter
       objectReference: {fileID: 0}
+    - target: {fileID: 8225097521253566688, guid: c0a92a7480cbe644f9d6dda028803264, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4209967326808797975, guid: 4e3c85a8bb4e5f34389dc5229cc1a676, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
