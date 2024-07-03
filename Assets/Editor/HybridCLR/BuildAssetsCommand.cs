@@ -31,7 +31,6 @@ namespace HybridCLR.Editor
 
         public static string ToRelativeAssetPath(string s)
         {
-            Debug.Log("========================>"+s);
             return s.Substring(s.IndexOf("Assets/"));
         }
 
@@ -93,14 +92,13 @@ namespace HybridCLR.Editor
         {
             BuildAssetBundleByTarget(EditorUserBuildSettings.activeBuildTarget);
         }
-
+        //补充元数据
         public static void CopyAOTAssembliesToStreamingAssets()
         {
             var target = EditorUserBuildSettings.activeBuildTarget;
             string aotAssembliesSrcDir = SettingsUtil.GetAssembliesPostIl2CppStripDir(target);
-            string aotAssembliesDstDir = "D:/Unity/Music/Data";
-            //Application.streamingAssetsPath;
-
+            string aotAssembliesDstDir = Application.streamingAssetsPath;
+            // "D:/Unity/Music/Data";
             foreach (var dll in SettingsUtil.AOTAssemblyNames)
             {
                 string srcDllPath = $"{aotAssembliesSrcDir}/{dll}.dll";
@@ -114,13 +112,14 @@ namespace HybridCLR.Editor
                 Debug.Log($"[CopyAOTAssembliesToStreamingAssets] copy AOT dll {srcDllPath} -> {dllBytesPath}");
             }
         }
-
+        //拷贝热更新程序集
         public static void CopyHotUpdateAssembliesToStreamingAssets()
         {
             var target = EditorUserBuildSettings.activeBuildTarget;
 
             string hotfixDllSrcDir = SettingsUtil.GetHotUpdateDllsOutputDirByTarget(target);
-            string hotfixAssembliesDstDir = Application.streamingAssetsPath;
+            string hotfixAssembliesDstDir =  "D:/Unity/Music/Data";
+            //Application.streamingAssetsPath;
             foreach (var dll in SettingsUtil.HotUpdateAssemblyFilesExcludePreserved)
             {
                 string dllPath = $"{hotfixDllSrcDir}/{dll}";

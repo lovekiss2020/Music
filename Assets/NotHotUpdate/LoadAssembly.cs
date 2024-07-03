@@ -12,9 +12,9 @@ using UnityEngine.Networking;
 public class LoadAssembly : MonoBehaviour
 {
 
-     void Start()
+    void Start()
     {
-        StartCoroutine(DownLoadAssets(this.StartGame));
+        StartCoroutine(DownLoadAssets(this.LoadAssetsAndAssem));
     }
 
     #region download assets
@@ -26,9 +26,22 @@ public class LoadAssembly : MonoBehaviour
         return s_assetDatas[dllName];
     }
 
+     void LoadAssetsAndAssem(){
+        StartCoroutine(LoadAssets(this.StartGame));
+    }
+
     private string GetWebRequestPath(string asset)
     {
-        var path = "D:/Unity/Music/HybridCLRData/HotUpdateDlls/Android/"+$"{asset}";
+        var path = "D:/Unity/Music/Data/" + $"{asset}";
+        if (!path.Contains("://"))
+        {
+            path = "file://" + path;
+        }
+        return path;
+    }
+
+    private string GetLoadStreamAssetsPath(string asset){
+        var path = $"{Application.streamingAssetsPath}/{asset}";
         if (!path.Contains("://"))
         {
             path = "file://" + path;
@@ -43,19 +56,20 @@ public class LoadAssembly : MonoBehaviour
         "EasySave3.dll.bytes",
         "DOTween.dll.bytes",
         "RhythmTool.dll.bytes"
+        
     };
-
+    //校验或者下载资源
     IEnumerator DownLoadAssets(Action onDownloadComplete)
     {
         var assets = new List<string>
         {
             "HotUpdate.dll.bytes",
-        }.Concat(AOTMetaAssemblyFiles);
+            "ABAssets"
+        };
 
         foreach (var asset in assets)
         {
             string dllPath = GetWebRequestPath(asset);
-            Debug.Log("======>"+dllPath);
             Debug.Log($"start download asset:{dllPath}");
             UnityWebRequest www = UnityWebRequest.Get(dllPath);
             yield return www.SendWebRequest();
@@ -64,6 +78,7 @@ public class LoadAssembly : MonoBehaviour
             if (www.result != UnityWebRequest.Result.Success)
             {
                 Debug.Log(www.error);
+
             }
 #else
             if (www.isHttpError || www.isNetworkError)
@@ -73,16 +88,63 @@ public class LoadAssembly : MonoBehaviour
 #endif
             else
             {
+
+
+                // Or retrieve results as binary data
+                byte[] assetData = www.downloadHandler.data;
+                string persistentPath = Path.Combine(Application.streamingAssetsPath, asset);
+                File.WriteAllBytes(persistentPath, assetData);
+                string persistentUrl = Application.streamingAssetsPath;
+                //StartCoroutine(ReadFromFile(persistentUrl));
+                Debug.Log($"dll:{asset}  size:{assetData.Length}");
+               // s_assetDatas[asset] = assetData;
+            }
+        }
+         Debug.Log("====================资源下载成功=====================");
+        onDownloadComplete();
+    }
+    //下载热更新资源
+    IEnumerator LoadAssets(Action loadComplete)
+    {
+        var assets = new List<string>
+        {
+            "HotUpdate.dll.bytes",
+            "ABAssets"
+        }.Concat(AOTMetaAssemblyFiles);
+
+        foreach (var asset in assets)
+        {
+            string dllPath = GetLoadStreamAssetsPath(asset);
+            Debug.Log($"start download asset:{dllPath}");
+            UnityWebRequest www = UnityWebRequest.Get(dllPath);
+            yield return www.SendWebRequest();
+
+#if UNITY_2020_1_OR_NEWER
+            if (www.result != UnityWebRequest.Result.Success)
+            {
+                Debug.Log(www.error);
+
+            }
+#else
+            if (www.isHttpError || www.isNetworkError)
+            {
+                Debug.Log(www.error);
+            }
+#endif
+            else
+            {
+
+
                 // Or retrieve results as binary data
                 byte[] assetData = www.downloadHandler.data;
                 Debug.Log($"dll:{asset}  size:{assetData.Length}");
                 s_assetDatas[asset] = assetData;
             }
         }
-
-        onDownloadComplete();
+        Debug.Log("====================程序集加载成功=====================");
+        loadComplete();
     }
-
+    
     #endregion
 
     private static Assembly _hotUpdateAss;
@@ -106,6 +168,7 @@ public class LoadAssembly : MonoBehaviour
         }
     }
 
+    //初始化热更程序集
     void StartGame()
     {
         LoadMetadataForAOTAssemblies();
@@ -114,27 +177,15 @@ public class LoadAssembly : MonoBehaviour
 #else
         _hotUpdateAss = System.AppDomain.CurrentDomain.GetAssemblies().First(a => a.GetName().Name == "HotUpdate");
 #endif
-        Type entryType = _hotUpdateAss.GetType("Entry");
-        entryType.GetMethod("Start").Invoke(null, null);
 
-        Run_InstantiateComponentByAsset();
+        //Run_InstantiateComponentByAsset();
 
-        StartCoroutine(DelayAndQuit());
+       Debug.Log("====================程序初始化成功=====================");
+       Debug.Log("====================跳转场景=====================");
     }
 
-    IEnumerator DelayAndQuit()
-    {
-#if UNITY_STANDALONE_WIN
-        File.WriteAllText(Directory.GetCurrentDirectory() + "/run.log", "ok", System.Text.Encoding.UTF8);
-#endif
-        for (int i = 10; i >= 1 ; i--)
-        {
-            UnityEngine.Debug.Log($"将于{i}s后自动退出");
-            yield return new WaitForSeconds(1f);
-        }
-        Application.Quit();
-    }
 
+    //通过实例化prefab实现热更
     private static void Run_InstantiateComponentByAsset()
     {
         // 通过实例化assetbundle中的资源，还原资源上的热更新脚本

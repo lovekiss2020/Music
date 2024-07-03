@@ -60,6 +60,10 @@ sysinfo.txt
 *.aab
 *.unitypackage
 *.app
+*.bytes
+Assets/StreamingAssets/*
+Data/*
+HybridCLRData/*
 
 # Crashlytics generated file
 crashlytics-build.properties
