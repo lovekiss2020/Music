@@ -31799,7 +31799,7 @@ IL_0019:
 		L_8 = VirtualFuncInvoker0< Assembly_t* >::Invoke(28, L_7);
 		NullCheck(L_8);
 		AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* L_9;
-		L_9 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(18, L_8);
+		L_9 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(19, L_8);
 		NullCheck(L_9);
 		String_t* L_10;
 		L_10 = AssemblyName_get_Name_m7899B9B3F289EEBAF62AEAB51D1CA91DA92C4E6A_inline(L_9, NULL);
@@ -36087,7 +36087,7 @@ IL_002b_1:
 				Assembly_t* L_16 = V_10;
 				NullCheck(L_16);
 				TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_17;
-				L_17 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(15, L_16);
+				L_17 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(16, L_16);
 				V_13 = L_17;
 				bool L_18 = V_12;
 				if (!L_18)
@@ -37228,7 +37228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeManager_IsAssemblyReferencingEntitie
 		Assembly_t* L_0 = ___0_assembly;
 		NullCheck(L_0);
 		AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* L_1;
-		L_1 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(18, L_0);
+		L_1 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(19, L_0);
 		NullCheck(L_1);
 		String_t* L_2;
 		L_2 = AssemblyName_get_Name_m7899B9B3F289EEBAF62AEAB51D1CA91DA92C4E6A_inline(L_1, NULL);
@@ -37249,7 +37249,7 @@ IL_0019:
 		Assembly_t* L_4 = ___0_assembly;
 		NullCheck(L_4);
 		AssemblyNameU5BU5D_t1C2CB87B1AD967C0648E960165F31298EA326D5C* L_5;
-		L_5 = VirtualFuncInvoker0< AssemblyNameU5BU5D_t1C2CB87B1AD967C0648E960165F31298EA326D5C* >::Invoke(22, L_4);
+		L_5 = VirtualFuncInvoker0< AssemblyNameU5BU5D_t1C2CB87B1AD967C0648E960165F31298EA326D5C* >::Invoke(23, L_4);
 		V_0 = L_5;
 		V_1 = 0;
 		goto IL_003e;
@@ -37315,7 +37315,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeManager_IsAssemblyReferencingEntitie
 		Assembly_t* L_0 = ___0_assembly;
 		NullCheck(L_0);
 		AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* L_1;
-		L_1 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(18, L_0);
+		L_1 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(19, L_0);
 		NullCheck(L_1);
 		String_t* L_2;
 		L_2 = AssemblyName_get_Name_m7899B9B3F289EEBAF62AEAB51D1CA91DA92C4E6A_inline(L_1, NULL);
@@ -37360,7 +37360,7 @@ IL_0030:
 		Assembly_t* L_10 = ___0_assembly;
 		NullCheck(L_10);
 		AssemblyNameU5BU5D_t1C2CB87B1AD967C0648E960165F31298EA326D5C* L_11;
-		L_11 = VirtualFuncInvoker0< AssemblyNameU5BU5D_t1C2CB87B1AD967C0648E960165F31298EA326D5C* >::Invoke(22, L_10);
+		L_11 = VirtualFuncInvoker0< AssemblyNameU5BU5D_t1C2CB87B1AD967C0648E960165F31298EA326D5C* >::Invoke(23, L_10);
 		V_0 = L_11;
 		V_1 = 0;
 		goto IL_0070;
@@ -42635,7 +42635,7 @@ IL_0018:
 			Assembly_t* L_9 = V_3;
 			NullCheck(L_9);
 			TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_10;
-			L_10 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(15, L_9);
+			L_10 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(16, L_9);
 			V_4 = L_10;
 			V_5 = 0;
 			goto IL_0054_1;
@@ -42762,7 +42762,7 @@ IL_0093:
 			Assembly_t* L_38 = V_3;
 			NullCheck(L_38);
 			bool L_39;
-			L_39 = VirtualFuncInvoker0< bool >::Invoke(24, L_38);
+			L_39 = VirtualFuncInvoker0< bool >::Invoke(25, L_38);
 			if (L_39)
 			{
 				G_B17_0 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral351198684DAA501B139753972BF1B6CA751208AC));
@@ -42774,7 +42774,7 @@ IL_0093:
 			Assembly_t* L_40 = V_3;
 			NullCheck(L_40);
 			String_t* L_41;
-			L_41 = VirtualFuncInvoker0< String_t* >::Invoke(10, L_40);
+			L_41 = VirtualFuncInvoker0< String_t* >::Invoke(11, L_40);
 			G_B18_0 = L_41;
 			G_B18_1 = G_B16_0;
 			goto IL_00b6;

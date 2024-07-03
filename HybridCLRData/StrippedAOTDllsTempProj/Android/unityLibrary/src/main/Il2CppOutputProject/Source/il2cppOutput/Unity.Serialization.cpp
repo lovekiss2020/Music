@@ -3979,7 +3979,7 @@ IL_007d_2:
 						L_32 = VirtualFuncInvoker0< Assembly_t* >::Invoke(28, L_31);
 						NullCheck(L_32);
 						AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* L_33;
-						L_33 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(18, L_32);
+						L_33 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(19, L_32);
 						NullCheck(L_33);
 						String_t* L_34;
 						L_34 = AssemblyName_get_Name_m7899B9B3F289EEBAF62AEAB51D1CA91DA92C4E6A_inline(L_33, NULL);
@@ -4112,7 +4112,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CRegisterFormerlySer
 		Assembly_t* L_0 = ___0_a;
 		NullCheck(L_0);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_1;
-		L_1 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(15, L_0);
+		L_1 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(16, L_0);
 		return (RuntimeObject*)L_1;
 	}
 }

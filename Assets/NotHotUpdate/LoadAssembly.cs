@@ -65,7 +65,7 @@ public class LoadAssembly : MonoBehaviour
         {
             "HotUpdate.dll.bytes",
             "ABAssets"
-        };
+        }.Concat(AOTMetaAssemblyFiles);
 
         foreach (var asset in assets)
         {

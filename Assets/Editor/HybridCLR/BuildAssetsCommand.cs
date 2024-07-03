@@ -97,7 +97,8 @@ namespace HybridCLR.Editor
         {
             var target = EditorUserBuildSettings.activeBuildTarget;
             string aotAssembliesSrcDir = SettingsUtil.GetAssembliesPostIl2CppStripDir(target);
-            string aotAssembliesDstDir = Application.streamingAssetsPath;
+            string aotAssembliesDstDir =  "D:/Unity/Music/Data";
+            //Application.streamingAssetsPath;
             // "D:/Unity/Music/Data";
             foreach (var dll in SettingsUtil.AOTAssemblyNames)
             {
