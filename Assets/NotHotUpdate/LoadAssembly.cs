@@ -12,9 +12,16 @@ using UnityEngine.Networking;
 public class LoadAssembly : MonoBehaviour
 {
 
-    void Start()
+    public Action action;
+
+
+    private void Awake()
     {
-        StartCoroutine(DownLoadAssets(this.LoadAssetsAndAssem));
+        action += LoadAssetsAndAssem;
+    }
+    private void OnDestroy()
+    {
+        action -= LoadAssetsAndAssem;
     }
 
     #region download assets
@@ -26,21 +33,15 @@ public class LoadAssembly : MonoBehaviour
         return s_assetDatas[dllName];
     }
 
-     void LoadAssetsAndAssem(){
+    public void LoadAssetsAndAssem()
+    {
         StartCoroutine(LoadAssets(this.StartGame));
     }
 
-    private string GetWebRequestPath(string asset)
-    {
-        var path = "D:/Unity/Music/Data/" + $"{asset}";
-        if (!path.Contains("://"))
-        {
-            path = "file://" + path;
-        }
-        return path;
-    }
 
-    private string GetLoadStreamAssetsPath(string asset){
+
+    private string GetLoadStreamAssetsPath(string asset)
+    {
         var path = $"{Application.streamingAssetsPath}/{asset}";
         if (!path.Contains("://"))
         {
@@ -56,54 +57,9 @@ public class LoadAssembly : MonoBehaviour
         "EasySave3.dll.bytes",
         "DOTween.dll.bytes",
         "RhythmTool.dll.bytes"
-        
+
     };
     //校验或者下载资源
-    IEnumerator DownLoadAssets(Action onDownloadComplete)
-    {
-        var assets = new List<string>
-        {
-            "HotUpdate.dll.bytes",
-            "ABAssets"
-        }.Concat(AOTMetaAssemblyFiles);
-
-        foreach (var asset in assets)
-        {
-            string dllPath = GetWebRequestPath(asset);
-            Debug.Log($"start download asset:{dllPath}");
-            UnityWebRequest www = UnityWebRequest.Get(dllPath);
-            yield return www.SendWebRequest();
-
-#if UNITY_2020_1_OR_NEWER
-            if (www.result != UnityWebRequest.Result.Success)
-            {
-                Debug.Log(www.error);
-
-            }
-#else
-            if (www.isHttpError || www.isNetworkError)
-            {
-                Debug.Log(www.error);
-            }
-#endif
-            else
-            {
-
-
-                // Or retrieve results as binary data
-                byte[] assetData = www.downloadHandler.data;
-                string persistentPath = Path.Combine(Application.streamingAssetsPath, asset);
-                File.WriteAllBytes(persistentPath, assetData);
-                string persistentUrl = Application.streamingAssetsPath;
-                //StartCoroutine(ReadFromFile(persistentUrl));
-                Debug.Log($"dll:{asset}  size:{assetData.Length}");
-               // s_assetDatas[asset] = assetData;
-            }
-        }
-         Debug.Log("====================资源下载成功=====================");
-        onDownloadComplete();
-    }
-    //下载热更新资源
     IEnumerator LoadAssets(Action loadComplete)
     {
         var assets = new List<string>
@@ -144,7 +100,7 @@ public class LoadAssembly : MonoBehaviour
         Debug.Log("====================程序集加载成功=====================");
         loadComplete();
     }
-    
+
     #endregion
 
     private static Assembly _hotUpdateAss;
@@ -180,8 +136,8 @@ public class LoadAssembly : MonoBehaviour
 
         //Run_InstantiateComponentByAsset();
 
-       Debug.Log("====================程序初始化成功=====================");
-       Debug.Log("====================跳转场景=====================");
+        Debug.Log("====================程序初始化成功=====================");
+        Debug.Log("====================跳转场景=====================");
     }
 
 

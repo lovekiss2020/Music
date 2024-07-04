@@ -33,6 +33,60 @@ namespace HybridCLR.Editor
         {
             return s.Substring(s.IndexOf("Assets/"));
         }
+        static void GenerateMD5ForAllFiles()
+        {
+
+            string resourceDirectory="D:/Unity/Music/Data";
+            string md5FileListPath="D:/Unity/Music/Data/MD5";
+            List<string> md5FileNames = new List<string>();
+            // 确保输出目录存在
+            if (!Directory.Exists(md5FileListPath))
+            {
+                Directory.CreateDirectory(md5FileListPath);
+            }
+
+            foreach (string filePath in Directory.GetFiles(resourceDirectory, "*", SearchOption.AllDirectories))
+            {
+                string relativePath = Path.GetRelativePath(resourceDirectory, filePath);
+                string md5FileName = relativePath.Replace(Path.DirectorySeparatorChar, '_') + ".md5";
+                string md5FilePath = Path.Combine(md5FileListPath, md5FileName);
+
+                // 计算文件的 MD5 值
+                string md5Hash = CalculateMD5(filePath);
+
+                // 将 MD5 值写入到对应的 MD5 文件中
+                File.WriteAllText(md5FilePath, $"{relativePath}:{md5Hash}");
+
+                // 添加 MD5 文件名到列表
+                md5FileNames.Add(md5FileName);
+
+                Console.WriteLine($"Generated MD5 for {relativePath}: {md5Hash}");
+            }
+
+            // 将所有 MD5 文件名写入到文本文件中
+            File.WriteAllLines(md5FileListPath+"/AllMD5.text", md5FileNames);
+            Console.WriteLine($"Generated MD5 file list at: {md5FileListPath}");
+
+        }
+        static string CalculateMD5(string filePath)
+        {
+            if (!File.Exists(filePath))
+                return null;
+
+            using (var md5 = System.Security.Cryptography.MD5.Create())
+            {
+                using (var stream = File.OpenRead(filePath))
+                {
+                    byte[] hash = md5.ComputeHash(stream);
+                    return System.BitConverter.ToString(hash).Replace("-", "").ToLowerInvariant();
+                }
+            }
+        }
+
+
+
+
+
 
         /// <summary>
         /// 将HotFix.dll和HotUpdatePrefab.prefab打入common包.
@@ -45,7 +99,7 @@ namespace HybridCLR.Editor
         {
             Directory.CreateDirectory(tempDir);
             Directory.CreateDirectory(outputDir);
-            
+
             List<AssetBundleBuild> abs = new List<AssetBundleBuild>();
 
             {
@@ -77,6 +131,8 @@ namespace HybridCLR.Editor
             CompileDllCommand.CompileDll(target);
             CopyABAOTHotUpdateDlls(target);
             AssetDatabase.Refresh();
+            //生成MD5码文件
+            GenerateMD5ForAllFiles();
         }
 
         public static void CopyABAOTHotUpdateDlls(BuildTarget target)
@@ -97,7 +153,7 @@ namespace HybridCLR.Editor
         {
             var target = EditorUserBuildSettings.activeBuildTarget;
             string aotAssembliesSrcDir = SettingsUtil.GetAssembliesPostIl2CppStripDir(target);
-            string aotAssembliesDstDir =  "D:/Unity/Music/Data";
+            string aotAssembliesDstDir = "D:/Unity/Music/Data";
             //Application.streamingAssetsPath;
             // "D:/Unity/Music/Data";
             foreach (var dll in SettingsUtil.AOTAssemblyNames)
@@ -119,7 +175,7 @@ namespace HybridCLR.Editor
             var target = EditorUserBuildSettings.activeBuildTarget;
 
             string hotfixDllSrcDir = SettingsUtil.GetHotUpdateDllsOutputDirByTarget(target);
-            string hotfixAssembliesDstDir =  "D:/Unity/Music/Data";
+            string hotfixAssembliesDstDir = "D:/Unity/Music/Data";
             //Application.streamingAssetsPath;
             foreach (var dll in SettingsUtil.HotUpdateAssemblyFilesExcludePreserved)
             {
@@ -132,7 +188,7 @@ namespace HybridCLR.Editor
 
         public static void CopyAssetBundlesToStreamingAssets(BuildTarget target)
         {
-            string streamingAssetPathDst ="D:/Unity/Music/Data";
+            string streamingAssetPathDst = "D:/Unity/Music/Data";
             // Application.streamingAssetsPath;
             Directory.CreateDirectory(streamingAssetPathDst);
             string outputDir = GetAssetBundleOutputDirByTarget(target);
@@ -142,7 +198,7 @@ namespace HybridCLR.Editor
                 string srcAb = ToRelativeAssetPath($"{outputDir}/{ab}");
                 string dstAb = $"{streamingAssetPathDst}/{ab}";
                 Debug.Log($"[CopyAssetBundlesToStreamingAssets] copy assetbundle {srcAb} -> {dstAb}");
-                AssetDatabase.CopyAsset( srcAb, dstAb);
+                AssetDatabase.CopyAsset(srcAb, dstAb);
             }
         }
     }
