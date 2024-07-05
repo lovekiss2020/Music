@@ -15,23 +15,24 @@ public class DownLoadHotUpdate : MonoBehaviour
 
     }
 
-    public void startDownLoad(List<string> assetsNames)
+    public void startDownLoad(List<string> assetsNames, Action<string, float> slider)
     {
-        StartCoroutine(DownLoadAssets(assetsNames));
+        StartCoroutine(DownLoadAssets(assetsNames, slider));
     }
 
 
 
 
-    IEnumerator DownLoadAssets(List<string> assetsName)
+    IEnumerator DownLoadAssets(List<string> assetsName, Action<string, float> slider)
     {
         var assets = assetsName;
 
         foreach (var asset in assets)
         {
-             Debug.Log("下载热更新资源----->"+asset);
+            Debug.Log("下载热更新资源----->" + asset);
             UnityWebRequest www = UnityWebRequest.Get(asset);
             yield return www.SendWebRequest();
+            // 获取文件下载进度
 
 #if UNITY_2020_1_OR_NEWER
             if (www.result != UnityWebRequest.Result.Success)
@@ -48,12 +49,18 @@ public class DownLoadHotUpdate : MonoBehaviour
             else
             {
 
+                while (!www.isDone)
+                {
+                    Debug.Log($"Download progress: {www.downloadProgress * 100}%");
+                    slider?.Invoke(Path.GetFileName(asset), www.downloadProgress * 100);
+                    yield return null; // 等待下一帧
+                }
 
                 // Or retrieve results as binary data
                 byte[] assetData = www.downloadHandler.data;
-                string persistentPath = Application.streamingAssetsPath+"/"+Path.GetFileName(asset);
+                string persistentPath = Application.streamingAssetsPath + "/" + Path.GetFileName(asset);
                 File.WriteAllBytes(persistentPath, assetData);
-               
+                slider?.Invoke(Path.GetFileName(asset),100);
                 Debug.Log($"dll:{asset}  size:{assetData.Length}");
             }
         }

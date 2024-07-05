@@ -10,6 +10,7 @@ public class CheckMD5 : MonoBehaviour
 {
     public DownLoadHotUpdate downLoadHotUpdate;
     public LoadAssembly loadAssembly;
+    public SliderController sliderController;
     private string downLoadMD5Path = Application.streamingAssetsPath + "/MD5";
     private static string md5Name = "AllMD5.text";
     private string md5Message = $"/MD5/{md5Name}";
@@ -25,12 +26,32 @@ public class CheckMD5 : MonoBehaviour
     }
     void Start()
     {
-
+        //清理本地MD5
+        DeleteFiles();
         //下载远程MD5码
         StartCoroutine(DownloadMd5ListFile());
 
     }
+    private void DeleteFiles()
+    {
+        if (Directory.Exists(downLoadMD5Path))
+        {
+            // 获取文件夹中的所有文件
+            string[] files = Directory.GetFiles(downLoadMD5Path);
 
+            foreach (string file in files)
+            {
+                // 删除每个文件
+                File.Delete(file);
+            }
+
+            Debug.Log("All files in the folder have been deleted.");
+        }
+        else
+        {
+            Debug.LogWarning($"The folder '{downLoadMD5Path}' does not exist.");
+        }
+    }
 
     string CalculateMD5(string filePath)
     {
@@ -155,7 +176,7 @@ public class CheckMD5 : MonoBehaviour
             loadAssembly.action?.Invoke();
             return;
         }
-        downLoadHotUpdate.startDownLoad(fileurl);
+        downLoadHotUpdate.startDownLoad(fileurl,sliderController.sliderAction);
     }
 
 

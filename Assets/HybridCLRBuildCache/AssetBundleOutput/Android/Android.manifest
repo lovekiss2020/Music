@@ -1,7 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3423887917
+CRC: 4165189994
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: abassets
+      Name: prefab
       Dependencies: {}
+    Info_1:
+      Name: game.unity
+      Dependencies:
+        Dependency_0: prefab
+    Info_2:
+      Name: mainui.unity
+      Dependencies:
+        Dependency_0: prefab

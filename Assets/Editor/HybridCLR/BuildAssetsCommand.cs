@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
@@ -18,6 +19,8 @@ namespace HybridCLR.Editor
 
         public static string AssetBundleSourceDataTempDir => $"{HybridCLRBuildCacheDir}/AssetBundleSourceData";
 
+        static string resourceDirectory = "D:/Unity/Music/Data";
+        static string md5FileListPath = "D:/Unity/Music/Data/MD5";
 
         public static string GetAssetBundleOutputDirByTarget(BuildTarget target)
         {
@@ -36,8 +39,7 @@ namespace HybridCLR.Editor
         static void GenerateMD5ForAllFiles()
         {
 
-            string resourceDirectory="D:/Unity/Music/Data";
-            string md5FileListPath="D:/Unity/Music/Data/MD5";
+
             List<string> md5FileNames = new List<string>();
             // 确保输出目录存在
             if (!Directory.Exists(md5FileListPath))
@@ -64,7 +66,7 @@ namespace HybridCLR.Editor
             }
 
             // 将所有 MD5 文件名写入到文本文件中
-            File.WriteAllLines(md5FileListPath+"/AllMD5.text", md5FileNames);
+            File.WriteAllLines(md5FileListPath + "/AllMD5.text", md5FileNames);
             Console.WriteLine($"Generated MD5 file list at: {md5FileListPath}");
 
         }
@@ -99,23 +101,33 @@ namespace HybridCLR.Editor
         {
             Directory.CreateDirectory(tempDir);
             Directory.CreateDirectory(outputDir);
-
+            List<string> resPath = new List<string>()
+            {
+                $"{Application.dataPath}/Res/prefab",
+                $"{Application.dataPath}/Res/Scenes/Game.unity",
+                 $"{Application.dataPath}/Res/Scenes/MainUI.unity"
+            };
             List<AssetBundleBuild> abs = new List<AssetBundleBuild>();
 
+            foreach (var path in resPath)
             {
-                var prefabAssets = new List<string>();
-                string testPrefab = $"{Application.dataPath}/Res/prefab";
-                prefabAssets.Add(testPrefab);
-                AssetDatabase.Refresh(ImportAssetOptions.ForceUpdate);
-                abs.Add(new AssetBundleBuild
-                {
-                    assetBundleName = "ABAssets",
-                    assetNames = prefabAssets.Select(s => ToRelativeAssetPath(s)).ToArray(),
-                });
-            }
 
+                {
+                    var res = new List<string>();
+                    string testPrefab = path;
+                    res.Add(testPrefab);
+                    AssetDatabase.Refresh(ImportAssetOptions.ForceUpdate);
+                    abs.Add(new AssetBundleBuild
+                    {
+                        assetBundleName = Path.GetFileName(path),
+                        assetNames = res.Select(s => ToRelativeAssetPath(s)).ToArray(),
+                    });
+                }
+
+            }
             BuildPipeline.BuildAssetBundles(outputDir, abs.ToArray(), BuildAssetBundleOptions.None, target);
             AssetDatabase.Refresh(ImportAssetOptions.ForceUpdate);
+
         }
 
         public static void BuildAssetBundleByTarget(BuildTarget target)
@@ -131,8 +143,29 @@ namespace HybridCLR.Editor
             CompileDllCommand.CompileDll(target);
             CopyABAOTHotUpdateDlls(target);
             AssetDatabase.Refresh();
+            DeleteFiles();
             //生成MD5码文件
             GenerateMD5ForAllFiles();
+        }
+        private static void DeleteFiles()
+        {
+            if (Directory.Exists(md5FileListPath))
+            {
+                // 获取文件夹中的所有文件
+                string[] files = Directory.GetFiles(md5FileListPath);
+
+                foreach (string file in files)
+                {
+                    // 删除每个文件
+                    File.Delete(file);
+                }
+
+                Debug.Log("All files in the folder have been deleted.");
+            }
+            else
+            {
+                Debug.LogWarning($"The folder '{md5FileListPath}' does not exist.");
+            }
         }
 
         public static void CopyABAOTHotUpdateDlls(BuildTarget target)
@@ -143,7 +176,7 @@ namespace HybridCLR.Editor
         }
 
 
-        //[MenuItem("HybridCLR/Build/BuildAssetbundle")]
+        [MenuItem("HybridCLR/Build/BuildAssetbundle")]
         public static void BuildSceneAssetBundleActiveBuildTargetExcludeAOT()
         {
             BuildAssetBundleByTarget(EditorUserBuildSettings.activeBuildTarget);
@@ -192,13 +225,15 @@ namespace HybridCLR.Editor
             // Application.streamingAssetsPath;
             Directory.CreateDirectory(streamingAssetPathDst);
             string outputDir = GetAssetBundleOutputDirByTarget(target);
-            var abs = new string[] { "ABAssets" };
+            var abs = Directory.GetFiles(outputDir);
             foreach (var ab in abs)
             {
-                string srcAb = ToRelativeAssetPath($"{outputDir}/{ab}");
-                string dstAb = $"{streamingAssetPathDst}/{ab}";
+                Debug.Log("=====================>"+ab);
+                if (Path.GetExtension(ab) == ".meta") break;
+                string srcAb = ToRelativeAssetPath($"{outputDir}/{Path.GetFileName(ab)}");
+                string dstAb = $"{streamingAssetPathDst}/{Path.GetFileName(ab)}";
                 Debug.Log($"[CopyAssetBundlesToStreamingAssets] copy assetbundle {srcAb} -> {dstAb}");
-                AssetDatabase.CopyAsset(srcAb, dstAb);
+                File.Copy(srcAb, dstAb, true);
             }
         }
     }
